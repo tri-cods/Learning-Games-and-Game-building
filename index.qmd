@@ -1,16 +1,23 @@
 ---
-title: "Creative Coding with Twine"
+title: "Learning Games and Game Building"
 ---
 
-Workshop for RUSS233 Experimental Literature
+## Workshop Description
 
-2026.02.11
+Games can be powerful tools to enhance your teaching and research. In this session we will explore the hows and whys of game-based learning, guided by real-world examples.
+We will introduce core principles of game design and best practices to craft meaningful game experiences for students, showcasing a variety of game-building tools. Our hands-on component will focus on building and publishing games with Twine, a free, open-source tool for creating text-based games and hypertext narratives: you will learn how to approach a game project from concept to creation.
 
-Alice McGrath & Cameron Boucher
 
-[View slideshow](/slides.md)
+### What to expect
 
-## Getting started with Twine
+Why Games? Explore the educational impact of games, with real-world examples of pedagogical games and innovative game-based assignments.
+Game Design 101: Learn foundational principles and best practices to craft meaningful, memorable experiences for your students.
+Twine in Action: Dive into Twine, the free, open-source tool for building interactive, text-based games and hypertext narratives! We’ll guide you step-by-step from concept to creation.
+
+- Why Games? Explore the educational impact of games, with real-world examples of pedagogical games and innovative game-based assignments.
+- Game Design 101: Learn foundational principles and best practices to craft meaningful, memorable experiences for your students.
+- Twine in Action: Dive into Twine, the free, open-source tool for building interactive, text-based games and hypertext narratives! We’ll guide you step-by-step from concept to creation.
+
 
 ### About [Twine](https://twinery.org/)
 
