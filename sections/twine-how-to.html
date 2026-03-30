@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Games and Game Building</title>
+<title>Twine How-To – Learning Games and Game Building</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,26 +23,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a2788874d89b36918f761523a9fa587a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a2788874d89b36918f761523a9fa587a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -82,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Learning Games and Game Building</span>
     </a>
   </div>
@@ -93,11 +128,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link active" href="../index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./slides.html"> 
+    <a class="nav-link" href="../slides.html"> 
 <span class="menu-text">Slides</span></a>
   </li>  
 </ul>
@@ -111,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Introduction</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/twine-basics.html">Twine</a></li><li class="breadcrumb-item"><a href="../sections/twine-how-to.html">Twine How-To</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -133,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
   </div>
 </li>
@@ -148,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sections/pedagogy.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/pedagogy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Using Games Pedagogically</span></a>
   </div>
 </li>
@@ -156,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./sections/design.html" class="sidebar-item-text sidebar-link">
+            <a href="../sections/design.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Game design</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -165,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sections/storyboarding.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/storyboarding.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Planning and Storyboarding</span></a>
   </div>
 </li>
@@ -182,25 +217,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sections/twine-basics.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/twine-basics.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Twine Basics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sections/twine-how-to.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/twine-how-to.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Twine How-To</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sections/publishing.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/publishing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Publishing your Twine Game</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sections/twine-resources.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/twine-resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Twine Resources</span></a>
   </div>
 </li>
@@ -216,10 +251,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#workshop-description" id="toc-workshop-description" class="nav-link active" data-scroll-target="#workshop-description">Workshop Description</a>
+  <li><a href="#link-between-passages" id="toc-link-between-passages" class="nav-link active" data-scroll-target="#link-between-passages">Link between passages</a></li>
+  <li><a href="#style-your-text" id="toc-style-your-text" class="nav-link" data-scroll-target="#style-your-text">Style your text</a>
   <ul class="collapse">
-  <li><a href="#what-to-expect" id="toc-what-to-expect" class="nav-link" data-scroll-target="#what-to-expect">What to expect</a></li>
-  <li><a href="#about-twine" id="toc-about-twine" class="nav-link" data-scroll-target="#about-twine">About Twine</a></li>
+  <li><a href="#hide-and-show-content" id="toc-hide-and-show-content" class="nav-link" data-scroll-target="#hide-and-show-content">Hide and show content</a></li>
+  <li><a href="#introduce-variety" id="toc-introduce-variety" class="nav-link" data-scroll-target="#introduce-variety">Introduce variety</a></li>
+  <li><a href="#set-and-change-variables" id="toc-set-and-change-variables" class="nav-link" data-scroll-target="#set-and-change-variables">Set and change variables</a></li>
+  <li><a href="#use-conditionals" id="toc-use-conditionals" class="nav-link" data-scroll-target="#use-conditionals">Use conditionals</a></li>
+  <li><a href="#navigation" id="toc-navigation" class="nav-link" data-scroll-target="#navigation">Navigation</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -227,9 +266,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/twine-basics.html">Twine</a></li><li class="breadcrumb-item"><a href="../sections/twine-how-to.html">Twine How-To</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Learning Games and Game Building</h1>
+<h1 class="title">Twine How-To</h1>
 </div>
 
 
@@ -246,33 +285,104 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="workshop-description" class="level2">
-<h2 class="anchored" data-anchor-id="workshop-description">Workshop Description</h2>
-<p>Games can be powerful tools to enhance your teaching and research. In this session we will explore the hows and whys of game-based learning, guided by real-world examples. We will introduce core principles of game design and best practices to craft meaningful game experiences for students, showcasing a variety of game-building tools. Our hands-on component will focus on building and publishing games with Twine, a free, open-source tool for creating text-based games and hypertext narratives: you will learn how to approach a game project from concept to creation.</p>
-<section id="what-to-expect" class="level3">
-<h3 class="anchored" data-anchor-id="what-to-expect">What to expect</h3>
-<p>Why Games? Explore the educational impact of games, with real-world examples of pedagogical games and innovative game-based assignments. Game Design 101: Learn foundational principles and best practices to craft meaningful, memorable experiences for your students. Twine in Action: Dive into Twine, the free, open-source tool for building interactive, text-based games and hypertext narratives! We’ll guide you step-by-step from concept to creation.</p>
+<p>Use this guide to make a few basic customizations. There are many more you can find in the <a href="https://twine2.neocities.org/">Harlowe Documentation</a> and the <a href="https://twinery.org/cookbook/">Twine Cookbook</a>.</p>
+<section id="link-between-passages" class="level2">
+<h2 class="anchored" data-anchor-id="link-between-passages">Link between passages</h2>
 <ul>
-<li>Why Games? Explore the educational impact of games, with real-world examples of pedagogical games and innovative game-based assignments.</li>
-<li>Game Design 101: Learn foundational principles and best practices to craft meaningful, memorable experiences for your students.</li>
-<li>Twine in Action: Dive into Twine, the free, open-source tool for building interactive, text-based games and hypertext narratives! We’ll guide you step-by-step from concept to creation.</li>
+<li><p>Link syntax uses double brackets: <code>[[passage name]]</code></p></li>
+<li><p>If you want to display text other than the passage name: <code>[[continue your adventure|passage name]]</code></p></li>
 </ul>
 </section>
-<section id="about-twine" class="level3">
-<h3 class="anchored" data-anchor-id="about-twine">About <a href="https://twinery.org/">Twine</a></h3>
+<section id="style-your-text" class="level2">
+<h2 class="anchored" data-anchor-id="style-your-text">Style your text</h2>
+<p>Harlowe uses macros to style text, following this basic syntax:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>(text-style:"fade-in-out")<span class="co">[</span><span class="ot">This text blinks</span><span class="co">]</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>(color:magenta)<span class="co">[</span><span class="ot">This text is magenta</span><span class="co">]</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>(text-rotate-z:90)<span class="co">[</span><span class="ot">This text is rotated 90 degrees</span><span class="co">]</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>(bg:green)<span class="co">[</span><span class="ot">This text has a green background</span><span class="co">]</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>(font:"courier")<span class="co">[</span><span class="ot">This text uses a different font</span><span class="co">]</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>(text-size:0.5)<span class="co">[</span><span class="ot">This text is smaller than other text</span><span class="co">]</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>(align:"=&gt;&lt;=")+(box:"X")<span class="co">[</span><span class="ot">This text is centered</span><span class="co">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>For style that will refer to the entire passage, use an open bracket at the end:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>(color:cyan)[=</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    The rest of the passage will be cyan</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Macros can be nested inside other macros. To include two macros that apply to the same passage, use a <code>+</code> between them:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(color:green)+(font:"courier")<span class="co">[</span><span class="ot">This text has two style macros applied</span><span class="co">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>You can also style the entire page using “enchant” macros:</p>
+<p><code>(enchant:?page,(bg:lime))</code></p>
+<section id="color-and-font-options" class="level4">
+<h4 class="anchored" data-anchor-id="color-and-font-options">Color and Font options</h4>
 <ul>
-<li>Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives</li>
-<li>Twine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application</li>
-<li>Twine games are stored in a markup language called <a href="https://twinery.org/cookbook/terms/terms_twee.html">Twee</a> and can be edited in a text editor</li>
-<li>Twine is designed to emphasize interactivity (user-input, randomness, variables)</li>
-<li>Story format options change syntax and functionality
+<li><strong>Colors</strong>
 <ul>
-<li><strong>Harlowe</strong> - default format (this what we are using for this workshop).</li>
-<li>Other options: Chapbook (beginner-friendly), SugarCube, Snowman (advanced)</li>
+<li>Twine supports a few colors without quotation marks – you’ll find these as options in the Editor.</li>
+<li>You can also use any of the <a href="https://www.w3schools.com/cssref/css_colors.php">CSS named colors</a> by putting the name in quotation marks: <code>(bg:"blueviolet")</code>.</li>
+<li>You can also use hex values to specify a color: <code>(text-color: #cce6ff)[This is a hex value color]</code>.</li>
+</ul></li>
+<li><strong>Fonts</strong>
+<ul>
+<li>Twine supports basic <a href="https://www.w3schools.com/cssref/css_websafe_fonts.php">websafe fonts</a> that are well-supported across browsers.</li>
+<li>It is also possible to <a href="https://twinery.org/cookbook/googlefonts/harlowe/harlowe_googlefonts.html">load Google Fonts following these instructions</a>, though this requires using CSS.</li>
 </ul></li>
 </ul>
-<hr>
-<p>Workshop authors: Cameron Boucher, Liz Hogrefe, Alice McGrath, Roberto Vargas</p>
+</section>
+<section id="hide-and-show-content" class="level3">
+<h3 class="anchored" data-anchor-id="hide-and-show-content">Hide and show content</h3>
+<ul>
+<li>Link macros can create clickable text that gets replaced by other text <code>(link:"Click me to reveal")[This text is revealed]</code></li>
+<li>You can display another passage within a passage (useful if you want to repeat bits of code): <code>(show:"passage")</code></li>
+<li>To go to another passage: <code>(go-to:"passage")</code></li>
+<li>To display text after a delay: <code>(after:1s)[Wait one second before displaying this]</code></li>
+<li>You can create a passage that unveils slowly by embedding choices within choices:</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>You are going down (link: "a passageway")<span class="co">[</span><span class="ot">an extremely long passageway</span><span class="co">]</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>Do you want to turn left?</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>(link:"yes, let's turn left")<span class="co">[</span><span class="ot">You turn left and the hallway goes on (link:"forever")[for what feels like forever</span><span class="co">]</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>Next you have the option to go (link:"right")[right, </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>which you take, and then you find yourself at another (link: "fork")[fork. </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>Do you go left or right?</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>(link:"Left")<span class="co">[</span><span class="ot">You've reached a dead end.</span><span class="co">]</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>(link:"Right")<span class="co">[</span><span class="ot">You've reached your destination!</span><span class="co">]</span>]]]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>You can also create a pop-up that will display before page content: <code>(dialog:[Welcome to my game!],"OK")</code></li>
+</ul>
+</section>
+<section id="introduce-variety" class="level3">
+<h3 class="anchored" data-anchor-id="introduce-variety">Introduce variety</h3>
+<ul>
+<li><p>Use ‘either’ to randomly select a value from a list: <code>The sky is (either:"blue", "pink", "orange", "green")</code></p></li>
+<li><p>Use ‘random’ to generate random numbers: <code>Rolling six-sided die: (random: 1,6)</code></p></li>
+</ul>
+</section>
+<section id="set-and-change-variables" class="level3">
+<h3 class="anchored" data-anchor-id="set-and-change-variables">Set and change variables</h3>
+<ul>
+<li><p>To set a variable: <code>(set: $name to "Alice")</code></p></li>
+<li><p>To display a variable: <code>Hello, $name</code></p></li>
+<li><p>You can also get user input and store it in a variable: <code>What's your name? (input:2bind $name,"X","")</code></p></li>
+<li><p>To use the variable on the same passage, use a prompt for this: <code>(set: $name to (prompt: [What's your name?], "Name"))</code></p></li>
+<li><p>Variables can also hold numbers: <code>(set: $score to 1)</code></p></li>
+<li><p>And you can do math on them: <code>(set: $score to it + 1)</code></p></li>
+</ul>
+</section>
+<section id="use-conditionals" class="level3">
+<h3 class="anchored" data-anchor-id="use-conditionals">Use conditionals</h3>
+<p>Conditional syntax can use variables to introduce game-like elements,</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>(if: $score &gt; 10)[You win!!]</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>(else:)[You lose.]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>(if: $door is "locked")[Sorry, the door is locked]</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>(else:)[(go-to:"door")]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="navigation" class="level3">
+<h3 class="anchored" data-anchor-id="navigation">Navigation</h3>
+<p>To include some text or code on every page, create a passage and give it the “header” tag. It will automatically appear at the beginning of each passage. You can also use the “footer” tag to put it at the end of each passage.</p>
+<p>Because Twine is designed for games, there isn’t much built-in navigation. It can be helpful to use a header or footer to link to a page with more navigation links or guides if a player gets lost.</p>
 
 
 </section>
