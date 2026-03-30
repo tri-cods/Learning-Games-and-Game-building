@@ -9,6 +9,25 @@ website:
         text: Home
       - href: slides.html
         text: Slides
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Introduction"
+        href: index.qmd
+      - section: "Context"
+        contents:
+          - sections/pedagogy.md
+      - section: "Game design"
+        href: sections/design.md
+        contents:
+          - sections/storyboarding.md
+      - section: "Twine"
+        contents:
+          - sections/twine-basics.md
+          - sections/twine-how-to.md
+          - sections/publishing.md
+          - sections/twine-resources.md
 
 format:
   html:
