@@ -1,4 +1,4 @@
-# Twine Workshop
+# Games for Pedagogy and Resarch Workshop
 
 Quarto site and slides for DSRI workshop, Spring 2026
 
