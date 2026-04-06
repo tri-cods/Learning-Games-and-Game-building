@@ -28,6 +28,7 @@ website:
           - sections/twine-how-to.md
           - sections/publishing.md
           - sections/twine-resources.md
+  page-navigation: true
 
 format:
   html:
