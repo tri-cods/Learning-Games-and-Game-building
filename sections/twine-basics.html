@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../sections/twine-how-to.html" rel="next">
+<link href="../sections/storyboarding.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -216,13 +218,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#twine-editing-interface" id="toc-twine-editing-interface" class="nav-link active" data-scroll-target="#twine-editing-interface">Twine Editing Interface</a>
+  <li><a href="#about-twine" id="toc-about-twine" class="nav-link active" data-scroll-target="#about-twine">About Twine</a>
+  <ul class="collapse">
+  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How it works</a></li>
+  <li><a href="#story-formats" id="toc-story-formats" class="nav-link" data-scroll-target="#story-formats">Story formats</a></li>
+  </ul></li>
+  <li><a href="#twine-editing-interface" id="toc-twine-editing-interface" class="nav-link" data-scroll-target="#twine-editing-interface">Twine Editing Interface</a>
   <ul class="collapse">
   <li><a href="#to-create-a-story-in-twine" id="toc-to-create-a-story-in-twine" class="nav-link" data-scroll-target="#to-create-a-story-in-twine">To create a story in Twine</a></li>
   <li><a href="#basics" id="toc-basics" class="nav-link" data-scroll-target="#basics">Basics</a></li>
   <li><a href="#vocabulary" id="toc-vocabulary" class="nav-link" data-scroll-target="#vocabulary">Vocabulary</a></li>
   <li><a href="#tips" id="toc-tips" class="nav-link" data-scroll-target="#tips">Tips</a></li>
   </ul></li>
+  <li><a href="#your-turn" id="toc-your-turn" class="nav-link" data-scroll-target="#your-turn">Your turn!</a></li>
   </ul>
 </nav>
     </div>
@@ -248,6 +256,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="about-twine" class="level2">
+<h2 class="anchored" data-anchor-id="about-twine">About Twine</h2>
+<p><a href="https://twinery.org/"><strong>Twine</strong></a> is an open-source tool for creating hypertext narratives, interactive fiction, text-based games and more. Twine’s aesthetic and functionality echo 1990s-era “hypertext” fiction and early web experimentation: each site (called a “Story”) is a network with interconnected nodes. While all websites are hypertext, Twine is designed to highlight choices, so instead of an open navigation system, each bit of context in Twine is built intentionally by hyperlinks that can be followed backwards and forwards and read in any order</p>
+<section id="how-it-works" class="level3">
+<h3 class="anchored" data-anchor-id="how-it-works">How it works</h3>
+<p>Twine stories can be created and edited in-browser or in the Twine desktop app. (For the purposes of this workshop we’ll be using the browser version, though they are identical.) The WYSIWYG editor interface shows the entire site as a “web” divided into linked passages. Using some simple markup, you can change the formatting and style and add interactivity such as user input, randomness, and variables. You can export your twine game as a single HTML (Hypertext Markup Language) file and play it on your computer or publish it on any web server. What’s cool about it is that most no-code website builders do not allow you to include elements of functional programming (such creating conditional statements, assigning variables, and prompting user input). This combination of style, content, and functionality usually are handled by at least three separate languages (HTML for content and structure, CSS for style, and Javascript for functionality), but here they can all be customized using simple markup.</p>
+</section>
+<section id="story-formats" class="level3">
+<h3 class="anchored" data-anchor-id="story-formats">Story formats</h3>
+<p>Twine has several options for “story formats” – these not only change the visual style of the game, but they also change syntax and functionality. For this workshop, we’ll be using <a href="https://twine2.neocities.org/"><strong>Harlowe</strong></a>, the default format, which is very beginner-friendly. If you’d like to experiment with other options in the future (Chapbook, SugarCube, and Snowman), I recommend finding documentation that is specific to that format.</p>
+<blockquote class="blockquote">
+<p>Note: Twine games are written in a specialized markup language called <a href="https://twinery.org/cookbook/terms/terms_twee.html">Twee</a> and can also be edited in a text editor.</p>
+</blockquote>
+</section>
+</section>
 <section id="twine-editing-interface" class="level2">
 <h2 class="anchored" data-anchor-id="twine-editing-interface">Twine Editing Interface</h2>
 <section id="to-create-a-story-in-twine" class="level3">
@@ -289,9 +312,17 @@ ul.task-list li input[type="checkbox"] {
 <li>Create an outline or storyboard before you try to build complex functionality</li>
 <li>To check your story format: from the story editor, select ‘Details’ and select ‘Harlowe 3.3.9’</li>
 </ul>
-
-
 </section>
+</section>
+<section id="your-turn" class="level2">
+<h2 class="anchored" data-anchor-id="your-turn">Your turn!</h2>
+<ul>
+<li>Start by creating at least 3 passages. Practice creating links between them.</li>
+<li>Test out your game to see how it looks.</li>
+<li>Explore the editor interface options to try out more complex stuff.</li>
+</ul>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -695,6 +726,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../sections/storyboarding.html" class="pagination-link" aria-label="Planning and Storyboarding">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Planning and Storyboarding</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../sections/twine-how-to.html" class="pagination-link" aria-label="Twine How-To">
+        <span class="nav-page-text">Twine How-To</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
