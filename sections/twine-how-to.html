@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -76,10 +76,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a2788874d89b36918f761523a9fa587a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-4f5f7c5f3f76352cd1107a7e88bc030f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -259,6 +259,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#hide-and-show-content" id="toc-hide-and-show-content" class="nav-link" data-scroll-target="#hide-and-show-content">Hide and show content</a></li>
   <li><a href="#introduce-variety" id="toc-introduce-variety" class="nav-link" data-scroll-target="#introduce-variety">Introduce variety</a></li>
   <li><a href="#set-and-change-variables" id="toc-set-and-change-variables" class="nav-link" data-scroll-target="#set-and-change-variables">Set and change variables</a></li>
+  <li><a href="#get-user-input" id="toc-get-user-input" class="nav-link" data-scroll-target="#get-user-input">Get user input</a></li>
   <li><a href="#use-conditionals" id="toc-use-conditionals" class="nav-link" data-scroll-target="#use-conditionals">Use conditionals</a></li>
   <li><a href="#navigation" id="toc-navigation" class="nav-link" data-scroll-target="#navigation">Navigation</a></li>
   </ul></li>
@@ -367,11 +368,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li><p>To set a variable: <code>(set: $name to "Alice")</code></p></li>
 <li><p>To display a variable: <code>Hello, $name</code></p></li>
-<li><p>You can also get user input and store it in a variable: <code>What's your name? (input:2bind $name,"X","")</code></p></li>
-<li><p>To use the variable on the same passage, use a prompt for this: <code>(set: $name to (prompt: [What's your name?], "Name"))</code></p></li>
 <li><p>Variables can also hold numbers: <code>(set: $score to 1)</code></p></li>
 <li><p>And you can do math on them: <code>(set: $score to it + 1)</code></p></li>
 </ul>
+</section>
+<section id="get-user-input" class="level3">
+<h3 class="anchored" data-anchor-id="get-user-input">Get user input</h3>
+<p>You can have your user select or type in information that will be stored as a variable.</p>
+<p>In the visual editor:</p>
+<ul>
+<li>Find the <code>(Macro:)</code> dropdown menu and select <code>Input...</code></li>
+<li>Use the selection panel to customize the placement, width, variable name, and more</li>
+<li>You can also offer a dialog box, check box, or dropdown menu</li>
+</ul>
+<p>Code examples</p>
+<p>Get user input and store it in a variable:</p>
+<p><code>What is your name? (input-box:2bind $name,"XXXXXXXXX=")</code></p>
+<p>To use the variable on the same passage, use a prompt (dialog box) for this:</p>
+<p><code>(set: $name to (prompt: [What's your name?], "Name"))</code></p>
+<p>You can also create a dropdown menu or checkbox with options <code>(dropdown: 2bind $choices,"First","Second","Third")</code></p>
 </section>
 <section id="use-conditionals" class="level3">
 <h3 class="anchored" data-anchor-id="use-conditionals">Use conditionals</h3>
