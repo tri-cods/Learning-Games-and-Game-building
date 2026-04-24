@@ -97,17 +97,34 @@ Do you go left or right?
 
 - To display a variable: `Hello, $name`
 
-- You can also get user input and store it in a variable:
-`What's your name? (input:2bind $name,"X","")`
-
-- To use the variable on the same passage, use a prompt for this:
-`(set: $name to (prompt: [What's your name?], "Name"))`
-
 - Variables can also hold numbers:
 `(set: $score to 1)`
 
 - And you can do math on them:
 `(set: $score to it + 1)`
+
+### Get user input
+
+You can have your user select or type in information that will be stored as a variable.
+
+In the visual editor: 
+
+- Find the `(Macro:)` dropdown menu and select `Input...`
+- Use the selection panel to customize the placement, width, variable name, and more
+- You can also offer a dialog box, check box, or dropdown menu
+
+Code examples
+
+Get user input and store it in a variable:
+
+`What is your name? (input-box:2bind $name,"XXXXXXXXX=")`
+
+To use the variable on the same passage, use a prompt (dialog box) for this:
+
+`(set: $name to (prompt: [What's your name?], "Name"))`
+
+You can also create a dropdown menu or checkbox with options
+`(dropdown: 2bind $choices,"First","Second","Third")`
 
 ### Use conditionals
 

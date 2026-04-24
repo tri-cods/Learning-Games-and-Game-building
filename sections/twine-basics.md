@@ -49,6 +49,7 @@ Twine has several options for "story formats" -- these not only change the visua
 - When using the browser editor, export your game every time you are finished
 - Create an outline or storyboard before you try to build complex functionality
 - To check your story format: from the story editor, select 'Details' and select 'Harlowe 3.3.9'
+- If you find a cool Twine game and want to know how they did that, right click on the page and go to 'view page source' to view the underlying code: you will see Twee code interspersed with HTML.
 
 ## Your turn!
 
