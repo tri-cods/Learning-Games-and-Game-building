@@ -23,8 +23,6 @@ While there are many types of games that can be used in a research or teaching c
 
 ### About [Twine](https://twinery.org/)
 
-- Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives
-- Twine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application
-- Twine is designed to emphasize interactivity (user-input, randomness, variables) and choices
+[**Twine**](https://twinery.org/) is an open-source tool for creating hypertext narratives, interactive fiction, text-based games and more. Twine's aesthetic and functionality echo 1990s-era "hypertext" fiction and early web experimentation: each site (called a "Story") is a network with interconnected nodes. While all websites are hypertext, Twine is designed to highlight choices, so instead of an open navigation system, each bit of context in Twine is built intentionally by hyperlinks that can be followed backwards and forwards and read in any order.
 
-It is a helpful tool for demonstrating several digital competency areas
+<!-- It is a helpful tool for demonstrating several digital competency areas -->

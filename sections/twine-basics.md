@@ -3,8 +3,10 @@ title: "Twine Basics"
 ---
 
 ## About Twine
+- Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives
+- Twine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application
+- Twine is designed to emphasize interactivity (user-input, randomness, variables) and choices
 
-[**Twine**](https://twinery.org/) is an open-source tool for creating hypertext narratives, interactive fiction, text-based games and more. Twine's aesthetic and functionality echo 1990s-era "hypertext" fiction and early web experimentation: each site (called a "Story") is a network with interconnected nodes. While all websites are hypertext, Twine is designed to highlight choices, so instead of an open navigation system, each bit of context in Twine is built intentionally by hyperlinks that can be followed backwards and forwards and read in any order
 
 ### How it works
 
@@ -33,6 +35,7 @@ You can double-click a passage to open up the WYSIWYG editor. Go ahead and add s
 On the top menu bar, click `Test From Here` to preview your game in a new tab.
 
 ### Basics
+
 - Link to a new passage using double square brackets `[[pasage name]]`
 - Use hash marks to create headers: `# Header 1` and `## Header 2`
 - Use `**` for `**bold**` and `*` for `*italic*`
@@ -43,7 +46,7 @@ On the top menu bar, click `Test From Here` to preview your game in a new tab.
 - **Markup** - How data is structured, displayed, and organized (general term)
 - **Story** - A Twine project (i.e. a website, game, or book)
 - **Passage** - A contained section of a Twine story (a page or "node" in the network)
-- **Macro** - A bit of code used to change functionality or style of text, indicated with parentheses
+- **Macro** - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses
 - **Hook** - The passage of text that a macro acts on, indicated with square brackets
 `(font: "Arial")[This text will be in Arial.]`
 - **Variable** - A container for values and words that can change within the game
