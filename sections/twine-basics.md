@@ -16,15 +16,21 @@ Twine has several options for "story formats" -- these not only change the visua
 
 > Note: Twine games are written in a specialized markup language called [Twee](https://twinery.org/cookbook/terms/terms_twee.html) and can also be edited in a text editor. 
 
-## Twine Editing Interface
+## Getting started
 
-### To create a story in Twine
 1. Navigate to [https://twinery.org/](https://twinery.org/)
 2. Click 'Use in your browser'
-3. In the top-left corner, click `+ New` to create a new story. Give yours a name
-4. The editor has an overall map with a single passage -- double click to edit
-5. Enter some text and rename your passage
-6. Click `Test From Here` to preview your game in a new tab
+3. In the top-left corner, click `+ New` to create a new story. Give yours a name.
+
+### The Twine editor
+
+![](/media/twine-editor.png){fig-alt="Screenshot of Twine Editor Interface"}
+
+The main Twine editor has an overall "map" of your story showing all the connections between passages (currently, your story only has a single passage). The green rocket ship icon shows where the story begins.
+
+You can double-click a passage to open up the WYSIWYG editor. Go ahead and add some text to your passage, and rename it using the `Rename` button in the passage editor.
+
+On the top menu bar, click `Test From Here` to preview your game in a new tab.
 
 ### Basics
 - Link to a new passage using double square brackets `[[pasage name]]`
@@ -53,6 +59,6 @@ Twine has several options for "story formats" -- these not only change the visua
 
 ## Your turn!
 
-- Start by creating at least 3 passages. Practice creating links between them.
-- Test out your game to see how it looks.
-- Explore the editor interface options to try out more complex stuff.
+1. Start by creating at least 3 passages. Practice creating links between them.
+2. Test out your game to see how it looks.
+3. Explore the editor interface options to try out more complex stuff.

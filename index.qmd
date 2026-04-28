@@ -13,21 +13,20 @@ At the end of this workshop, you will be able to
 - Understand why and how games can enhance your teaching and research
 - Identify a few key principles of game design
 - Storyboard and plan a game
-- Understand the basics of Twine
-- Create and publish your own interactive text-based game in Twine
-
-### About [Twine](https://twinery.org/)
-
-- Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives
-- Twine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application
-- Twine is designed to emphasize interactivity (user-input, randomness, variables)
+- Use the Twine editor
+- Create and publish your own interactive text-based game in [Twine](https://twinery.org/)
 
 ### Readings
 
-- James Coltrain and Stephen Ramsay's ["Can Video Games Be Humanities Scholarship"](https://dhdebates.gc.cuny.edu/read/4805e692-0823-4073-b431-5a684250a82d/section/10c2899a-d78c-40d2-b293-f828d3a1b3e9#en37) offers an overview of how to think about games as research outputs
+- James Coltrain and Stephen Ramsay's ["Can Video Games Be Humanities Scholarship"](https://dhdebates.gc.cuny.edu/read/4805e692-0823-4073-b431-5a684250a82d/section/10c2899a-d78c-40d2-b293-f828d3a1b3e9#en37) offers an overview of how to think about games as research outputs.
+- In [*Playful Pedagogy in the Pandemic: Pivoting to Game-Based Learning*](https://www.taylorfrancis.com/chapters/mono/10.4324/9781003281696-1/introduction-emily-johnson-anastasia-salter?context=ubx&refId=182a03a2-15a4-4eb4-a1ce-4831e430663b), Emily K. Johnson and Anastasia Salter explore game-based learning as a mode that has new relevance and potential in the post-pandemic landscape. 
 
+<!--
+### Ethical considerations 
 
-### Ethical considerations
+### Resources
+
+-->
 
 ### Projects
 
@@ -35,7 +34,14 @@ At the end of this workshop, you will be able to
 - [Bot or Not: A Slow AI Game](https://samillingworth.itch.io/bot-or-not), a text-based Twine game designed to teach AI literacy
 - [Never Alone](https://www.neveralonegame.com/), an Inupiaq storytelling game 
 
-### Resources
+
+## Workshop overview
+
+1. Why games and why Twine
+2. Principles of game design
+3. Planning your interactive narrative
+4. The Twine editor
+5. Supported work time
 
 ---
 
@@ -43,4 +49,4 @@ Workshop authors: Cameron Boucher, Liz Hogrefe, Alice McGrath
 
 Editor: Roberto Vargas
 
-Based on the DHRI Curriculum
+[Tri-Co DSRI](https://ds-pages.swarthmore.edu/dsri/), 2026. This lesson is based on the DHRI Curriculum.
