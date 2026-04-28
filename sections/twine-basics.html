@@ -223,9 +223,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How it works</a></li>
   <li><a href="#story-formats" id="toc-story-formats" class="nav-link" data-scroll-target="#story-formats">Story formats</a></li>
   </ul></li>
-  <li><a href="#twine-editing-interface" id="toc-twine-editing-interface" class="nav-link" data-scroll-target="#twine-editing-interface">Twine Editing Interface</a>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting started</a>
   <ul class="collapse">
-  <li><a href="#to-create-a-story-in-twine" id="toc-to-create-a-story-in-twine" class="nav-link" data-scroll-target="#to-create-a-story-in-twine">To create a story in Twine</a></li>
+  <li><a href="#the-twine-editor" id="toc-the-twine-editor" class="nav-link" data-scroll-target="#the-twine-editor">The Twine editor</a></li>
   <li><a href="#basics" id="toc-basics" class="nav-link" data-scroll-target="#basics">Basics</a></li>
   <li><a href="#vocabulary" id="toc-vocabulary" class="nav-link" data-scroll-target="#vocabulary">Vocabulary</a></li>
   <li><a href="#tips" id="toc-tips" class="nav-link" data-scroll-target="#tips">Tips</a></li>
@@ -258,7 +258,11 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="about-twine" class="level2">
 <h2 class="anchored" data-anchor-id="about-twine">About Twine</h2>
-<p><a href="https://twinery.org/"><strong>Twine</strong></a> is an open-source tool for creating hypertext narratives, interactive fiction, text-based games and more. Twine’s aesthetic and functionality echo 1990s-era “hypertext” fiction and early web experimentation: each site (called a “Story”) is a network with interconnected nodes. While all websites are hypertext, Twine is designed to highlight choices, so instead of an open navigation system, each bit of context in Twine is built intentionally by hyperlinks that can be followed backwards and forwards and read in any order</p>
+<ul>
+<li>Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives</li>
+<li>Twine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application</li>
+<li>Twine is designed to emphasize interactivity (user-input, randomness, variables) and choices</li>
+</ul>
 <section id="how-it-works" class="level3">
 <h3 class="anchored" data-anchor-id="how-it-works">How it works</h3>
 <p>Twine stories can be created and edited in-browser or in the Twine desktop app. (For the purposes of this workshop we’ll be using the browser version, though they are identical.) The WYSIWYG editor interface shows the entire site as a “web” divided into linked passages. Using some simple markup, you can change the formatting and style and add interactivity such as user input, randomness, and variables. You can export your twine game as a single HTML (Hypertext Markup Language) file and play it on your computer or publish it on any web server. What’s cool about it is that most no-code website builders do not allow you to include elements of functional programming (such creating conditional statements, assigning variables, and prompting user input). This combination of style, content, and functionality usually are handled by at least three separate languages (HTML for content and structure, CSS for style, and Javascript for functionality), but here they can all be customized using simple markup.</p>
@@ -271,18 +275,19 @@ ul.task-list li input[type="checkbox"] {
 </blockquote>
 </section>
 </section>
-<section id="twine-editing-interface" class="level2">
-<h2 class="anchored" data-anchor-id="twine-editing-interface">Twine Editing Interface</h2>
-<section id="to-create-a-story-in-twine" class="level3">
-<h3 class="anchored" data-anchor-id="to-create-a-story-in-twine">To create a story in Twine</h3>
+<section id="getting-started" class="level2">
+<h2 class="anchored" data-anchor-id="getting-started">Getting started</h2>
 <ol type="1">
 <li>Navigate to <a href="https://twinery.org/">https://twinery.org/</a></li>
 <li>Click ‘Use in your browser’</li>
-<li>In the top-left corner, click <code>+ New</code> to create a new story. Give yours a name</li>
-<li>The editor has an overall map with a single passage – double click to edit</li>
-<li>Enter some text and rename your passage</li>
-<li>Click <code>Test From Here</code> to preview your game in a new tab</li>
+<li>In the top-left corner, click <code>+ New</code> to create a new story. Give yours a name.</li>
 </ol>
+<section id="the-twine-editor" class="level3">
+<h3 class="anchored" data-anchor-id="the-twine-editor">The Twine editor</h3>
+<p><img src="../media/twine-editor.png" class="img-fluid" alt="Screenshot of Twine Editor Interface"></p>
+<p>The main Twine editor has an overall “map” of your story showing all the connections between passages (currently, your story only has a single passage). The green rocket ship icon shows where the story begins.</p>
+<p>You can double-click a passage to open up the WYSIWYG editor. Go ahead and add some text to your passage, and rename it using the <code>Rename</code> button in the passage editor.</p>
+<p>On the top menu bar, click <code>Test From Here</code> to preview your game in a new tab.</p>
 </section>
 <section id="basics" class="level3">
 <h3 class="anchored" data-anchor-id="basics">Basics</h3>
@@ -299,7 +304,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Markup</strong> - How data is structured, displayed, and organized (general term)</li>
 <li><strong>Story</strong> - A Twine project (i.e.&nbsp;a website, game, or book)</li>
 <li><strong>Passage</strong> - A contained section of a Twine story (a page or “node” in the network)</li>
-<li><strong>Macro</strong> - A bit of code used to change functionality or style of text, indicated with parentheses</li>
+<li><strong>Macro</strong> - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses</li>
 <li><strong>Hook</strong> - The passage of text that a macro acts on, indicated with square brackets <code>(font: "Arial")[This text will be in Arial.]</code></li>
 <li><strong>Variable</strong> - A container for values and words that can change within the game <code>(set: $myName to "Alice") Hello, $myName!</code></li>
 </ul>
@@ -317,11 +322,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="your-turn" class="level2">
 <h2 class="anchored" data-anchor-id="your-turn">Your turn!</h2>
-<ul>
+<ol type="1">
 <li>Start by creating at least 3 passages. Practice creating links between them.</li>
 <li>Test out your game to see how it looks.</li>
 <li>Explore the editor interface options to try out more complex stuff.</li>
-</ul>
+</ol>
 
 
 </section>
