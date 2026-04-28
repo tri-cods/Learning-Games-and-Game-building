@@ -3,8 +3,10 @@ title: "Twine Basics"
 ---
 
 ## About Twine
+- Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives
+- Twine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application
+- Twine is designed to emphasize interactivity (user-input, randomness, variables) and choices
 
-[**Twine**](https://twinery.org/) is an open-source tool for creating hypertext narratives, interactive fiction, text-based games and more. Twine's aesthetic and functionality echo 1990s-era "hypertext" fiction and early web experimentation: each site (called a "Story") is a network with interconnected nodes. While all websites are hypertext, Twine is designed to highlight choices, so instead of an open navigation system, each bit of context in Twine is built intentionally by hyperlinks that can be followed backwards and forwards and read in any order
 
 ### How it works
 
@@ -16,17 +18,24 @@ Twine has several options for "story formats" -- these not only change the visua
 
 > Note: Twine games are written in a specialized markup language called [Twee](https://twinery.org/cookbook/terms/terms_twee.html) and can also be edited in a text editor. 
 
-## Twine Editing Interface
+## Getting started
 
-### To create a story in Twine
 1. Navigate to [https://twinery.org/](https://twinery.org/)
 2. Click 'Use in your browser'
-3. In the top-left corner, click `+ New` to create a new story. Give yours a name
-4. The editor has an overall map with a single passage -- double click to edit
-5. Enter some text and rename your passage
-6. Click `Test From Here` to preview your game in a new tab
+3. In the top-left corner, click `+ New` to create a new story. Give yours a name.
+
+### The Twine editor
+
+![](/media/twine-editor.png){fig-alt="Screenshot of Twine Editor Interface"}
+
+The main Twine editor has an overall "map" of your story showing all the connections between passages (currently, your story only has a single passage). The green rocket ship icon shows where the story begins.
+
+You can double-click a passage to open up the WYSIWYG editor. Go ahead and add some text to your passage, and rename it using the `Rename` button in the passage editor.
+
+On the top menu bar, click `Test From Here` to preview your game in a new tab.
 
 ### Basics
+
 - Link to a new passage using double square brackets `[[pasage name]]`
 - Use hash marks to create headers: `# Header 1` and `## Header 2`
 - Use `**` for `**bold**` and `*` for `*italic*`
@@ -37,7 +46,7 @@ Twine has several options for "story formats" -- these not only change the visua
 - **Markup** - How data is structured, displayed, and organized (general term)
 - **Story** - A Twine project (i.e. a website, game, or book)
 - **Passage** - A contained section of a Twine story (a page or "node" in the network)
-- **Macro** - A bit of code used to change functionality or style of text, indicated with parentheses
+- **Macro** - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses
 - **Hook** - The passage of text that a macro acts on, indicated with square brackets
 `(font: "Arial")[This text will be in Arial.]`
 - **Variable** - A container for values and words that can change within the game
@@ -53,6 +62,6 @@ Twine has several options for "story formats" -- these not only change the visua
 
 ## Your turn!
 
-- Start by creating at least 3 passages. Practice creating links between them.
-- Test out your game to see how it looks.
-- Explore the editor interface options to try out more complex stuff.
+1. Start by creating at least 3 passages. Practice creating links between them.
+2. Test out your game to see how it looks.
+3. Explore the editor interface options to try out more complex stuff.
