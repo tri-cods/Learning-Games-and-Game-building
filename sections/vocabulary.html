@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publishing your Twine Game – Learning Games and Game Building</title>
+<title>Vocabulary – Learning Games and Game Building</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../sections/twine-resources.html" rel="next">
-<link href="../sections/twine-how-to.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -113,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/twine-basics.html">Twine</a></li><li class="breadcrumb-item"><a href="../sections/publishing.html">Publishing your Twine Game</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Vocabulary</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -196,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../sections/publishing.html" class="sidebar-item-text sidebar-link active">
+  <a href="../sections/publishing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Publishing your Twine Game</span></a>
   </div>
 </li>
@@ -218,18 +216,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#webhosting-options" id="toc-webhosting-options" class="nav-link active" data-scroll-target="#webhosting-options">Webhosting options</a></li>
-  <li><a href="#export-your-game-from-twine" id="toc-export-your-game-from-twine" class="nav-link" data-scroll-target="#export-your-game-from-twine">Export your game from Twine</a></li>
-  <li><a href="#deployment-using-reclaim-hosting" id="toc-deployment-using-reclaim-hosting" class="nav-link" data-scroll-target="#deployment-using-reclaim-hosting">Deployment using Reclaim Hosting</a></li>
+  <li><a href="#cheat-sheet" id="toc-cheat-sheet" class="nav-link active" data-scroll-target="#cheat-sheet">Cheat sheet</a></li>
+  <li><a href="#advanced" id="toc-advanced" class="nav-link" data-scroll-target="#advanced">Advanced</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/twine-basics.html">Twine</a></li><li class="breadcrumb-item"><a href="../sections/publishing.html">Publishing your Twine Game</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publishing your Twine Game</h1>
+<h1 class="title">Vocabulary</h1>
 </div>
 
 
@@ -246,53 +243,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Now it’s time to publish your game to a web server so that others can play it.</p>
-<section id="webhosting-options" class="level2">
-<h2 class="anchored" data-anchor-id="webhosting-options">Webhosting options</h2>
-<p>There are many options for webhosting services – here are a few that are free to you:</p>
 <ul>
-<li>Reclaim Hosting
-<ul>
-<li>Bryn Mawr: <strong>Domain of One’s Own</strong> - <a href="https://digital.brynmawr.edu/">digital.brynmawr.edu</a></li>
-<li>Haverford: <strong>Haverford Sites</strong> - <a href="https://sites.haverford.edu/">sites.haverford.edu</a></li>
-<li>Swarthmore:</li>
-</ul></li>
-<li>GitHub Pages - <a href="https://github.com/">github.com</a> - see <a href="https://docs.github.com/en/pages">GitHub Pages documentation</a> (free with GitHub account)</li>
+<li><strong>Markup</strong> - How data is structured, displayed, and organized (general term)</li>
+<li><strong>Story</strong> - A Twine project (i.e.&nbsp;a website, game, or book)</li>
+<li><strong>Passage</strong> - A contained section of a Twine story (a page or “node” in the network)</li>
+<li><strong>Macro</strong> - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses <code>(font: "Arial")</code></li>
+<li><strong>Hook</strong> - The passage of text that a macro acts on, indicated with square brackets <code>[This text will be in Arial]</code></li>
 </ul>
+<p><code>(font: "Arial")[This text will be in Arial.]</code> - <strong>Variable</strong> - A container for values and words that can change within the game <code>(set: $myName to "Alice") Hello, $myName!</code></p>
+<section id="cheat-sheet" class="level2">
+<h2 class="anchored" data-anchor-id="cheat-sheet">Cheat sheet</h2>
+<ul>
+<li>Link to a new passage using double square brackets <code>[[pasage name]]</code></li>
+<li>If you want to display text other than the passage name: <code>[[continue your adventure|passage name]]</code></li>
+<li>Use hash marks to create headers: <code># Header 1</code> and <code>## Header 2</code></li>
+<li>Use <code>**</code> for <code>**bold**</code> and <code>*</code> for <code>*italic*</code></li>
+</ul>
+<p><code>(text-style:"fade-in-out")[This text blinks]</code></p>
+<p><code>(color:magenta)[This text is magenta]</code></p>
+<p><code>(text-rotate-z:90)[This text is rotated 90 degrees]</code></p>
+<p><code>(bg:green)[This text has a green background]</code></p>
+<p><code>(font:"courier")[This text uses a different font]</code></p>
+<p><code>(text-size:0.5)[This text is smaller than other text]</code></p>
+<p><code>(align:"=&gt;&lt;=")+(box:"X")[This text is centered]</code></p>
 </section>
-<section id="export-your-game-from-twine" class="level2">
-<h2 class="anchored" data-anchor-id="export-your-game-from-twine">Export your game from Twine</h2>
-<ul>
-<li>From the Twine top menu, go to <strong>Build</strong> -&gt; <strong>Publish to File</strong> to export your game as html</li>
-<li>Open it in a browser app to play it locally</li>
-<li>Note on Filenames:
-<ul>
-<li>By default, the filename of your game will include the title</li>
-<li>Edit the filename so it has no spaces in it - this will be part of your URL</li>
-<li><em>Pro tip</em>: change the filename to <code>index.html</code></li>
-</ul></li>
-</ul>
-</section>
-<section id="deployment-using-reclaim-hosting" class="level2">
-<h2 class="anchored" data-anchor-id="deployment-using-reclaim-hosting">Deployment using Reclaim Hosting</h2>
-<ul>
-<li>Navigate to <a href="https://digital.brynmawr.edu/">digital.brynmawr.edu</a> or <a href="https://sites.haverford.edu/">sites.haverford.edu</a> and click on “Get Started” to log in
-<ul>
-<li>If you haven’t already, choose a domain name that is relatively short and unique to you</li>
-</ul></li>
-<li>Upload your game:
-<ul>
-<li>From your Dashboard, locate the “File Manager”</li>
-<li>Navigate to the folder called “public_html”</li>
-<li>Create a new sub-folder called “game”</li>
-<li>Upload your game to the “game” folder</li>
-</ul></li>
-<li>Navigate to your game’s URL
-<ul>
-<li>Your game should now be public at <strong>yourdomain.digital.brynmawr.edu/game/filename.html</strong></li>
-<li>If you changed the filename to index, your url will be <strong>yourdomain.digital.brynmawr.edu/game</strong></li>
-</ul></li>
-</ul>
+<section id="advanced" class="level2">
+<h2 class="anchored" data-anchor-id="advanced">Advanced</h2>
 
 
 </section>
@@ -698,18 +674,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../sections/twine-how-to.html" class="pagination-link" aria-label="Customizing Play in Twine">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Customizing Play in Twine</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../sections/twine-resources.html" class="pagination-link" aria-label="Twine Resources">
-        <span class="nav-page-text">Twine Resources</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 

@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -191,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../sections/twine-how-to.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Twine How-To</span></a>
+ <span class="menu-text">Customizing Play in Twine</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -226,9 +261,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting started</a>
   <ul class="collapse">
   <li><a href="#the-twine-editor" id="toc-the-twine-editor" class="nav-link" data-scroll-target="#the-twine-editor">The Twine editor</a></li>
-  <li><a href="#basics" id="toc-basics" class="nav-link" data-scroll-target="#basics">Basics</a></li>
+  <li><a href="#creating-and-editing-passages" id="toc-creating-and-editing-passages" class="nav-link" data-scroll-target="#creating-and-editing-passages">Creating and editing passages</a></li>
+  <li><a href="#markup-and-formatting" id="toc-markup-and-formatting" class="nav-link" data-scroll-target="#markup-and-formatting">Markup and formatting</a></li>
   <li><a href="#vocabulary" id="toc-vocabulary" class="nav-link" data-scroll-target="#vocabulary">Vocabulary</a></li>
-  <li><a href="#tips" id="toc-tips" class="nav-link" data-scroll-target="#tips">Tips</a></li>
+  <li><a href="#tips-for-using-twine" id="toc-tips-for-using-twine" class="nav-link" data-scroll-target="#tips-for-using-twine">Tips for using Twine</a></li>
   </ul></li>
   <li><a href="#your-turn" id="toc-your-turn" class="nav-link" data-scroll-target="#your-turn">Your turn!</a></li>
   </ul>
@@ -262,6 +298,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives</li>
 <li>Twine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application</li>
 <li>Twine is designed to emphasize interactivity (user-input, randomness, variables) and choices</li>
+<li>Projects/games in Twine are called <strong>stories</strong></li>
 </ul>
 <section id="how-it-works" class="level3">
 <h3 class="anchored" data-anchor-id="how-it-works">How it works</h3>
@@ -281,40 +318,60 @@ ul.task-list li input[type="checkbox"] {
 <li>Navigate to <a href="https://twinery.org/">https://twinery.org/</a></li>
 <li>Click ‘Use in your browser’</li>
 <li>In the top-left corner, click <code>+ New</code> to create a new story. Give yours a name.</li>
+<li>Your new story should open in the Twine editor</li>
 </ol>
 <section id="the-twine-editor" class="level3">
 <h3 class="anchored" data-anchor-id="the-twine-editor">The Twine editor</h3>
 <p><img src="../media/twine-editor.png" class="img-fluid" alt="Screenshot of Twine Editor Interface"></p>
 <p>The main Twine editor has an overall “map” of your story showing all the connections between passages (currently, your story only has a single passage). The green rocket ship icon shows where the story begins.</p>
+<blockquote class="blockquote">
+<p>A <strong>Passage</strong> in Twine is a discrete section of the story that will appear as a page on its own</p>
+</blockquote>
 <p>You can double-click a passage to open up the WYSIWYG editor. Go ahead and add some text to your passage, and rename it using the <code>Rename</code> button in the passage editor.</p>
 <p>On the top menu bar, click <code>Test From Here</code> to preview your game in a new tab.</p>
 </section>
-<section id="basics" class="level3">
-<h3 class="anchored" data-anchor-id="basics">Basics</h3>
+<section id="creating-and-editing-passages" class="level3">
+<h3 class="anchored" data-anchor-id="creating-and-editing-passages">Creating and editing passages</h3>
+<p>To create a new passage from the main story editor, you can use the <code>+ New</code> button to create a disconnected passage. From the passage editor, you can simultaneously create and link to a new passage by using double square brackets: <code>[[passage name]]</code>.</p>
+<p>Any links you create this way will show up as arrows between passages in your overall game map. If you want to link to a new passage using link-text text other than the passage name, you can do so by separating the link text from the passage name with a pipe <code>|</code> like this: <code>[[continue|passage name]]</code>. Any passage that is not linked to another passage (or displayed by another passage; more on this later) will not appear when the game is played.</p>
+</section>
+<section id="markup-and-formatting" class="level3">
+<h3 class="anchored" data-anchor-id="markup-and-formatting">Markup and formatting</h3>
+<p>Twine uses a modified form of <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> syntax to add basic structure or <strong>markup</strong> to your text.</p>
+<blockquote class="blockquote">
+<p><strong>Markup</strong> describes how data (in this case, plain text) is structured, displayed, and organized</p>
+</blockquote>
+<p>You don’t need to understand all the rules of Markdown to edit in Twine, but here are some tips:</p>
 <ul>
-<li>Link to a new passage using double square brackets <code>[[pasage name]]</code></li>
-<li>Use hash marks to create headers: <code># Header 1</code> and <code>## Header 2</code></li>
-<li>Use <code>**</code> for <code>**bold**</code> and <code>*</code> for <code>*italic*</code></li>
-<li>Use the WYSIWYG editor for other types of customizations</li>
+<li>Hash marks at the beginning of a line to create: <code># Header 1</code> and <code>## Header 2</code></li>
+<li>Asterisks before and after text add emphasis
+<ul>
+<li>A single asterisk <code>*</code> before and after text to <em>italicize</em>: <code>*italic*</code></li>
+<li>Double asterisks <code>**</code> before and after to <strong>bold text</strong>: <code>**bold**</code></li>
+</ul></li>
+<li>Create an unordered list by adding a single asterisk followed by a space at the beginning of each line: <code>* List item</code></li>
+<li>Create an ordered list with the numeral zero followed by a period and a space: <code>0. First item</code></li>
 </ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>* Item in my unordered list</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>* Another item in my unordered list</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>0. First ordered list item</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>0. Second list item</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>You can also use the WYSIWYG editor for certain types of formatting.</p>
 </section>
 <section id="vocabulary" class="level3">
 <h3 class="anchored" data-anchor-id="vocabulary">Vocabulary</h3>
 <ul>
-<li><strong>Markup</strong> - How data is structured, displayed, and organized (general term)</li>
-<li><strong>Story</strong> - A Twine project (i.e.&nbsp;a website, game, or book)</li>
-<li><strong>Passage</strong> - A contained section of a Twine story (a page or “node” in the network)</li>
 <li><strong>Macro</strong> - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses</li>
 <li><strong>Hook</strong> - The passage of text that a macro acts on, indicated with square brackets <code>(font: "Arial")[This text will be in Arial.]</code></li>
 <li><strong>Variable</strong> - A container for values and words that can change within the game <code>(set: $myName to "Alice") Hello, $myName!</code></li>
 </ul>
 </section>
-<section id="tips" class="level3">
-<h3 class="anchored" data-anchor-id="tips">Tips</h3>
+<section id="tips-for-using-twine" class="level3">
+<h3 class="anchored" data-anchor-id="tips-for-using-twine">Tips for using Twine</h3>
 <ul>
-<li>Preview/test your work often to make sure everything works</li>
+<li>Preview/test your work often to make sure everything works as intended</li>
 <li>When using the browser editor, export your game every time you are finished</li>
-<li>Create an outline or storyboard before you try to build complex functionality</li>
 <li>To check your story format: from the story editor, select ‘Details’ and select ‘Harlowe 3.3.9’</li>
 <li>If you find a cool Twine game and want to know how they did that, right click on the page and go to ‘view page source’ to view the underlying code: you will see Twee code interspersed with HTML.</li>
 </ul>
@@ -323,9 +380,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="your-turn" class="level2">
 <h2 class="anchored" data-anchor-id="your-turn">Your turn!</h2>
 <ol type="1">
-<li>Start by creating at least 3 passages. Practice creating links between them.</li>
+<li>If you haven’t already done so, go ahead and create a new “Story” and give it a unique title.</li>
+<li>Add at least 3 passages to your story. Practice creating links between them.</li>
 <li>Test out your game to see how it looks.</li>
-<li>Explore the editor interface options to try out more complex stuff.</li>
+<li>Explore the buttons and options on the passage editor to see what else you can customize.</li>
 </ol>
 
 
@@ -739,8 +797,8 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../sections/twine-how-to.html" class="pagination-link" aria-label="Twine How-To">
-        <span class="nav-page-text">Twine How-To</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../sections/twine-how-to.html" class="pagination-link" aria-label="Customizing Play in Twine">
+        <span class="nav-page-text">Customizing Play in Twine</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Twine How-To – Learning Games and Game Building</title>
+<title>Customizing Play in Twine – Learning Games and Game Building</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -148,7 +148,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/twine-basics.html">Twine</a></li><li class="breadcrumb-item"><a href="../sections/twine-how-to.html">Twine How-To</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/twine-basics.html">Twine</a></li><li class="breadcrumb-item"><a href="../sections/twine-how-to.html">Customizing Play in Twine</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -226,7 +226,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../sections/twine-how-to.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Twine How-To</span></a>
+ <span class="menu-text">Customizing Play in Twine</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -253,25 +253,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#link-between-passages" id="toc-link-between-passages" class="nav-link active" data-scroll-target="#link-between-passages">Link between passages</a></li>
+  <li><a href="#macros-and-hooks" id="toc-macros-and-hooks" class="nav-link active" data-scroll-target="#macros-and-hooks">Macros and Hooks</a></li>
   <li><a href="#style-your-text" id="toc-style-your-text" class="nav-link" data-scroll-target="#style-your-text">Style your text</a>
   <ul class="collapse">
+  <li><a href="#colors" id="toc-colors" class="nav-link" data-scroll-target="#colors">Colors</a></li>
+  <li><a href="#fonts" id="toc-fonts" class="nav-link" data-scroll-target="#fonts">Fonts</a></li>
+  <li><a href="#rotation-and-alignment" id="toc-rotation-and-alignment" class="nav-link" data-scroll-target="#rotation-and-alignment">Rotation and alignment</a></li>
+  <li><a href="#enchant" id="toc-enchant" class="nav-link" data-scroll-target="#enchant">Enchant</a></li>
+  </ul></li>
+  <li><a href="#functionality" id="toc-functionality" class="nav-link" data-scroll-target="#functionality">Functionality</a>
+  <ul class="collapse">
   <li><a href="#hide-and-show-content" id="toc-hide-and-show-content" class="nav-link" data-scroll-target="#hide-and-show-content">Hide and show content</a></li>
-  <li><a href="#introduce-variety" id="toc-introduce-variety" class="nav-link" data-scroll-target="#introduce-variety">Introduce variety</a></li>
+  <li><a href="#variety-and-randomness" id="toc-variety-and-randomness" class="nav-link" data-scroll-target="#variety-and-randomness">Variety and randomness</a></li>
   <li><a href="#set-and-change-variables" id="toc-set-and-change-variables" class="nav-link" data-scroll-target="#set-and-change-variables">Set and change variables</a></li>
-  <li><a href="#get-user-input" id="toc-get-user-input" class="nav-link" data-scroll-target="#get-user-input">Get user input</a></li>
+  <li><a href="#user-input" id="toc-user-input" class="nav-link" data-scroll-target="#user-input">User input</a></li>
   <li><a href="#use-conditionals" id="toc-use-conditionals" class="nav-link" data-scroll-target="#use-conditionals">Use conditionals</a></li>
   <li><a href="#navigation" id="toc-navigation" class="nav-link" data-scroll-target="#navigation">Navigation</a></li>
+  <li><a href="#vocabulary" id="toc-vocabulary" class="nav-link" data-scroll-target="#vocabulary">Vocabulary</a></li>
   </ul></li>
+  <li><a href="#your-turn" id="toc-your-turn" class="nav-link" data-scroll-target="#your-turn">Your turn</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/twine-basics.html">Twine</a></li><li class="breadcrumb-item"><a href="../sections/twine-how-to.html">Twine How-To</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/twine-basics.html">Twine</a></li><li class="breadcrumb-item"><a href="../sections/twine-how-to.html">Customizing Play in Twine</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Twine How-To</h1>
+<h1 class="title">Customizing Play in Twine</h1>
 </div>
 
 
@@ -288,62 +297,76 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Use this guide to make a few basic customizations. There are many more you can find in the <a href="https://twine2.neocities.org/">Harlowe Documentation</a> and the <a href="https://twinery.org/cookbook/">Twine Cookbook</a>.</p>
-<section id="link-between-passages" class="level2">
-<h2 class="anchored" data-anchor-id="link-between-passages">Link between passages</h2>
-<ul>
-<li><p>Link syntax uses double brackets: <code>[[passage name]]</code></p></li>
-<li><p>If you want to display text other than the passage name: <code>[[continue your adventure|passage name]]</code></p></li>
-</ul>
+<section id="macros-and-hooks" class="level2">
+<h2 class="anchored" data-anchor-id="macros-and-hooks">Macros and Hooks</h2>
+<p>You can customize appearance and functionality in Twine an infinite number of ways using coding languages like HTML, CSS, and Javascript, but the Harlowe story format allows you to do many types of customizations using low-code blocks called <strong>Macros</strong> and <strong>Hooks</strong>.</p>
+<p>For example, you can customize the font of a passage of text this way:</p>
+<p><code>(font: "Arial")[This text will be in Arial.]</code></p>
+<p>The first part, which specifies what to change and how, is called a <strong>Macro</strong>, and is surrounded by parentheses: <code>(font: "Arial")</code>. The property that is changed (here “font”) is followed by a colon and a value specifying what it should be changed to.</p>
+<p>The second part, called a <em>Hook</em>, indicates the text that a macro acts on, surrounded by square brackets: <code>[This text will be in Arial]</code></p>
+<p>A hook could be several lines and can include other hooks – as long as you remember to close your parentheses and brackets:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>(bg:green)[This text has a green background, (color:magenta)[but some of </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>it is magenta]]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>(text-size: 0.5)[This text is small. (bg:green)[some of it has a green </span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>background, (color:magenta)[and some of it is also magenta]]]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>To include two macros that apply to the same passage, use a <code>+</code> between them:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>(color:green)+(font:"courier")<span class="co">[</span><span class="ot">This text has two macros applied</span><span class="co">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>You can even use a macro to apply to the rest of a passage by using an open bracket and an equals sign:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(color:cyan)[=</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    The rest of the passage will be cyan</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The most complete guide to this is in the <a href="https://twine2.neocities.org/">Harlowe Documentation</a>, but you can also find many helpful examples in the <a href="https://twinery.org/cookbook/">Twine Cookbook</a>.</p>
 </section>
 <section id="style-your-text" class="level2">
 <h2 class="anchored" data-anchor-id="style-your-text">Style your text</h2>
-<p>Harlowe uses macros to style text, following this basic syntax:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>(text-style:"fade-in-out")<span class="co">[</span><span class="ot">This text blinks</span><span class="co">]</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>(color:magenta)<span class="co">[</span><span class="ot">This text is magenta</span><span class="co">]</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>(text-rotate-z:90)<span class="co">[</span><span class="ot">This text is rotated 90 degrees</span><span class="co">]</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>(bg:green)<span class="co">[</span><span class="ot">This text has a green background</span><span class="co">]</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>(font:"courier")<span class="co">[</span><span class="ot">This text uses a different font</span><span class="co">]</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>(text-size:0.5)<span class="co">[</span><span class="ot">This text is smaller than other text</span><span class="co">]</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>(align:"=&gt;&lt;=")+(box:"X")<span class="co">[</span><span class="ot">This text is centered</span><span class="co">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>For style that will refer to the entire passage, use an open bracket at the end:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>(color:cyan)[=</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    The rest of the passage will be cyan</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Macros can be nested inside other macros. To include two macros that apply to the same passage, use a <code>+</code> between them:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>(color:green)+(font:"courier")<span class="co">[</span><span class="ot">This text has two style macros applied</span><span class="co">]</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>You can also style the entire page using “enchant” macros:</p>
-<p><code>(enchant:?page,(bg:lime))</code></p>
-<section id="color-and-font-options" class="level4">
-<h4 class="anchored" data-anchor-id="color-and-font-options">Color and Font options</h4>
+<p>In addition to customizing color, font, and size, macros can change alignment and perform many other visual transformations.</p>
+<section id="colors" class="level3">
+<h3 class="anchored" data-anchor-id="colors">Colors</h3>
+<p>To style background color and text color, use</p>
+<p><code>(color:magenta)[This text is magenta]</code> for the text color and <code>(bg:green)[This text has a green background]</code> for the background color.</p>
+<p>Twine supports a few colors without quotation marks – you’ll find these as options in the Editor. You can also use any of the <a href="https://www.w3schools.com/cssref/css_colors.php">CSS named colors</a> by putting the name in quotation marks: <code>(bg:"blueviolet")</code>. For an even wider range of colors, you can use hexadecimal (or “hex”) colors: <code>(text-color: #cce6ff)[This is a hex value color]</code>. To learn more about what hex colors represent, see the <a href="https://www.w3schools.com/colors/default.asp">W3Schools tutorial on Colors</a>, which includes a <a href="https://www.w3schools.com/colors/colors_picker.asp">color picker tool</a> you can use to get a specific hex value.</p>
+</section>
+<section id="fonts" class="level3">
+<h3 class="anchored" data-anchor-id="fonts">Fonts</h3>
+<p>As you probably guessed, the ‘font’ macro lets you customize fonts within your game.</p>
+<p><code>(font:"courier")[Courier is a classic monospace font]</code></p>
+<p>Twine supports basic <a href="https://www.w3schools.com/cssref/css_websafe_fonts.php">websafe fonts</a> that are well-supported across browsers.</p>
+<blockquote class="blockquote">
+<p>It is also possible to <a href="https://twinery.org/cookbook/googlefonts/harlowe/harlowe_googlefonts.html">load Google Fonts following these instructions</a>, though this requires using CSS.</p>
+</blockquote>
+<p>Font size can be customized relative to the standard using the ‘text-size’ macro:</p>
+<p><code>(text-size: 0.5)[This text is small.]</code></p>
+<p>Other types of decorations can be added using text-style macros:</p>
 <ul>
-<li><strong>Colors</strong>
-<ul>
-<li>Twine supports a few colors without quotation marks – you’ll find these as options in the Editor.</li>
-<li>You can also use any of the <a href="https://www.w3schools.com/cssref/css_colors.php">CSS named colors</a> by putting the name in quotation marks: <code>(bg:"blueviolet")</code>.</li>
-<li>You can also use hex values to specify a color: <code>(text-color: #cce6ff)[This is a hex value color]</code>.</li>
-</ul></li>
-<li><strong>Fonts</strong>
-<ul>
-<li>Twine supports basic <a href="https://www.w3schools.com/cssref/css_websafe_fonts.php">websafe fonts</a> that are well-supported across browsers.</li>
-<li>It is also possible to <a href="https://twinery.org/cookbook/googlefonts/harlowe/harlowe_googlefonts.html">load Google Fonts following these instructions</a>, though this requires using CSS.</li>
-</ul></li>
+<li><p>Underline: <code>(text-style:"underline")[Your Text Here]</code></p></li>
+<li><p>Blinking: <code>(text-style:"fade-in-out")[This text blinks]</code></p></li>
 </ul>
 </section>
+<section id="rotation-and-alignment" class="level3">
+<h3 class="anchored" data-anchor-id="rotation-and-alignment">Rotation and alignment</h3>
+<p>You will notice that many of these customizations are available in the passage menu, including text rotation, which you can do along multiple axes: <code>(text-rotate-z:90)[This text is rotated 90 degrees]</code></p>
+<p>To customize alignment, I recommend using the alignment icon.</p>
+<p><code>(align:"=&gt;&lt;=")+(box:"X")[This text is centered]</code></p>
+</section>
+<section id="enchant" class="level3">
+<h3 class="anchored" data-anchor-id="enchant">Enchant</h3>
+<p>You can also style the entire page using “enchant” macros:</p>
+<p><code>(enchant:?page,(bg:lime))</code></p>
+<p>The <code>(enchant: )</code> macro can be used as well for every instance of a particular word or character. To learn more, see the <a href="https://twine2.neocities.org/#macro_enchant">Harlowe documentation on enchant</a>.</p>
+</section>
+</section>
+<section id="functionality" class="level2">
+<h2 class="anchored" data-anchor-id="functionality">Functionality</h2>
+<p>To make your game fully interactive, macros can be useful for transforming the content and narrative flow of your page and giving the user opportunites to make choices and provide input.</p>
 <section id="hide-and-show-content" class="level3">
 <h3 class="anchored" data-anchor-id="hide-and-show-content">Hide and show content</h3>
-<ul>
-<li>Link macros can create clickable text that gets replaced by other text <code>(link:"Click me to reveal")[This text is revealed]</code></li>
-<li>You can display another passage within a passage (useful if you want to repeat bits of code): <code>(show:"passage")</code></li>
-<li>To go to another passage: <code>(go-to:"passage")</code></li>
-<li>To display text after a delay: <code>(after:1s)[Wait one second before displaying this]</code></li>
-<li>You can create a passage that unveils slowly by embedding choices within choices:</li>
-</ul>
+<p>To create a sense of movement and animation, you can use macros to delay when text displays: <code>(after:1s)[Wait one second before displaying this]</code></p>
+<p>You can also replace one bit of text with another bit by using the link macro, which reveals a hidden hook when the indicated text is clicked.: <code>(link:"Click me to reveal")[This text is revealed]</code></p>
+<p>Of course, because hooks can be nested in other hooks, you can also pair the link macro with the enchant macro to transform the whole page. <code>(link:"Your face is turning red")[(enchant:?page, (color:red))]</code></p>
+<p>Using the ‘show’ macro, you can display another passage within a passage: <code>(show:"passage")</code></p>
+<p>So far we have talked about passages as units of content, but they are also units of code or design that can be used to reuse modular pieces of your game – what in other programming languages would be called a function. The ‘show’ macro is the best way to include content that you want to repeat without having to write it all again.</p>
+<p>The ‘go-to’ macro will take the user directly to another passage: <code>(go-to:"passage")</code></p>
+<p>You can create a passage that unveils slowly by embedding choices within choices:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>You are going down (link: "a passageway")<span class="co">[</span><span class="ot">an extremely long passageway</span><span class="co">]</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>Do you want to turn left?</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>(link:"yes, let's turn left")<span class="co">[</span><span class="ot">You turn left and the hallway goes on (link:"forever")[for what feels like forever</span><span class="co">]</span></span>
@@ -352,12 +375,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>Do you go left or right?</span>
 <span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>(link:"Left")<span class="co">[</span><span class="ot">You've reached a dead end.</span><span class="co">]</span></span>
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>(link:"Right")<span class="co">[</span><span class="ot">You've reached your destination!</span><span class="co">]</span>]]]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<ul>
-<li>You can also create a pop-up that will display before page content: <code>(dialog:[Welcome to my game!],"OK")</code></li>
-</ul>
+<p>You can also create a pop-up that will display before page content: <code>(dialog:[Welcome to my game!],"OK")</code></p>
 </section>
-<section id="introduce-variety" class="level3">
-<h3 class="anchored" data-anchor-id="introduce-variety">Introduce variety</h3>
+<section id="variety-and-randomness" class="level3">
+<h3 class="anchored" data-anchor-id="variety-and-randomness">Variety and randomness</h3>
 <ul>
 <li><p>Use ‘either’ to randomly select a value from a list: <code>The sky is (either:"blue", "pink", "orange", "green")</code></p></li>
 <li><p>Use ‘random’ to generate random numbers: <code>Rolling six-sided die: (random: 1,6)</code></p></li>
@@ -365,23 +386,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="set-and-change-variables" class="level3">
 <h3 class="anchored" data-anchor-id="set-and-change-variables">Set and change variables</h3>
-<ul>
-<li><p>To set a variable: <code>(set: $name to "Alice")</code></p></li>
-<li><p>To display a variable: <code>Hello, $name</code></p></li>
-<li><p>Variables can also hold numbers: <code>(set: $score to 1)</code></p></li>
-<li><p>And you can do math on them: <code>(set: $score to it + 1)</code></p></li>
-</ul>
+<p>As in math and other programming languages, a variable is a container that can hold values, including text, numbers, and more. Variable names are indicated with a <code>$</code> before the name, such as: <code>$score</code>.</p>
+<p>To create a variable named <code>$name</code> and set the value to “Alice”, use : <code>(set: $name to "Alice")</code></p>
+<p>You can later display that variable by typing its name within your text: <code>Hello, $name</code></p>
+<p>Variables can also hold numbers: <code>(set: $score to 1)</code></p>
+<p>The set macro can also be used to transform variable values like this: <code>(set: $score to it + 1)</code> – here the value of score is increased by 1.</p>
 </section>
-<section id="get-user-input" class="level3">
-<h3 class="anchored" data-anchor-id="get-user-input">Get user input</h3>
-<p>You can have your user select or type in information that will be stored as a variable.</p>
-<p>In the visual editor:</p>
+<section id="user-input" class="level3">
+<h3 class="anchored" data-anchor-id="user-input">User input</h3>
+<p>You can have your user select or type in information that will be stored as a variable. In this case, I recommend using the visual editor:</p>
 <ul>
 <li>Find the <code>(Macro:)</code> dropdown menu and select <code>Input...</code></li>
 <li>Use the selection panel to customize the placement, width, variable name, and more</li>
 <li>You can also offer a dialog box, check box, or dropdown menu</li>
 </ul>
-<p>Code examples</p>
+<p>User input examples</p>
 <p>Get user input and store it in a variable:</p>
 <p><code>What is your name? (input-box:2bind $name,"XXXXXXXXX=")</code></p>
 <p>To use the variable on the same passage, use a prompt (dialog box) for this:</p>
@@ -400,9 +419,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="navigation">Navigation</h3>
 <p>To include some text or code on every page, create a passage and give it the “header” tag. It will automatically appear at the beginning of each passage. You can also use the “footer” tag to put it at the end of each passage.</p>
 <p>Because Twine is designed for games, there isn’t much built-in navigation. It can be helpful to use a header or footer to link to a page with more navigation links or guides if a player gets lost.</p>
-
-
 </section>
+<section id="vocabulary" class="level3">
+<h3 class="anchored" data-anchor-id="vocabulary">Vocabulary</h3>
+<ul>
+<li><strong>Macro</strong> - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses</li>
+<li><strong>Hook</strong> - The passage of text that a macro acts on, indicated with square brackets <code>(font: "Arial")[This text will be in Arial.]</code></li>
+<li><strong>Variable</strong> - A container for values and words that can change within the game <code>(set: $myName to "Alice") Hello, $myName!</code></li>
+</ul>
+</section>
+</section>
+<section id="your-turn" class="level2">
+<h2 class="anchored" data-anchor-id="your-turn">Your turn</h2>
+<ul>
+<li>Practice adding hooks and macros to your game</li>
+</ul>
+
+
 </section>
 
 </main> <!-- /main -->

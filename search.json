@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Learning Games and Game Building",
     "section": "",
-    "text": "Games can be powerful tools to enhance your teaching and research. In this session we will explore the hows and whys of game-based learning, guided by real-world examples. We will introduce core principles of game design and best practices to craft meaningful game experiences for students, showcasing a variety of game-building tools. Our hands-on component will focus on building and publishing games with Twine, a free, open-source tool for creating text-based games and hypertext narratives: you will learn how to approach a game project from concept to creation.\n\n\nAt the end of this workshop, you will be able to\n\nUnderstand why and how games can enhance your teaching and research\nIdentify a few key principles of game design\nStoryboard and plan a game\nUse the Twine editor\nCreate and publish your own interactive text-based game in Twine\n\n\n\n\n\nJames Coltrain and Stephen Ramsay’s “Can Video Games Be Humanities Scholarship” offers an overview of how to think about games as research outputs.\nIn Playful Pedagogy in the Pandemic: Pivoting to Game-Based Learning, Emily K. Johnson and Anastasia Salter explore game-based learning as a mode that has new relevance and potential in the post-pandemic landscape.\n\n\n\n\n\n\n1979 Revolution: Black Friday, a video game about the Iranian revolution\nBot or Not: A Slow AI Game, a text-based Twine game designed to teach AI literacy\nNever Alone, an Inupiaq storytelling game",
+    "text": "Games can be powerful tools to enhance your teaching and research. In this session we will explore the hows and whys of game-based learning, guided by real-world examples. We will introduce core principles of game design and best practices to craft meaningful game experiences for students, showcasing a variety of game-building tools. Our hands-on component will focus on building and publishing games with Twine, a free, open-source tool for creating text-based games and hypertext narratives: you will learn how to approach a game project from concept to creation.\n\n\nAt the end of this workshop, you will be able to\n\nUnderstand why and how games can enhance your teaching and research\nIdentify a few key principles of game design\nStoryboard and plan a game\nUse the Twine editor to build interactive content\nPublish your own text-based game in Twine\n\n\n\n\n\nJames Coltrain and Stephen Ramsay’s “Can Video Games Be Humanities Scholarship” offers an overview of how to think about games as research outputs.\nIn Playful Pedagogy in the Pandemic: Pivoting to Game-Based Learning, Emily K. Johnson and Anastasia Salter explore game-based learning as a mode that has new relevance and potential in the post-pandemic landscape.\n\n\n\n\n\n\n1979 Revolution: Black Friday, a video game about the Iranian revolution\nBot or Not: A Slow AI Game, a text-based Twine game designed to teach AI literacy\nNever Alone, an Inupiaq storytelling game",
     "crumbs": [
       "Home",
       "Introduction"
@@ -15,7 +15,7 @@
     "href": "index.html#workshop-description",
     "title": "Learning Games and Game Building",
     "section": "",
-    "text": "Games can be powerful tools to enhance your teaching and research. In this session we will explore the hows and whys of game-based learning, guided by real-world examples. We will introduce core principles of game design and best practices to craft meaningful game experiences for students, showcasing a variety of game-building tools. Our hands-on component will focus on building and publishing games with Twine, a free, open-source tool for creating text-based games and hypertext narratives: you will learn how to approach a game project from concept to creation.\n\n\nAt the end of this workshop, you will be able to\n\nUnderstand why and how games can enhance your teaching and research\nIdentify a few key principles of game design\nStoryboard and plan a game\nUse the Twine editor\nCreate and publish your own interactive text-based game in Twine\n\n\n\n\n\nJames Coltrain and Stephen Ramsay’s “Can Video Games Be Humanities Scholarship” offers an overview of how to think about games as research outputs.\nIn Playful Pedagogy in the Pandemic: Pivoting to Game-Based Learning, Emily K. Johnson and Anastasia Salter explore game-based learning as a mode that has new relevance and potential in the post-pandemic landscape.\n\n\n\n\n\n\n1979 Revolution: Black Friday, a video game about the Iranian revolution\nBot or Not: A Slow AI Game, a text-based Twine game designed to teach AI literacy\nNever Alone, an Inupiaq storytelling game",
+    "text": "Games can be powerful tools to enhance your teaching and research. In this session we will explore the hows and whys of game-based learning, guided by real-world examples. We will introduce core principles of game design and best practices to craft meaningful game experiences for students, showcasing a variety of game-building tools. Our hands-on component will focus on building and publishing games with Twine, a free, open-source tool for creating text-based games and hypertext narratives: you will learn how to approach a game project from concept to creation.\n\n\nAt the end of this workshop, you will be able to\n\nUnderstand why and how games can enhance your teaching and research\nIdentify a few key principles of game design\nStoryboard and plan a game\nUse the Twine editor to build interactive content\nPublish your own text-based game in Twine\n\n\n\n\n\nJames Coltrain and Stephen Ramsay’s “Can Video Games Be Humanities Scholarship” offers an overview of how to think about games as research outputs.\nIn Playful Pedagogy in the Pandemic: Pivoting to Game-Based Learning, Emily K. Johnson and Anastasia Salter explore game-based learning as a mode that has new relevance and potential in the post-pandemic landscape.\n\n\n\n\n\n\n1979 Revolution: Black Friday, a video game about the Iranian revolution\nBot or Not: A Slow AI Game, a text-based Twine game designed to teach AI literacy\nNever Alone, an Inupiaq storytelling game",
     "crumbs": [
       "Home",
       "Introduction"
@@ -26,7 +26,18 @@
     "href": "index.html#workshop-overview",
     "title": "Learning Games and Game Building",
     "section": "Workshop overview",
-    "text": "Workshop overview\n\nWhy games and why Twine\nPrinciples of game design\nPlanning your interactive narrative\nThe Twine editor\nSupported work time\n\n\nWorkshop authors: Cameron Boucher, Liz Hogrefe, Alice McGrath\nEditor: Roberto Vargas\nTri-Co DSRI, 2026. This lesson is based on the DHRI Curriculum.",
+    "text": "Workshop overview\n\nIntroduction\nPrinciples of game design\nPlanning your interactive narrative\nThe Twine editor\nSupported work time",
+    "crumbs": [
+      "Home",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "Learning Games and Game Building",
+    "section": "Resources",
+    "text": "Resources\n\nDigital Pedagogy in the Humanities includes useful teaching resources on both Gaming (curated by Amanda Phillips) and Play (curated by Mark Sample)\nThe CUNY Games Network’s essential readings in game scholarship - a bibliography on game-based learning.\nTools and resources for making games - a crowd-sourced list of game building platforms and software.\n\n\nWorkshop authors: Cameron Boucher, Liz Hogrefe, Alice McGrath\nEditor: Roberto Vargas\nTri-Co DSRI, 2026. This lesson is based on the DHRI Curriculum.",
     "crumbs": [
       "Home",
       "Introduction"
@@ -81,63 +92,51 @@
     ]
   },
   {
-    "objectID": "sections/twine-resources.html",
-    "href": "sections/twine-resources.html",
-    "title": "Twine Resources",
+    "objectID": "sections/twine-basics.html",
+    "href": "sections/twine-basics.html",
+    "title": "Twine Basics",
     "section": "",
-    "text": "Colors: W3 schools named colors list\nWeb-safe fonts: W3 schools fonts\n\n\n\n\nNB: If you are using a tutorial, make sure you know which story format it describes because syntax can be quite different. My guides refer to Harlowe.\n\nTwine Cookbook\nHarlowe documentation - this is the standard story format\nTwine and Interactive Fiction Handbook (slides)\nProgramming Historian: Interactive Text Games Using Twine\nA Total Beginner’s Guide to Twine 2.1 (videos)\n\n\n\n\n\n\n\nDigital Scholarship Adventure Game (live) - an educational game to learn about digital scholarship services at Bryn Mawr\nCritters (live) - a short and goofy game for this workshop\nTwee code for both games is available on the GitHub for this workshop\n\nTo view the code, click on either file (e.g. “Critters.twee”)\nTo download, use the download icon\nYou can import the Twee code into Twine to see what it looks like in the editor\n\nLife of Pasha - A day in the life of Pasha, the betta fish (by Cameron Boucher)\n\n\n\n\n\nSeptember 7th, 2020 by Cait S. Kirby\nDepression Quest by Zoe Quinn\nDead Reference and Bot or Not by Sam Illingworth\nFirst Day in the Office by Gabi Kirilloff\nTyping Challenge by Daniel Linssen\nOpen Sorcery and its sequel Open Sorcery Sea++ by Abigail Corfman\n16 Ways to Kill a Vampire at McDonalds by Abigail Corfman\nQueers in Love at the End of the World by Anna Anthropy\nExplore many more on itch.io: Twine games on itch.io",
+    "text": "Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives\nTwine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application\nTwine is designed to emphasize interactivity (user-input, randomness, variables) and choices\nProjects/games in Twine are called stories\n\n\n\nTwine stories can be created and edited in-browser or in the Twine desktop app. (For the purposes of this workshop we’ll be using the browser version, though they are identical.) The WYSIWYG editor interface shows the entire site as a “web” divided into linked passages. Using some simple markup, you can change the formatting and style and add interactivity such as user input, randomness, and variables. You can export your twine game as a single HTML (Hypertext Markup Language) file and play it on your computer or publish it on any web server. What’s cool about it is that most no-code website builders do not allow you to include elements of functional programming (such creating conditional statements, assigning variables, and prompting user input). This combination of style, content, and functionality usually are handled by at least three separate languages (HTML for content and structure, CSS for style, and Javascript for functionality), but here they can all be customized using simple markup.\n\n\n\nTwine has several options for “story formats” – these not only change the visual style of the game, but they also change syntax and functionality. For this workshop, we’ll be using Harlowe, the default format, which is very beginner-friendly. If you’d like to experiment with other options in the future (Chapbook, SugarCube, and Snowman), I recommend finding documentation that is specific to that format.\n\nNote: Twine games are written in a specialized markup language called Twee and can also be edited in a text editor.",
     "crumbs": [
       "Home",
       "Twine",
-      "Twine Resources"
+      "Twine Basics"
     ]
   },
   {
-    "objectID": "sections/twine-resources.html#general-resources",
-    "href": "sections/twine-resources.html#general-resources",
-    "title": "Twine Resources",
+    "objectID": "sections/twine-basics.html#about-twine",
+    "href": "sections/twine-basics.html#about-twine",
+    "title": "Twine Basics",
     "section": "",
-    "text": "Colors: W3 schools named colors list\nWeb-safe fonts: W3 schools fonts\n\n\n\n\nNB: If you are using a tutorial, make sure you know which story format it describes because syntax can be quite different. My guides refer to Harlowe.\n\nTwine Cookbook\nHarlowe documentation - this is the standard story format\nTwine and Interactive Fiction Handbook (slides)\nProgramming Historian: Interactive Text Games Using Twine\nA Total Beginner’s Guide to Twine 2.1 (videos)\n\n\n\n\n\n\n\nDigital Scholarship Adventure Game (live) - an educational game to learn about digital scholarship services at Bryn Mawr\nCritters (live) - a short and goofy game for this workshop\nTwee code for both games is available on the GitHub for this workshop\n\nTo view the code, click on either file (e.g. “Critters.twee”)\nTo download, use the download icon\nYou can import the Twee code into Twine to see what it looks like in the editor\n\nLife of Pasha - A day in the life of Pasha, the betta fish (by Cameron Boucher)\n\n\n\n\n\nSeptember 7th, 2020 by Cait S. Kirby\nDepression Quest by Zoe Quinn\nDead Reference and Bot or Not by Sam Illingworth\nFirst Day in the Office by Gabi Kirilloff\nTyping Challenge by Daniel Linssen\nOpen Sorcery and its sequel Open Sorcery Sea++ by Abigail Corfman\n16 Ways to Kill a Vampire at McDonalds by Abigail Corfman\nQueers in Love at the End of the World by Anna Anthropy\nExplore many more on itch.io: Twine games on itch.io",
+    "text": "Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives\nTwine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application\nTwine is designed to emphasize interactivity (user-input, randomness, variables) and choices\nProjects/games in Twine are called stories\n\n\n\nTwine stories can be created and edited in-browser or in the Twine desktop app. (For the purposes of this workshop we’ll be using the browser version, though they are identical.) The WYSIWYG editor interface shows the entire site as a “web” divided into linked passages. Using some simple markup, you can change the formatting and style and add interactivity such as user input, randomness, and variables. You can export your twine game as a single HTML (Hypertext Markup Language) file and play it on your computer or publish it on any web server. What’s cool about it is that most no-code website builders do not allow you to include elements of functional programming (such creating conditional statements, assigning variables, and prompting user input). This combination of style, content, and functionality usually are handled by at least three separate languages (HTML for content and structure, CSS for style, and Javascript for functionality), but here they can all be customized using simple markup.\n\n\n\nTwine has several options for “story formats” – these not only change the visual style of the game, but they also change syntax and functionality. For this workshop, we’ll be using Harlowe, the default format, which is very beginner-friendly. If you’d like to experiment with other options in the future (Chapbook, SugarCube, and Snowman), I recommend finding documentation that is specific to that format.\n\nNote: Twine games are written in a specialized markup language called Twee and can also be edited in a text editor.",
     "crumbs": [
       "Home",
       "Twine",
-      "Twine Resources"
+      "Twine Basics"
     ]
   },
   {
-    "objectID": "sections/twine-how-to.html",
-    "href": "sections/twine-how-to.html",
-    "title": "Twine How-To",
-    "section": "",
-    "text": "Use this guide to make a few basic customizations. There are many more you can find in the Harlowe Documentation and the Twine Cookbook.",
+    "objectID": "sections/twine-basics.html#getting-started",
+    "href": "sections/twine-basics.html#getting-started",
+    "title": "Twine Basics",
+    "section": "Getting started",
+    "text": "Getting started\n\nNavigate to https://twinery.org/\nClick ‘Use in your browser’\nIn the top-left corner, click + New to create a new story. Give yours a name.\nYour new story should open in the Twine editor\n\n\nThe Twine editor\n\nThe main Twine editor has an overall “map” of your story showing all the connections between passages (currently, your story only has a single passage). The green rocket ship icon shows where the story begins.\n\nA Passage in Twine is a discrete section of the story that will appear as a page on its own\n\nYou can double-click a passage to open up the WYSIWYG editor. Go ahead and add some text to your passage, and rename it using the Rename button in the passage editor.\nOn the top menu bar, click Test From Here to preview your game in a new tab.\n\n\nCreating and editing passages\nTo create a new passage from the main story editor, you can use the + New button to create a disconnected passage. From the passage editor, you can simultaneously create and link to a new passage by using double square brackets: [[passage name]].\nAny links you create this way will show up as arrows between passages in your overall game map. If you want to link to a new passage using link-text text other than the passage name, you can do so by separating the link text from the passage name with a pipe | like this: [[continue|passage name]]. Any passage that is not linked to another passage (or displayed by another passage; more on this later) will not appear when the game is played.\n\n\nMarkup and formatting\nTwine uses a modified form of Markdown syntax to add basic structure or markup to your text.\n\nMarkup describes how data (in this case, plain text) is structured, displayed, and organized\n\nYou don’t need to understand all the rules of Markdown to edit in Twine, but here are some tips:\n\nHash marks at the beginning of a line to create: # Header 1 and ## Header 2\nAsterisks before and after text add emphasis\n\nA single asterisk * before and after text to italicize: *italic*\nDouble asterisks ** before and after to bold text: **bold**\n\nCreate an unordered list by adding a single asterisk followed by a space at the beginning of each line: * List item\nCreate an ordered list with the numeral zero followed by a period and a space: 0. First item\n\n* Item in my unordered list\n* Another item in my unordered list\n\n0. First ordered list item\n0. Second list item\nYou can also use the WYSIWYG editor for certain types of formatting.\n\n\nVocabulary\n\nMacro - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses\nHook - The passage of text that a macro acts on, indicated with square brackets (font: \"Arial\")[This text will be in Arial.]\nVariable - A container for values and words that can change within the game (set: $myName to \"Alice\") Hello, $myName!\n\n\n\nTips for using Twine\n\nPreview/test your work often to make sure everything works as intended\nWhen using the browser editor, export your game every time you are finished\nTo check your story format: from the story editor, select ‘Details’ and select ‘Harlowe 3.3.9’\nIf you find a cool Twine game and want to know how they did that, right click on the page and go to ‘view page source’ to view the underlying code: you will see Twee code interspersed with HTML.",
     "crumbs": [
       "Home",
       "Twine",
-      "Twine How-To"
+      "Twine Basics"
     ]
   },
   {
-    "objectID": "sections/twine-how-to.html#link-between-passages",
-    "href": "sections/twine-how-to.html#link-between-passages",
-    "title": "Twine How-To",
-    "section": "Link between passages",
-    "text": "Link between passages\n\nLink syntax uses double brackets: [[passage name]]\nIf you want to display text other than the passage name: [[continue your adventure|passage name]]",
+    "objectID": "sections/twine-basics.html#your-turn",
+    "href": "sections/twine-basics.html#your-turn",
+    "title": "Twine Basics",
+    "section": "Your turn!",
+    "text": "Your turn!\n\nIf you haven’t already done so, go ahead and create a new “Story” and give it a unique title.\nAdd at least 3 passages to your story. Practice creating links between them.\nTest out your game to see how it looks.\nExplore the buttons and options on the passage editor to see what else you can customize.",
     "crumbs": [
       "Home",
       "Twine",
-      "Twine How-To"
-    ]
-  },
-  {
-    "objectID": "sections/twine-how-to.html#style-your-text",
-    "href": "sections/twine-how-to.html#style-your-text",
-    "title": "Twine How-To",
-    "section": "Style your text",
-    "text": "Style your text\nHarlowe uses macros to style text, following this basic syntax:\n(text-style:\"fade-in-out\")[This text blinks]\n\n(color:magenta)[This text is magenta]\n\n(text-rotate-z:90)[This text is rotated 90 degrees]\n\n(bg:green)[This text has a green background]\n\n(font:\"courier\")[This text uses a different font]\n\n(text-size:0.5)[This text is smaller than other text]\n\n(align:\"=&gt;&lt;=\")+(box:\"X\")[This text is centered]\nFor style that will refer to the entire passage, use an open bracket at the end:\n(color:cyan)[=\n    The rest of the passage will be cyan\nMacros can be nested inside other macros. To include two macros that apply to the same passage, use a + between them:\n(color:green)+(font:\"courier\")[This text has two style macros applied]\nYou can also style the entire page using “enchant” macros:\n(enchant:?page,(bg:lime))\n\nColor and Font options\n\nColors\n\nTwine supports a few colors without quotation marks – you’ll find these as options in the Editor.\nYou can also use any of the CSS named colors by putting the name in quotation marks: (bg:\"blueviolet\").\nYou can also use hex values to specify a color: (text-color: #cce6ff)[This is a hex value color].\n\nFonts\n\nTwine supports basic websafe fonts that are well-supported across browsers.\nIt is also possible to load Google Fonts following these instructions, though this requires using CSS.\n\n\n\n\nHide and show content\n\nLink macros can create clickable text that gets replaced by other text (link:\"Click me to reveal\")[This text is revealed]\nYou can display another passage within a passage (useful if you want to repeat bits of code): (show:\"passage\")\nTo go to another passage: (go-to:\"passage\")\nTo display text after a delay: (after:1s)[Wait one second before displaying this]\nYou can create a passage that unveils slowly by embedding choices within choices:\n\nYou are going down (link: \"a passageway\")[an extremely long passageway]\nDo you want to turn left?\n(link:\"yes, let's turn left\")[You turn left and the hallway goes on (link:\"forever\")[for what feels like forever]\nNext you have the option to go (link:\"right\")[right, \nwhich you take, and then you find yourself at another (link: \"fork\")[fork. \nDo you go left or right?\n(link:\"Left\")[You've reached a dead end.]\n(link:\"Right\")[You've reached your destination!]]]]\n\nYou can also create a pop-up that will display before page content: (dialog:[Welcome to my game!],\"OK\")\n\n\n\nIntroduce variety\n\nUse ‘either’ to randomly select a value from a list: The sky is (either:\"blue\", \"pink\", \"orange\", \"green\")\nUse ‘random’ to generate random numbers: Rolling six-sided die: (random: 1,6)\n\n\n\nSet and change variables\n\nTo set a variable: (set: $name to \"Alice\")\nTo display a variable: Hello, $name\nVariables can also hold numbers: (set: $score to 1)\nAnd you can do math on them: (set: $score to it + 1)\n\n\n\nGet user input\nYou can have your user select or type in information that will be stored as a variable.\nIn the visual editor:\n\nFind the (Macro:) dropdown menu and select Input...\nUse the selection panel to customize the placement, width, variable name, and more\nYou can also offer a dialog box, check box, or dropdown menu\n\nCode examples\nGet user input and store it in a variable:\nWhat is your name? (input-box:2bind $name,\"XXXXXXXXX=\")\nTo use the variable on the same passage, use a prompt (dialog box) for this:\n(set: $name to (prompt: [What's your name?], \"Name\"))\nYou can also create a dropdown menu or checkbox with options (dropdown: 2bind $choices,\"First\",\"Second\",\"Third\")\n\n\nUse conditionals\nConditional syntax can use variables to introduce game-like elements,\n(if: $score &gt; 10)[You win!!]\n(else:)[You lose.]\n(if: $door is \"locked\")[Sorry, the door is locked]\n(else:)[(go-to:\"door\")]\n\n\nNavigation\nTo include some text or code on every page, create a passage and give it the “header” tag. It will automatically appear at the beginning of each passage. You can also use the “footer” tag to put it at the end of each passage.\nBecause Twine is designed for games, there isn’t much built-in navigation. It can be helpful to use a header or footer to link to a page with more navigation links or guides if a player gets lost.",
-    "crumbs": [
-      "Home",
-      "Twine",
-      "Twine How-To"
+      "Twine Basics"
     ]
   },
   {
@@ -177,52 +176,109 @@
     ]
   },
   {
-    "objectID": "sections/twine-basics.html",
-    "href": "sections/twine-basics.html",
-    "title": "Twine Basics",
+    "objectID": "sections/twine-how-to.html",
+    "href": "sections/twine-how-to.html",
+    "title": "Customizing Play in Twine",
     "section": "",
-    "text": "Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives\nTwine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application\nTwine is designed to emphasize interactivity (user-input, randomness, variables) and choices\n\n\n\nTwine stories can be created and edited in-browser or in the Twine desktop app. (For the purposes of this workshop we’ll be using the browser version, though they are identical.) The WYSIWYG editor interface shows the entire site as a “web” divided into linked passages. Using some simple markup, you can change the formatting and style and add interactivity such as user input, randomness, and variables. You can export your twine game as a single HTML (Hypertext Markup Language) file and play it on your computer or publish it on any web server. What’s cool about it is that most no-code website builders do not allow you to include elements of functional programming (such creating conditional statements, assigning variables, and prompting user input). This combination of style, content, and functionality usually are handled by at least three separate languages (HTML for content and structure, CSS for style, and Javascript for functionality), but here they can all be customized using simple markup.\n\n\n\nTwine has several options for “story formats” – these not only change the visual style of the game, but they also change syntax and functionality. For this workshop, we’ll be using Harlowe, the default format, which is very beginner-friendly. If you’d like to experiment with other options in the future (Chapbook, SugarCube, and Snowman), I recommend finding documentation that is specific to that format.\n\nNote: Twine games are written in a specialized markup language called Twee and can also be edited in a text editor.",
+    "text": "You can customize appearance and functionality in Twine an infinite number of ways using coding languages like HTML, CSS, and Javascript, but the Harlowe story format allows you to do many types of customizations using low-code blocks called Macros and Hooks.\nFor example, you can customize the font of a passage of text this way:\n(font: \"Arial\")[This text will be in Arial.]\nThe first part, which specifies what to change and how, is called a Macro, and is surrounded by parentheses: (font: \"Arial\"). The property that is changed (here “font”) is followed by a colon and a value specifying what it should be changed to.\nThe second part, called a Hook, indicates the text that a macro acts on, surrounded by square brackets: [This text will be in Arial]\nA hook could be several lines and can include other hooks – as long as you remember to close your parentheses and brackets:\n(bg:green)[This text has a green background, (color:magenta)[but some of \nit is magenta]]\n\n(text-size: 0.5)[This text is small. (bg:green)[some of it has a green \nbackground, (color:magenta)[and some of it is also magenta]]]\nTo include two macros that apply to the same passage, use a + between them:\n(color:green)+(font:\"courier\")[This text has two macros applied]\nYou can even use a macro to apply to the rest of a passage by using an open bracket and an equals sign:\n(color:cyan)[=\n    The rest of the passage will be cyan\nThe most complete guide to this is in the Harlowe Documentation, but you can also find many helpful examples in the Twine Cookbook.",
     "crumbs": [
       "Home",
       "Twine",
-      "Twine Basics"
+      "Customizing Play in Twine"
     ]
   },
   {
-    "objectID": "sections/twine-basics.html#about-twine",
-    "href": "sections/twine-basics.html#about-twine",
-    "title": "Twine Basics",
+    "objectID": "sections/twine-how-to.html#macros-and-hooks",
+    "href": "sections/twine-how-to.html#macros-and-hooks",
+    "title": "Customizing Play in Twine",
     "section": "",
-    "text": "Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives\nTwine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application\nTwine is designed to emphasize interactivity (user-input, randomness, variables) and choices\n\n\n\nTwine stories can be created and edited in-browser or in the Twine desktop app. (For the purposes of this workshop we’ll be using the browser version, though they are identical.) The WYSIWYG editor interface shows the entire site as a “web” divided into linked passages. Using some simple markup, you can change the formatting and style and add interactivity such as user input, randomness, and variables. You can export your twine game as a single HTML (Hypertext Markup Language) file and play it on your computer or publish it on any web server. What’s cool about it is that most no-code website builders do not allow you to include elements of functional programming (such creating conditional statements, assigning variables, and prompting user input). This combination of style, content, and functionality usually are handled by at least three separate languages (HTML for content and structure, CSS for style, and Javascript for functionality), but here they can all be customized using simple markup.\n\n\n\nTwine has several options for “story formats” – these not only change the visual style of the game, but they also change syntax and functionality. For this workshop, we’ll be using Harlowe, the default format, which is very beginner-friendly. If you’d like to experiment with other options in the future (Chapbook, SugarCube, and Snowman), I recommend finding documentation that is specific to that format.\n\nNote: Twine games are written in a specialized markup language called Twee and can also be edited in a text editor.",
+    "text": "You can customize appearance and functionality in Twine an infinite number of ways using coding languages like HTML, CSS, and Javascript, but the Harlowe story format allows you to do many types of customizations using low-code blocks called Macros and Hooks.\nFor example, you can customize the font of a passage of text this way:\n(font: \"Arial\")[This text will be in Arial.]\nThe first part, which specifies what to change and how, is called a Macro, and is surrounded by parentheses: (font: \"Arial\"). The property that is changed (here “font”) is followed by a colon and a value specifying what it should be changed to.\nThe second part, called a Hook, indicates the text that a macro acts on, surrounded by square brackets: [This text will be in Arial]\nA hook could be several lines and can include other hooks – as long as you remember to close your parentheses and brackets:\n(bg:green)[This text has a green background, (color:magenta)[but some of \nit is magenta]]\n\n(text-size: 0.5)[This text is small. (bg:green)[some of it has a green \nbackground, (color:magenta)[and some of it is also magenta]]]\nTo include two macros that apply to the same passage, use a + between them:\n(color:green)+(font:\"courier\")[This text has two macros applied]\nYou can even use a macro to apply to the rest of a passage by using an open bracket and an equals sign:\n(color:cyan)[=\n    The rest of the passage will be cyan\nThe most complete guide to this is in the Harlowe Documentation, but you can also find many helpful examples in the Twine Cookbook.",
     "crumbs": [
       "Home",
       "Twine",
-      "Twine Basics"
+      "Customizing Play in Twine"
     ]
   },
   {
-    "objectID": "sections/twine-basics.html#getting-started",
-    "href": "sections/twine-basics.html#getting-started",
-    "title": "Twine Basics",
-    "section": "Getting started",
-    "text": "Getting started\n\nNavigate to https://twinery.org/\nClick ‘Use in your browser’\nIn the top-left corner, click + New to create a new story. Give yours a name.\n\n\nThe Twine editor\n\nThe main Twine editor has an overall “map” of your story showing all the connections between passages (currently, your story only has a single passage). The green rocket ship icon shows where the story begins.\nYou can double-click a passage to open up the WYSIWYG editor. Go ahead and add some text to your passage, and rename it using the Rename button in the passage editor.\nOn the top menu bar, click Test From Here to preview your game in a new tab.\n\n\nBasics\n\nLink to a new passage using double square brackets [[pasage name]]\nUse hash marks to create headers: # Header 1 and ## Header 2\nUse ** for **bold** and * for *italic*\nUse the WYSIWYG editor for other types of customizations\n\n\n\nVocabulary\n\nMarkup - How data is structured, displayed, and organized (general term)\nStory - A Twine project (i.e. a website, game, or book)\nPassage - A contained section of a Twine story (a page or “node” in the network)\nMacro - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses\nHook - The passage of text that a macro acts on, indicated with square brackets (font: \"Arial\")[This text will be in Arial.]\nVariable - A container for values and words that can change within the game (set: $myName to \"Alice\") Hello, $myName!\n\n\n\nTips\n\nPreview/test your work often to make sure everything works\nWhen using the browser editor, export your game every time you are finished\nCreate an outline or storyboard before you try to build complex functionality\nTo check your story format: from the story editor, select ‘Details’ and select ‘Harlowe 3.3.9’\nIf you find a cool Twine game and want to know how they did that, right click on the page and go to ‘view page source’ to view the underlying code: you will see Twee code interspersed with HTML.",
+    "objectID": "sections/twine-how-to.html#style-your-text",
+    "href": "sections/twine-how-to.html#style-your-text",
+    "title": "Customizing Play in Twine",
+    "section": "Style your text",
+    "text": "Style your text\nIn addition to customizing color, font, and size, macros can change alignment and perform many other visual transformations.\n\nColors\nTo style background color and text color, use\n(color:magenta)[This text is magenta] for the text color and (bg:green)[This text has a green background] for the background color.\nTwine supports a few colors without quotation marks – you’ll find these as options in the Editor. You can also use any of the CSS named colors by putting the name in quotation marks: (bg:\"blueviolet\"). For an even wider range of colors, you can use hexadecimal (or “hex”) colors: (text-color: #cce6ff)[This is a hex value color]. To learn more about what hex colors represent, see the W3Schools tutorial on Colors, which includes a color picker tool you can use to get a specific hex value.\n\n\nFonts\nAs you probably guessed, the ‘font’ macro lets you customize fonts within your game.\n(font:\"courier\")[Courier is a classic monospace font]\nTwine supports basic websafe fonts that are well-supported across browsers.\n\nIt is also possible to load Google Fonts following these instructions, though this requires using CSS.\n\nFont size can be customized relative to the standard using the ‘text-size’ macro:\n(text-size: 0.5)[This text is small.]\nOther types of decorations can be added using text-style macros:\n\nUnderline: (text-style:\"underline\")[Your Text Here]\nBlinking: (text-style:\"fade-in-out\")[This text blinks]\n\n\n\nRotation and alignment\nYou will notice that many of these customizations are available in the passage menu, including text rotation, which you can do along multiple axes: (text-rotate-z:90)[This text is rotated 90 degrees]\nTo customize alignment, I recommend using the alignment icon.\n(align:\"=&gt;&lt;=\")+(box:\"X\")[This text is centered]\n\n\nEnchant\nYou can also style the entire page using “enchant” macros:\n(enchant:?page,(bg:lime))\nThe (enchant: ) macro can be used as well for every instance of a particular word or character. To learn more, see the Harlowe documentation on enchant.",
     "crumbs": [
       "Home",
       "Twine",
-      "Twine Basics"
+      "Customizing Play in Twine"
     ]
   },
   {
-    "objectID": "sections/twine-basics.html#your-turn",
-    "href": "sections/twine-basics.html#your-turn",
-    "title": "Twine Basics",
-    "section": "Your turn!",
-    "text": "Your turn!\n\nStart by creating at least 3 passages. Practice creating links between them.\nTest out your game to see how it looks.\nExplore the editor interface options to try out more complex stuff.",
+    "objectID": "sections/twine-how-to.html#functionality",
+    "href": "sections/twine-how-to.html#functionality",
+    "title": "Customizing Play in Twine",
+    "section": "Functionality",
+    "text": "Functionality\nTo make your game fully interactive, macros can be useful for transforming the content and narrative flow of your page and giving the user opportunites to make choices and provide input.\n\nHide and show content\nTo create a sense of movement and animation, you can use macros to delay when text displays: (after:1s)[Wait one second before displaying this]\nYou can also replace one bit of text with another bit by using the link macro, which reveals a hidden hook when the indicated text is clicked.: (link:\"Click me to reveal\")[This text is revealed]\nOf course, because hooks can be nested in other hooks, you can also pair the link macro with the enchant macro to transform the whole page. (link:\"Your face is turning red\")[(enchant:?page, (color:red))]\nUsing the ‘show’ macro, you can display another passage within a passage: (show:\"passage\")\nSo far we have talked about passages as units of content, but they are also units of code or design that can be used to reuse modular pieces of your game – what in other programming languages would be called a function. The ‘show’ macro is the best way to include content that you want to repeat without having to write it all again.\nThe ‘go-to’ macro will take the user directly to another passage: (go-to:\"passage\")\nYou can create a passage that unveils slowly by embedding choices within choices:\nYou are going down (link: \"a passageway\")[an extremely long passageway]\nDo you want to turn left?\n(link:\"yes, let's turn left\")[You turn left and the hallway goes on (link:\"forever\")[for what feels like forever]\nNext you have the option to go (link:\"right\")[right, \nwhich you take, and then you find yourself at another (link: \"fork\")[fork. \nDo you go left or right?\n(link:\"Left\")[You've reached a dead end.]\n(link:\"Right\")[You've reached your destination!]]]]\nYou can also create a pop-up that will display before page content: (dialog:[Welcome to my game!],\"OK\")\n\n\nVariety and randomness\n\nUse ‘either’ to randomly select a value from a list: The sky is (either:\"blue\", \"pink\", \"orange\", \"green\")\nUse ‘random’ to generate random numbers: Rolling six-sided die: (random: 1,6)\n\n\n\nSet and change variables\nAs in math and other programming languages, a variable is a container that can hold values, including text, numbers, and more. Variable names are indicated with a $ before the name, such as: $score.\nTo create a variable named $name and set the value to “Alice”, use : (set: $name to \"Alice\")\nYou can later display that variable by typing its name within your text: Hello, $name\nVariables can also hold numbers: (set: $score to 1)\nThe set macro can also be used to transform variable values like this: (set: $score to it + 1) – here the value of score is increased by 1.\n\n\nUser input\nYou can have your user select or type in information that will be stored as a variable. In this case, I recommend using the visual editor:\n\nFind the (Macro:) dropdown menu and select Input...\nUse the selection panel to customize the placement, width, variable name, and more\nYou can also offer a dialog box, check box, or dropdown menu\n\nUser input examples\nGet user input and store it in a variable:\nWhat is your name? (input-box:2bind $name,\"XXXXXXXXX=\")\nTo use the variable on the same passage, use a prompt (dialog box) for this:\n(set: $name to (prompt: [What's your name?], \"Name\"))\nYou can also create a dropdown menu or checkbox with options (dropdown: 2bind $choices,\"First\",\"Second\",\"Third\")\n\n\nUse conditionals\nConditional syntax can use variables to introduce game-like elements,\n(if: $score &gt; 10)[You win!!]\n(else:)[You lose.]\n(if: $door is \"locked\")[Sorry, the door is locked]\n(else:)[(go-to:\"door\")]\n\n\nNavigation\nTo include some text or code on every page, create a passage and give it the “header” tag. It will automatically appear at the beginning of each passage. You can also use the “footer” tag to put it at the end of each passage.\nBecause Twine is designed for games, there isn’t much built-in navigation. It can be helpful to use a header or footer to link to a page with more navigation links or guides if a player gets lost.\n\n\nVocabulary\n\nMacro - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses\nHook - The passage of text that a macro acts on, indicated with square brackets (font: \"Arial\")[This text will be in Arial.]\nVariable - A container for values and words that can change within the game (set: $myName to \"Alice\") Hello, $myName!",
     "crumbs": [
       "Home",
       "Twine",
-      "Twine Basics"
+      "Customizing Play in Twine"
     ]
+  },
+  {
+    "objectID": "sections/twine-how-to.html#your-turn",
+    "href": "sections/twine-how-to.html#your-turn",
+    "title": "Customizing Play in Twine",
+    "section": "Your turn",
+    "text": "Your turn\n\nPractice adding hooks and macros to your game",
+    "crumbs": [
+      "Home",
+      "Twine",
+      "Customizing Play in Twine"
+    ]
+  },
+  {
+    "objectID": "sections/twine-resources.html",
+    "href": "sections/twine-resources.html",
+    "title": "Twine Resources",
+    "section": "",
+    "text": "Colors: W3 schools named colors list\nWeb-safe fonts: W3 schools fonts\n\n\n\n\nNB: If you are using a tutorial, make sure you know which story format it describes because syntax can be quite different. My guides refer to Harlowe.\n\nTwine Cookbook\nHarlowe documentation - this is the standard story format\nTwine and Interactive Fiction Handbook (slides)\nProgramming Historian: Interactive Text Games Using Twine\nA Total Beginner’s Guide to Twine 2.1 (videos)\n\n\n\n\n\n\n\nDigital Scholarship Adventure Game (live) - an educational game to learn about digital scholarship services at Bryn Mawr\nCritters (live) - a short and goofy game for this workshop\nTwee code for both games is available on the GitHub for this workshop\n\nTo view the code, click on either file (e.g. “Critters.twee”)\nTo download, use the download icon\nYou can import the Twee code into Twine to see what it looks like in the editor\n\nLife of Pasha - A day in the life of Pasha, the betta fish (by Cameron Boucher)\n\n\n\n\n\nSeptember 7th, 2020 by Cait S. Kirby\nDepression Quest by Zoe Quinn\nDead Reference and Bot or Not by Sam Illingworth\nFirst Day in the Office by Gabi Kirilloff\nTyping Challenge by Daniel Linssen\nOpen Sorcery and its sequel Open Sorcery Sea++ by Abigail Corfman\n16 Ways to Kill a Vampire at McDonalds by Abigail Corfman\nQueers in Love at the End of the World by Anna Anthropy\nExplore many more on itch.io: Twine games on itch.io",
+    "crumbs": [
+      "Home",
+      "Twine",
+      "Twine Resources"
+    ]
+  },
+  {
+    "objectID": "sections/twine-resources.html#general-resources",
+    "href": "sections/twine-resources.html#general-resources",
+    "title": "Twine Resources",
+    "section": "",
+    "text": "Colors: W3 schools named colors list\nWeb-safe fonts: W3 schools fonts\n\n\n\n\nNB: If you are using a tutorial, make sure you know which story format it describes because syntax can be quite different. My guides refer to Harlowe.\n\nTwine Cookbook\nHarlowe documentation - this is the standard story format\nTwine and Interactive Fiction Handbook (slides)\nProgramming Historian: Interactive Text Games Using Twine\nA Total Beginner’s Guide to Twine 2.1 (videos)\n\n\n\n\n\n\n\nDigital Scholarship Adventure Game (live) - an educational game to learn about digital scholarship services at Bryn Mawr\nCritters (live) - a short and goofy game for this workshop\nTwee code for both games is available on the GitHub for this workshop\n\nTo view the code, click on either file (e.g. “Critters.twee”)\nTo download, use the download icon\nYou can import the Twee code into Twine to see what it looks like in the editor\n\nLife of Pasha - A day in the life of Pasha, the betta fish (by Cameron Boucher)\n\n\n\n\n\nSeptember 7th, 2020 by Cait S. Kirby\nDepression Quest by Zoe Quinn\nDead Reference and Bot or Not by Sam Illingworth\nFirst Day in the Office by Gabi Kirilloff\nTyping Challenge by Daniel Linssen\nOpen Sorcery and its sequel Open Sorcery Sea++ by Abigail Corfman\n16 Ways to Kill a Vampire at McDonalds by Abigail Corfman\nQueers in Love at the End of the World by Anna Anthropy\nExplore many more on itch.io: Twine games on itch.io",
+    "crumbs": [
+      "Home",
+      "Twine",
+      "Twine Resources"
+    ]
+  },
+  {
+    "objectID": "sections/vocabulary.html",
+    "href": "sections/vocabulary.html",
+    "title": "Vocabulary",
+    "section": "",
+    "text": "Markup - How data is structured, displayed, and organized (general term)\nStory - A Twine project (i.e. a website, game, or book)\nPassage - A contained section of a Twine story (a page or “node” in the network)\nMacro - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses (font: \"Arial\")\nHook - The passage of text that a macro acts on, indicated with square brackets [This text will be in Arial]\n(font: \"Arial\")[This text will be in Arial.] - Variable - A container for values and words that can change within the game (set: $myName to \"Alice\") Hello, $myName!"
+  },
+  {
+    "objectID": "sections/vocabulary.html#cheat-sheet",
+    "href": "sections/vocabulary.html#cheat-sheet",
+    "title": "Vocabulary",
+    "section": "Cheat sheet",
+    "text": "Cheat sheet\n\nLink to a new passage using double square brackets [[pasage name]]\nIf you want to display text other than the passage name: [[continue your adventure|passage name]]\nUse hash marks to create headers: # Header 1 and ## Header 2\nUse ** for **bold** and * for *italic*\n\n(text-style:\"fade-in-out\")[This text blinks]\n(color:magenta)[This text is magenta]\n(text-rotate-z:90)[This text is rotated 90 degrees]\n(bg:green)[This text has a green background]\n(font:\"courier\")[This text uses a different font]\n(text-size:0.5)[This text is smaller than other text]\n(align:\"=&gt;&lt;=\")+(box:\"X\")[This text is centered]"
+  },
+  {
+    "objectID": "sections/vocabulary.html#advanced",
+    "href": "sections/vocabulary.html#advanced",
+    "title": "Vocabulary",
+    "section": "Advanced",
+    "text": "Advanced"
   },
   {
     "objectID": "sections/storyboarding.html",
