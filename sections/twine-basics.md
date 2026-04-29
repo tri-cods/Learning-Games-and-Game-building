@@ -3,6 +3,7 @@ title: "Twine Basics"
 ---
 
 ## About Twine
+
 - Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives
 - Twine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application
 - Twine is designed to emphasize interactivity (user-input, randomness, variables) and choices
@@ -17,7 +18,9 @@ Twine stories can be created and edited in-browser or in the Twine desktop app. 
 
 Twine has several options for "story formats" -- these not only change the visual style of the game, but they also change syntax and functionality. For this workshop, we'll be using [**Harlowe**](https://twine2.neocities.org/), the default format, which is very beginner-friendly. If you'd like to experiment with other options in the future (Chapbook, SugarCube, and Snowman), I recommend finding documentation that is specific to that format.
 
-> Note: Twine games are written in a specialized markup language called [Twee](https://twinery.org/cookbook/terms/terms_twee.html) and can also be edited in a text editor. 
+::: {.callout-note}
+Twine games are written in a specialized markup language called [Twee](https://twinery.org/cookbook/terms/terms_twee.html) and can also be edited in a text editor. 
+:::
 
 ## Getting started
 

@@ -4,17 +4,17 @@ title: Customizing Play in Twine
 
 ## Macros and Hooks
 
-You can customize appearance and functionality in Twine an infinite number of ways using coding languages like HTML, CSS, and Javascript, but the Harlowe story format allows you to do many types of customizations using low-code blocks called **Macros** and **Hooks**.
+You can customize appearance and functionality in Twine an infinite number of ways using coding languages like HTML, CSS, and Javascript, but the Harlowe story format allows you to do many types of customizations using low-code blocks called **Macros** and **Hooks**. 
 
-For example, you can customize the font of a passage of text this way:
+Here's an example:
 
 `(font: "Arial")[This text will be in Arial.]`
 
-The first part, which specifies what to change and how, is called a **Macro**, and is surrounded by parentheses: `(font: "Arial")`. The property that is changed (here "font") is followed by a colon and a value specifying what it should be changed to.
+- The first part is called a **Macro**: `(font: "Arial")`. It specifies what to change -- here it indicates a property (font) and the value to change it to ("Arial") after a colon. It is contained in parentheses.
 
-The second part, called a *Hook*, indicates the text that a macro acts on, surrounded by square brackets: `[This text will be in Arial]`
+- The second part, called a **Hook**, is the content that a macro acts on, surrounded by square brackets: `[This text will be in Arial]`. 
 
-A hook could be several lines and can include other hooks -- as long as you remember to close your parentheses and brackets:
+A hook is a unit of text and code that is usually smaller than a passage, but could be several lines. A hook can have multiple macros and hooks nested inside it (just remember to close your parentheses and brackets). 
 
 ```html
 (bg:green)[This text has a green background, (color:magenta)[but some of 
@@ -23,13 +23,6 @@ it is magenta]]
 (text-size: 0.5)[This text is small. (bg:green)[some of it has a green 
 background, (color:magenta)[and some of it is also magenta]]]
 ```
-
-To include two macros that apply to the same passage, use a `+` between them:
-
-```markdown
-(color:green)+(font:"courier")[This text has two macros applied]
-```
-
 You can even use a macro to apply to the rest of a passage by using an open bracket and an equals sign:
 
 ```markdown
@@ -37,25 +30,37 @@ You can even use a macro to apply to the rest of a passage by using an open brac
     The rest of the passage will be cyan
 ```
 
-The most complete guide to this is in the [Harlowe Documentation](https://twine2.neocities.org/), but you can also find many helpful examples in the [Twine Cookbook](https://twinery.org/cookbook/).
+To apply multiple macros to the same hook, use a `+` between them:
+
+```markdown
+(color:green)+(font:"courier")[This text has two macros applied]
+```
+
+We will go over a few of the more common types of macros below, but there are many, many more possibilities. You can find many helpful examples in the [Twine Cookbook](https://twinery.org/cookbook/), though the most complete guide is in the [Harlowe Documentation](https://twine2.neocities.org/), but
 
 ## Style your text
 
-In addition to customizing color, font, and size, macros can change alignment and perform many other visual transformations.
+Macros are the easiest way to customize color, font, size, alignment, and many other forms of visual style.
 
 ### Colors
 
-To style background color and text color, use 
+To customize colors, use `(color:)` to change text color and `(bg:)` for background color.
 
-`(color:magenta)[This text is magenta]` for the text color and `(bg:green)[This text has a green background]` for the background color.
+- `(color:magenta)[This text is magenta]`
 
-Twine supports a few colors without quotation marks -- you'll find these as options in the Editor. You can also use any of the [CSS named colors](https://www.w3schools.com/cssref/css_colors.php) by putting the name in quotation marks: `(bg:"blueviolet")`. For an even wider range of colors, you can use hexadecimal (or "hex") colors:  `(text-color: #cce6ff)[This is a hex value color]`. To learn more about what hex colors represent, see the [W3Schools tutorial on Colors](https://www.w3schools.com/colors/default.asp), which includes a [color picker tool](https://www.w3schools.com/colors/colors_picker.asp) you can use to get a specific hex value.
+- `(bg:green)[This text has a green background]`
 
-### Fonts
+Twine supports a few colors without quotation marks -- you'll find these as options in the Editor. You can also use any of the [CSS named colors](https://www.w3schools.com/cssref/css_colors.php) by putting the name in quotation marks: `(bg:"blueviolet")`. 
+
+For an even wider range of colors, you can use hexadecimal (or "hex") colors. To learn more about what hex colors represent, see the [W3Schools tutorial on Colors](https://www.w3schools.com/colors/default.asp), which includes a [color picker tool](https://www.w3schools.com/colors/colors_picker.asp) you can use to get a specific hex value.
+
+- `(text-color: #cce6ff)[This is a hex value color]`. 
+
+### Typography
 
 As you probably guessed, the 'font' macro lets you customize fonts within your game.
 
-`(font:"courier")[Courier is a classic monospace font]`
+- `(font:"courier")[Courier is a classic monospace font]`
 
 Twine supports basic [websafe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.php) that are well-supported across browsers. 
 
@@ -63,7 +68,7 @@ Twine supports basic [websafe fonts](https://www.w3schools.com/cssref/css_websaf
 
 Font size can be customized relative to the standard using the 'text-size' macro:
 
-`(text-size: 0.5)[This text is small.]`
+- `(text-size: 0.5)[This text is small.]`
 
 Other types of decorations can be added using text-style macros:
 
@@ -186,15 +191,13 @@ To include some text or code on every page, create a passage and give it the "he
 
 Because Twine is designed for games, there isn't much built-in navigation. It can be helpful to use a header or footer to link to a page with more navigation links or guides if a player gets lost.
 
-
+:::{.callout-note}
 ### Vocabulary
-
-- **Macro** - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses
-- **Hook** - The passage of text that a macro acts on, indicated with square brackets
-`(font: "Arial")[This text will be in Arial.]`
-- **Variable** - A container for values and words that can change within the game
-`(set: $myName to "Alice") Hello, $myName!`  
+- **Macro** - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses: `(font: "Arial")`
+- **Hook** - The passage of text that a macro acts on, indicated with square brackets: `[This text will be in Arial]`
+:::
 
 ## Your turn
 
-- Practice adding hooks and macros to your game
+- Practice adding hooks and macros to your game to style your text
+- Introduce variety, randomness, and variables

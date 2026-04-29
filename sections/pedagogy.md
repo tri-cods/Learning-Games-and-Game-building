@@ -4,8 +4,6 @@ title: Using Games Pedagogically
 
 ## Why games?
 
-Games are fun and engaging, they can provide avenues for simulation, empathy, and more
-
 There are many reasons why games--video games, board games, role-playing games, etc.--can be useful for pedagogy:
 
 - They can activate emotional and cognitive rewards through play
@@ -14,6 +12,11 @@ There are many reasons why games--video games, board games, role-playing games, 
 - They may provide complex and rich forms of context for new information
 - They can provide a fun and low-stakes way to test knowledge or practice skills
 
+By enacting "play" 
+
+## Things to consider
+- Games do not have universal appeal
+- Not everything should be gamified
 
 ## Why Twine?
 
