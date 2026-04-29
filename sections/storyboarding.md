@@ -44,5 +44,8 @@ Before you jump into editing a Twine story, it can be helpful to create a storyb
 At this point, it is helpful to have an understanding of how Twine works and what the editor interface looks like. See [Twine Basics](twine-basics.md) for an introduction. 
 :::
 
-
 Passages are the building blocks of Twine stories and can also be thought of as scenes or rooms. Players navigate between passages using links and other interactive elements.
+
+---
+
+It's possible that your finished story will not resemble your initial storyboard or map. While you are developing and testing the story, you will see what works and what does not. You might also implement features in phases, starting with the most basic functionality, then working up to more advanced features. Game design is an iterative process! You might create a game, test it, maybe even use it in a class, then come back later to make tweaks or add new features.
