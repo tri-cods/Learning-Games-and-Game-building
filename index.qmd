@@ -13,8 +13,8 @@ At the end of this workshop, you will be able to
 - Understand why and how games can enhance your teaching and research
 - Identify a few key principles of game design
 - Storyboard and plan a game
-- Use the Twine editor
-- Create and publish your own interactive text-based game in [Twine](https://twinery.org/)
+- Use the Twine editor to build interactive content
+- Publish your own text-based game in [Twine](https://twinery.org/)
 
 ### Readings
 
@@ -23,9 +23,6 @@ At the end of this workshop, you will be able to
 
 <!--
 ### Ethical considerations 
-
-### Resources
-
 -->
 
 ### Projects
