@@ -13,8 +13,8 @@ At the end of this workshop, you will be able to
 - Understand why and how games can enhance your teaching and research
 - Identify a few key principles of game design
 - Storyboard and plan a game
-- Use the Twine editor
-- Create and publish your own interactive text-based game in [Twine](https://twinery.org/)
+- Use the Twine editor to build interactive content
+- Publish your own text-based game in [Twine](https://twinery.org/)
 
 ### Readings
 
@@ -23,9 +23,6 @@ At the end of this workshop, you will be able to
 
 <!--
 ### Ethical considerations 
-
-### Resources
-
 -->
 
 ### Projects
@@ -37,11 +34,19 @@ At the end of this workshop, you will be able to
 
 ## Workshop overview
 
-1. Why games and why Twine
+1. Introduction
 2. Principles of game design
 3. Planning your interactive narrative
 4. The Twine editor
 5. Supported work time
+
+## Resources
+
+- [Digital Pedagogy in the Humanities](https://digitalpedagogy.hcommons.org/) includes useful teaching resources on both [Gaming](https://digitalpedagogy.hcommons.org/keyword/Gaming) (curated by Amanda Phillips) and [Play](https://digitalpedagogy.hcommons.org/keyword/play/) (curated by Mark Sample)
+
+- The CUNY Games Network's [essential readings in game scholarship](https://games.commons.gc.cuny.edu/games-scholarship/essential-readings/) - a bibliography on game-based learning.
+
+- [Tools and resources for making games](https://docs.google.com/document/d/1vIRlYDjwK7E8XufV5Cr0gYtmAvd0gWRORHF23JX28Ek/edit?tab=t.0) - a crowd-sourced list of game building platforms and software.
 
 ---
 
