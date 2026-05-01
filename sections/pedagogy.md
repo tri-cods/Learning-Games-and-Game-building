@@ -23,13 +23,9 @@ There are many reasons why games--video games, board games, role-playing games, 
 
 ## Why Twine?
 
-While there are many types of games that can be used in a research or teaching context and many tools that can be useful for building games, this workshop will focus on creating interactive fiction and text-based games as a case study.
-
-### About [Twine](https://twinery.org/)
-
 ![](/media/twine-logo.png){width=100 fig-align="left" fig-alt="Twine logo"}
 
-[**Twine**](https://twinery.org/) is an open-source tool for creating hypertext narratives, interactive fiction, text-based games and more. Twine's aesthetic and functionality echo 1990s-era "hypertext" fiction and early web experimentation: each site (called a "Story") is a network with interconnected nodes. While all websites are hypertext, Twine is designed to highlight choices, so instead of an open navigation system, each bit of context in Twine is built intentionally by hyperlinks that can be followed backwards and forwards and read in any order.
+While there are many types of games that can be used in a research or teaching context and many tools that can be useful for building games, this workshop will focus on creating interactive fiction and text-based games as a case study using an open-source tool called [**Twine**](https://twinery.org/), which can be used to create text-based games and interactive fiction. Twine's aesthetic and functionality echo 1990s-era "hypertext" fiction and early web experimentation: each site (called a "Story") is a network with interconnected nodes. While all websites are hypertext, Twine is designed to highlight choices, so instead of an open navigation system, each bit of context in Twine is built intentionally by hyperlinks that can be followed backwards and forwards and read in any order. The Twine editor enables users to customize the style and functionality of their story without coding knowledege. Twine games are easy to export and host as a simple website.
 
 <!-- It is a helpful tool for demonstrating several digital competency areas -->
 
