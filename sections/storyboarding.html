@@ -224,8 +224,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#how-will-you-design-the-game-to-meet-that-goal" id="toc-how-will-you-design-the-game-to-meet-that-goal" class="nav-link" data-scroll-target="#how-will-you-design-the-game-to-meet-that-goal">2. How will you design the game to meet that goal?</a></li>
   <li><a href="#what-is-the-players-goal" id="toc-what-is-the-players-goal" class="nav-link" data-scroll-target="#what-is-the-players-goal">3. What is the player’s goal?</a></li>
   <li><a href="#how-will-the-game-end" id="toc-how-will-the-game-end" class="nav-link" data-scroll-target="#how-will-the-game-end">4. How will the game end?</a></li>
+  <li><a href="#your-turn" id="toc-your-turn" class="nav-link" data-scroll-target="#your-turn">Your turn!</a></li>
   </ul></li>
-  <li><a href="#storyboarding" id="toc-storyboarding" class="nav-link" data-scroll-target="#storyboarding">Storyboarding</a></li>
+  <li><a href="#passages-and-storyboarding" id="toc-passages-and-storyboarding" class="nav-link" data-scroll-target="#passages-and-storyboarding">Passages and Storyboarding</a>
+  <ul class="collapse">
+  <li><a href="#your-turn-1" id="toc-your-turn-1" class="nav-link" data-scroll-target="#your-turn-1">Your turn!</a></li>
+  </ul></li>
+  <li><a href="#testing-and-iteration" id="toc-testing-and-iteration" class="nav-link" data-scroll-target="#testing-and-iteration">Testing and Iteration</a></li>
   </ul>
 </nav>
     </div>
@@ -299,26 +304,52 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
+<section id="your-turn" class="level3">
+<h3 class="anchored" data-anchor-id="your-turn">Your turn!</h3>
+<ol type="1">
+<li>Finish the sentence: “I plan to create a simple game where players learn about…”</li>
+<li>Take five minutes to answer questions 1-4 from above.</li>
+</ol>
 </section>
-<section id="storyboarding" class="level2">
-<h2 class="anchored" data-anchor-id="storyboarding">Storyboarding</h2>
-<p>Before you jump into editing a Twine story, it can be helpful to create a storyboard or map to help visualize how a user will navigate through the story. This can be done with a pencil and paper, on a digital whiteboard, or in Twine itself.</p>
+</section>
+<section id="passages-and-storyboarding" class="level2">
+<h2 class="anchored" data-anchor-id="passages-and-storyboarding">Passages and Storyboarding</h2>
+<p><strong>Passages</strong> are the building blocks of Twine stories. They contain text and interactive elements, and players navigate between them using links. Passages can also be thought of as “scenes” or “rooms.” For example, a passage might function as a scene in a narrative where the player can make choices that determine what happens in this scene or which scene comes next. Alternatively, each passage could represent a room in a house, each one containing items that can be interacted with, and each door is a link to adjacent rooms.</p>
+<p>Before you sit down to write individual passages, it is a good idea to map out the structure and flow of the story. You might create a storyboard or map to help you visualize what passages will exist and how a player will navigate through them as they interact with the story. This can be done with a pencil and paper, on a digital whiteboard, or in Twine itself. In the Twine editor, passages resemble tiles or “sticky notes” connected with arrows that represent links between them, allowing you to visualize the flow between passages. If you choose to plan the structure of your story outside of the Twine editor, it can be helpful to emulate this visual language. Consider using a pencil and paper or index cards to draw or map out the passages in your story, then draw the connections and flow between them.</p>
+<section id="your-turn-1" class="level3">
+<h3 class="anchored" data-anchor-id="your-turn-1">Your turn!</h3>
+<ol type="1">
+<li>Think of the role of passages in your story/game. Will each passage represent a scene in a narrative, a room or location the player can explore, or something else?
+<ul>
+<li>If scenes, how might the player’s choices in one scene affect the availability of later scenes?</li>
+<li>If rooms, can the player move between the rooms freely in both directions, or can the player never go back once they’ve left somewhere? Are some rooms locked until the player finds a key in a different room?</li>
+</ul></li>
+<li>Use index cards to represent the individual passages in your story. On each passage’s card, make notes about what exists or happens in that passage and how it leads to other passages.</li>
+<li>Arrange the cards to represent the flow between passages.</li>
+</ol>
+</section>
+</section>
+<section id="testing-and-iteration" class="level2">
+<h2 class="anchored" data-anchor-id="testing-and-iteration">Testing and Iteration</h2>
+<p>As you develop your story, remember to test it as you go. Twine lets you view a preview of and test your story, beginning from any passage. Click “Test From Here” on any passage to quickly preview the passage. Test often to ensure that the links and other interactive elements are behaving as intended.</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+<span class="screen-reader-only">Note</span>A note on “Test From Here” and variables
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>At this point, it is helpful to have an understanding of how Twine works and what the editor interface looks like. See <a href="../sections/twine-basics.html">Twine Basics</a> for an introduction.</p>
+<p>If your story uses variables, selecting “Test From Here” on a passage that comes after one where a variable is set might produce behavior that would not happen during normal gameplay. For example, you might set a variable in the very first passage that is then used in a passage that the player navigates to later on. If you click “Test From Here” on the later passage, the variable will be empty because, in this testing session, you have not yet navigated to the passage where it would normally be set.</p>
 </div>
 </div>
-<p>Passages are the building blocks of Twine stories and can also be thought of as scenes or rooms. Players navigate between passages using links and other interactive elements.</p>
-<hr>
-<p>It’s possible that your finished story will not resemble your initial storyboard or map. While you are developing and testing the story, you will see what works and what does not. You might also implement features in phases, starting with the most basic functionality, then working up to more advanced features. Game design is an iterative process! You might create a game, test it, maybe even use it in a class, then come back later to make tweaks or add new features.</p>
+</div>
+<p>You should also test the story thoroughly when you get to a stopping point. Play through your whole story from the beginning, try out all of the choices and their combinations, and test different kinds of input. See if anything breaks or does not work as intended. You can also ask others to help test your story. Have them provide feedback on the experience of playing the game and take note if they encounter bugs or other problems.</p>
+<p>It’s possible that your finished story will not resemble your initial storyboard or map. While you are developing and testing the story, you will see what works and what does not. You might also implement features in phases, starting with the most basic functionality, then working up to more advanced features. Game design is an iterative process! You might create a game, test it, maybe even use it in a class, then come back later to make tweaks or add new features. Each time you iterate on the game, revisit your plan, and consider what updates you can make that serve to further your pedagogical goal or expand and improve upon the game.</p>
 
 
 </section>
