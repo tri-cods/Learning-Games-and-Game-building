@@ -14,13 +14,13 @@ website:
     search: true
     contents:
       - text: "Introduction"
-        href: index.qmd
-      - section: "Context"
         contents:
+          - text: "Overview"
+            href: index.qmd
           - sections/pedagogy.md
-      - section: "Game design"
-        href: sections/design.md
+      - section: "Planning"
         contents:
+          - sections/design.md
           - sections/storyboarding.md
       - section: "Twine"
         contents:
