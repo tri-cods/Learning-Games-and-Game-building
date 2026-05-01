@@ -114,6 +114,7 @@ So far we have talked about passages as units of content, but they are also unit
 
 The 'go-to' macro will take the user directly to another passage: `(go-to:"passage")`
 
+
 You can create a passage that unveils slowly by embedding choices within choices:
 
 ```markdown

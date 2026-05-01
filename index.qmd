@@ -31,6 +31,14 @@ At the end of this workshop, you will be able to
 - [Bot or Not: A Slow AI Game](https://samillingworth.itch.io/bot-or-not), a text-based Twine game designed to teach AI literacy
 - [Never Alone](https://www.neveralonegame.com/), an Inupiaq storytelling game 
 
+## Resources
+
+- [Digital Pedagogy in the Humanities](https://digitalpedagogy.hcommons.org/) includes useful teaching resources on both [Gaming](https://digitalpedagogy.hcommons.org/keyword/Gaming) (curated by Amanda Phillips) and [Play](https://digitalpedagogy.hcommons.org/keyword/play/) (curated by Mark Sample)
+
+- The CUNY Games Network's [essential readings in game scholarship](https://games.commons.gc.cuny.edu/games-scholarship/essential-readings/) - a bibliography on game-based learning.
+
+- [Tools and resources for making games](https://docs.google.com/document/d/1vIRlYDjwK7E8XufV5Cr0gYtmAvd0gWRORHF23JX28Ek/edit?tab=t.0) - a crowd-sourced list of game building platforms and software.
+
 
 ## Workshop overview
 
@@ -39,14 +47,6 @@ At the end of this workshop, you will be able to
 3. Planning your interactive narrative
 4. The Twine editor
 5. Supported work time
-
-## Resources
-
-- [Digital Pedagogy in the Humanities](https://digitalpedagogy.hcommons.org/) includes useful teaching resources on both [Gaming](https://digitalpedagogy.hcommons.org/keyword/Gaming) (curated by Amanda Phillips) and [Play](https://digitalpedagogy.hcommons.org/keyword/play/) (curated by Mark Sample)
-
-- The CUNY Games Network's [essential readings in game scholarship](https://games.commons.gc.cuny.edu/games-scholarship/essential-readings/) - a bibliography on game-based learning.
-
-- [Tools and resources for making games](https://docs.google.com/document/d/1vIRlYDjwK7E8XufV5Cr0gYtmAvd0gWRORHF23JX28Ek/edit?tab=t.0) - a crowd-sourced list of game building platforms and software.
 
 ---
 
