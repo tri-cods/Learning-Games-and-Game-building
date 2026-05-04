@@ -1,1 +1,12 @@
 /* css styles */
+/* span.nav-page-text {
+    color: white;
+} */
+
+.nav-page a {
+    color: rgb(173, 173, 173);
+}
+
+.quarto-title-breadcrumbs .breadcrumb li:last-of-type a {
+	color: #00FFBF;
+}
