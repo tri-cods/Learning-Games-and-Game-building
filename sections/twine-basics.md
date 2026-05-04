@@ -2,6 +2,9 @@
 title: "Twine Basics"
 ---
 
+![](/media/twine-logo.png){width=100 fig-align="left" fig-alt="Twine logo"}
+
+
 ## About Twine
 
 - Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives
