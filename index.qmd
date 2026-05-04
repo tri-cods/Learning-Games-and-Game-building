@@ -16,28 +16,33 @@ At the end of this workshop, you will be able to
 - Use the Twine editor to build interactive content
 - Publish your own text-based game in [Twine](https://twinery.org/)
 
+## Resources
+
 ### Readings
 
-- James Coltrain and Stephen Ramsay's ["Can Video Games Be Humanities Scholarship"](https://dhdebates.gc.cuny.edu/read/4805e692-0823-4073-b431-5a684250a82d/section/10c2899a-d78c-40d2-b293-f828d3a1b3e9#en37) offers an overview of how to think about games as research outputs.
-- In [*Playful Pedagogy in the Pandemic: Pivoting to Game-Based Learning*](https://www.taylorfrancis.com/chapters/mono/10.4324/9781003281696-1/introduction-emily-johnson-anastasia-salter?context=ubx&refId=182a03a2-15a4-4eb4-a1ce-4831e430663b), Emily K. Johnson and Anastasia Salter explore game-based learning as a mode that has new relevance and potential in the post-pandemic landscape. 
+- James Coltrain and Stephen Ramsay's ["Can Video Games Be Humanities Scholarship"](https://dhdebates.gc.cuny.edu/read/4805e692-0823-4073-b431-5a684250a82d/section/10c2899a-d78c-40d2-b293-f828d3a1b3e9#en37) offers an overview of how to think about games as research outputs (*Debates in the Digital Humanities*, U Minnesota Press, 2019).
 
-<!--
-### Ethical considerations 
--->
+- In [*Playful Pedagogy in the Pandemic: Pivoting to Game-Based Learning*](https://www.taylorfrancis.com/chapters/mono/10.4324/9781003281696-1/introduction-emily-johnson-anastasia-salter?context=ubx&refId=182a03a2-15a4-4eb4-a1ce-4831e430663b) (Taylor and Francis, 2022), Emily K. Johnson and Anastasia Salter explore game-based learning as a mode that has new relevance and potential in the post-pandemic landscape. 
+
+- Rachel Hoke and James Risk's recently published [“Rewriting the Rules: Game-Based Learning for Affective and Cognitive Student Engagement in an Undergraduate History Course”](https://journals.uu.se/IJRP/article/view/594) provides a recent evaluation of role-playing game use in the classroom (*International Journal of Role-Playing*, no. 17, Mar. 2026, pp. 22–41).
+
+- The CUNY Games Network has put together a [list of essential readings in game scholarship](https://games.commons.gc.cuny.edu/games-scholarship/essential-readings/).
 
 ### Projects
 
 - [1979 Revolution: Black Friday](https://1979revolutiongame.com/), a video game about the Iranian revolution
-- [Bot or Not: A Slow AI Game](https://samillingworth.itch.io/bot-or-not), a text-based Twine game designed to teach AI literacy
-- [Never Alone](https://www.neveralonegame.com/), an Inupiaq storytelling game 
 
-## Resources
+- [Bot or Not: A Slow AI Game](https://samillingworth.itch.io/bot-or-not), a text-based Twine game designed to teach AI literacy
+
+- [Never Alone](https://www.neveralonegame.com/), an Inupiaq storytelling game
+
+- [CSS Diner](https://flukeout.github.io/), a game that teaches how to use selectors for Cascading Stylesheets (CSS)
+
+### Tools and examples
 
 - [Digital Pedagogy in the Humanities](https://digitalpedagogy.hcommons.org/) includes useful teaching resources on both [Gaming](https://digitalpedagogy.hcommons.org/keyword/Gaming) (curated by Amanda Phillips) and [Play](https://digitalpedagogy.hcommons.org/keyword/play/) (curated by Mark Sample)
 
-- The CUNY Games Network's [essential readings in game scholarship](https://games.commons.gc.cuny.edu/games-scholarship/essential-readings/) - a bibliography on game-based learning.
-
-- [Tools and resources for making games](https://docs.google.com/document/d/1vIRlYDjwK7E8XufV5Cr0gYtmAvd0gWRORHF23JX28Ek/edit?tab=t.0) - a crowd-sourced list of game building platforms and software.
+- [Tools and resources for making games](https://docs.google.com/document/d/1vIRlYDjwK7E8XufV5Cr0gYtmAvd0gWRORHF23JX28Ek/edit?tab=t.0) - a crowd-sourced list of game-building platforms and software.
 
 
 ## Workshop overview

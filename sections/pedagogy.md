@@ -2,23 +2,25 @@
 title: Using Games Pedagogically
 ---
 
-## Why games?
+## Why use games in the classroom?
 
 There are many reasons why games--video games, board games, role-playing games, etc.--can be useful for pedagogy:
 
-- They can activate emotional and cognitive rewards through play
-- They offer avenues for creativity, simulation, and deeper interactions with course material
-- They offer an alternative mode of engagement
-- They may provide complex and rich forms of context for new information
-- They can provide a fun and low-stakes way to test knowledge or practice skills
-- Having students adapt course material as a game requires creativity and critical thinking skills.
+- Play can activate emotional and cognitive rewards that enhance retention.
+- Games offer an alternative to more traditional modes of learning engagement, providing avenues for creativity, simulation, and deeper interactions with course material.
+- They may provide complex and rich forms of context for new information.
+- They can provide a fun and low-stakes way to test knowledge, practice skills, and get feedback.
+- Having students adapt course material as a game activates creativity and critical thinking skills.
 
+While there are many reasons to use games for teaching
 
 ### Things to consider
 
-- Games do not have universal appeal
-- Not everything should be gamified: consider whether certain types of simulation could be triggering
-- There's a difference between using "gamification" and "games"
+- Games do not have universal appeal; some students find them infantalizing or trivial
+- Some game platforms pose accessibility challenges
+- There's a difference between "game-based learning" (using an entire game) and gamification (using game structures such as points, badges, and competition)
+- Not everything should be gamified: consider whether certain types of simulation activities could be harmful or stressful for students, or when gamification might trivialize weighty material
+- Existing games (those designed for educational purposes) may need adjustment to meet your learning goals
 
 
 ## Why Twine?
@@ -29,15 +31,18 @@ While there are many types of games that can be used in a research or teaching c
 
 <!-- It is a helpful tool for demonstrating several digital competency areas -->
 
-::: {.callout-tip collapse="true"}
-### Project Example: Chop Suey Game
 
-- **Author**: Shiamin Kwa (EALC, Bryn Mawr College)
-- Project URL: [https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html](https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html)
-- **Tool**: [Bitsy](https://bitsy.org/)
-- An 8-bit game that educates about the experience of Chinese immigrants in early 20th-century US.
+### Other useful tools
 
-:::
+- [Bitsy](https://bitsy.org/) -- a free, open-source, browser-based tool for creating simple 8-bit games.
+
+- [Unity](https://unity.com/) -- a game engine for 3D video games and VR environments
+
+- [Ren'Py](https://renpy.org/) -- an open-source tool for building visual novels
+
+
+## TriCo examples
+
 
 ::: {.callout-tip collapse="true"}
 
@@ -68,5 +73,15 @@ The Twine Project will be scaffolded:
 - 4/24: Polished draft: Submit a complete draft of your digital project. Submit both html and Twee files (Build → Export as Twee). This way we can see the “complete” project, as well as the build so that we can make sure we’re not missing any pages.
 - 4/29: Peer review. 
 - 5/9 for seniors and 5/15 for non-seniors: complete project
+
+:::
+
+::: {.callout-tip collapse="true"}
+### Project Example: Chop Suey Game
+
+- **Author**: Shiamin Kwa (EALC, Bryn Mawr College)
+- Project URL: [https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html](https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html)
+- **Tool**: [Bitsy](https://bitsy.org/)
+- An 8-bit game that educates about the experience of Chinese immigrants in early 20th-century US.
 
 :::
