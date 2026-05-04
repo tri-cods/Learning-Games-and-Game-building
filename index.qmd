@@ -66,6 +66,8 @@ While there are many types of games that can be used in a research or teaching c
 
 ### Tools and examples
 
+- You can find [useful examples from Tri-Co colleagues here](/sections/examples.md)
+
 - [Digital Pedagogy in the Humanities](https://digitalpedagogy.hcommons.org/) includes useful teaching resources on both [Gaming](https://digitalpedagogy.hcommons.org/keyword/Gaming) (curated by Amanda Phillips) and [Play](https://digitalpedagogy.hcommons.org/keyword/play/) (curated by Mark Sample)
 
 - Game-building tools: for platform and software recommendations, see [this crowd-sourced list of tools and resources for making games](https://docs.google.com/document/d/1vIRlYDjwK7E8XufV5Cr0gYtmAvd0gWRORHF23JX28Ek/edit?tab=t.0).

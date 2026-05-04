@@ -25,7 +25,11 @@ website:
           - sections/twine-basics.md
           - sections/twine-how-to.md
           - sections/publishing.md
+      - section: "Resources"
+        contents:
           - sections/twine-resources.md
+          - sections/examples.md
+          - sections/vocabulary.md
   page-navigation: true
 
 format:
