@@ -14,12 +14,10 @@ website:
     search: true
     contents:
       - text: "Introduction"
-        contents:
-          - text: "Overview"
-            href: index.qmd
-          - sections/pedagogy.md
+        href: index.qmd
       - section: "Planning"
         contents:
+          - sections/pedagogy.md
           - sections/design.md
           - sections/storyboarding.md
       - section: "Twine"
