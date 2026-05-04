@@ -2,6 +2,8 @@
 title: Game Design Principles and Practices
 ---
 
+[Slides: Game Design](https://docs.google.com/presentation/d/1bR5Eaj09FIILTPGdzK8a728jXks0AdDGmuz1k57iwfk/edit?usp=sharing)
+
 All games, from playgrounds to sports stadiums to video game consoles, are built on a series of underlying systems. The most enduring games combine these systems to create something highly engaging with a satisfying ending.
 
 ## Engagement
