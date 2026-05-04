@@ -7,8 +7,7 @@
     "text": "Games can be powerful tools to enhance your teaching and research. In this session we will explore the hows and whys of game-based learning, guided by real-world examples. We will introduce core principles of game design and best practices to craft meaningful game experiences for students, showcasing a variety of game-building tools. Our hands-on component will focus on building and publishing games with Twine, a free, open-source tool for creating text-based games and hypertext narratives: you will learn how to approach a game project from concept to creation.\n\n\nAt the end of this workshop, you will be able to\n\nUnderstand why and how games can enhance your teaching and research\nIdentify a few key principles of game design\nStoryboard and plan a game\nUse the Twine editor to build interactive content\nPublish your own text-based game in Twine",
     "crumbs": [
       "Home",
-      "Introduction",
-      "Overview"
+      "Introduction"
     ]
   },
   {
@@ -19,8 +18,29 @@
     "text": "Games can be powerful tools to enhance your teaching and research. In this session we will explore the hows and whys of game-based learning, guided by real-world examples. We will introduce core principles of game design and best practices to craft meaningful game experiences for students, showcasing a variety of game-building tools. Our hands-on component will focus on building and publishing games with Twine, a free, open-source tool for creating text-based games and hypertext narratives: you will learn how to approach a game project from concept to creation.\n\n\nAt the end of this workshop, you will be able to\n\nUnderstand why and how games can enhance your teaching and research\nIdentify a few key principles of game design\nStoryboard and plan a game\nUse the Twine editor to build interactive content\nPublish your own text-based game in Twine",
     "crumbs": [
       "Home",
-      "Introduction",
-      "Overview"
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#why-use-games-in-the-classroom",
+    "href": "index.html#why-use-games-in-the-classroom",
+    "title": "Learning Games and Game Building",
+    "section": "Why use games in the classroom?",
+    "text": "Why use games in the classroom?\nThere are many reasons why games–video games, board games, role-playing games, etc.–can be useful for pedagogy:\n\nPlay can activate emotional and cognitive rewards that enhance retention.\nGames offer an alternative to more traditional modes of learning engagement, providing avenues for creativity, simulation, and deeper interactions with course material.\nThey may provide complex and rich forms of context for new information.\nThey can provide a fun and low-stakes way to test knowledge, practice skills, and get feedback.\nHaving students adapt course material as a game activates creativity and critical thinking skills.\n\n\nThings to consider\n\nGames do not have universal appeal; some students find them infantalizing or trivial\nSome game platforms pose accessibility challenges\nThere’s a difference between “game-based learning” (using an entire game) and gamification (using game structures such as points, badges, and competition)\nNot everything should be gamified: consider whether certain types of simulation activities could be harmful or stressful for students, or when gamification might trivialize weighty material\nExisting games (those designed for educational purposes) may need adjustment to meet your learning goals",
+    "crumbs": [
+      "Home",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#why-twine",
+    "href": "index.html#why-twine",
+    "title": "Learning Games and Game Building",
+    "section": "Why Twine?",
+    "text": "Why Twine?\nWhile there are many types of games that can be used in a research or teaching context and many tools that can be useful for building games, this workshop will focus on creating interactive fiction and text-based games as a case study using an open-source tool called Twine, which can be used to create text-based games and interactive fiction. Twine’s aesthetic and functionality echo 1990s-era “hypertext” fiction and early web experimentation: each site (called a “Story”) is a network with interconnected nodes. While all websites are hypertext, Twine is designed to highlight choices, so instead of an open navigation system, each bit of context in Twine is built intentionally by hyperlinks that can be followed backwards and forwards and read in any order. The Twine editor enables users to customize the style and functionality of their story without coding knowledege. Twine games are easy to export and host as a simple website.",
+    "crumbs": [
+      "Home",
+      "Introduction"
     ]
   },
   {
@@ -28,11 +48,10 @@
     "href": "index.html#resources",
     "title": "Learning Games and Game Building",
     "section": "Resources",
-    "text": "Resources\n\nReadings\n\nJames Coltrain and Stephen Ramsay’s “Can Video Games Be Humanities Scholarship” offers an overview of how to think about games as research outputs (Debates in the Digital Humanities, U Minnesota Press, 2019).\nIn Playful Pedagogy in the Pandemic: Pivoting to Game-Based Learning (Taylor and Francis, 2022), Emily K. Johnson and Anastasia Salter explore game-based learning as a mode that has new relevance and potential in the post-pandemic landscape.\nRachel Hoke and James Risk’s recently published “Rewriting the Rules: Game-Based Learning for Affective and Cognitive Student Engagement in an Undergraduate History Course” provides a recent evaluation of role-playing game use in the classroom (International Journal of Role-Playing, no. 17, Mar. 2026, pp. 22–41).\nThe CUNY Games Network has put together a list of essential readings in game scholarship.\n\n\n\nProjects\n\n1979 Revolution: Black Friday, a video game about the Iranian revolution\nBot or Not: A Slow AI Game, a text-based Twine game designed to teach AI literacy\nNever Alone, an Inupiaq storytelling game\nCSS Diner, a game that teaches how to use selectors for Cascading Stylesheets (CSS)\n\n\n\nTools and examples\n\nDigital Pedagogy in the Humanities includes useful teaching resources on both Gaming (curated by Amanda Phillips) and Play (curated by Mark Sample)\nTools and resources for making games - a crowd-sourced list of game-building platforms and software.",
+    "text": "Resources\n\nReadings\n\nJames Coltrain and Stephen Ramsay’s “Can Video Games Be Humanities Scholarship” offers an overview of how to think about games as research outputs (Debates in the Digital Humanities, U Minnesota Press, 2019).\nIn Playful Pedagogy in the Pandemic: Pivoting to Game-Based Learning (Taylor and Francis, 2022), Emily K. Johnson and Anastasia Salter explore game-based learning as a mode that has new relevance and potential in the post-pandemic landscape.\nRachel Hoke and James Risk’s recently published “Rewriting the Rules: Game-Based Learning for Affective and Cognitive Student Engagement in an Undergraduate History Course” provides a recent evaluation of role-playing game use in the classroom (International Journal of Role-Playing, no. 17, Mar. 2026, pp. 22–41).\nThe CUNY Games Network has put together a list of essential readings in game scholarship.\n\n\n\nProjects\n\n1979 Revolution: Black Friday, a video game about the Iranian revolution\nBot or Not: A Slow AI Game, a text-based Twine game designed to teach AI literacy\nNever Alone, an Inupiaq storytelling game\nCSS Diner, a game that teaches how to use selectors for Cascading Stylesheets (CSS)\n\n\n\nTools and examples\n\nYou can find useful examples from Tri-Co colleagues here\nDigital Pedagogy in the Humanities includes useful teaching resources on both Gaming (curated by Amanda Phillips) and Play (curated by Mark Sample)\nGame-building tools: for platform and software recommendations, see this crowd-sourced list of tools and resources for making games.\n\nBitsy – a free, open-source, browser-based tool for creating simple 8-bit games.\nUnity – a game engine for 3D video games and VR environments\nRen’Py – an open-source tool for building visual novels",
     "crumbs": [
       "Home",
-      "Introduction",
-      "Overview"
+      "Introduction"
     ]
   },
   {
@@ -43,8 +62,7 @@
     "text": "Workshop overview\n\nIntroduction\nPrinciples of game design\nPlanning your interactive narrative\nThe Twine editor\nSupported work time\n\n\nWorkshop authors: Cameron Boucher, Liz Hogrefe, Alice McGrath\nEditor: Roberto Vargas\nTri-Co DSRI, 2026. This lesson is based on the DHRI Curriculum.",
     "crumbs": [
       "Home",
-      "Introduction",
-      "Overview"
+      "Introduction"
     ]
   },
   {
@@ -96,99 +114,159 @@
     ]
   },
   {
-    "objectID": "sections/twine-basics.html",
-    "href": "sections/twine-basics.html",
-    "title": "Twine Basics",
+    "objectID": "sections/design.html",
+    "href": "sections/design.html",
+    "title": "Game Design Principles and Practices",
     "section": "",
-    "text": "Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives\nTwine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application\nTwine is designed to emphasize interactivity (user-input, randomness, variables) and choices\nProjects/games in Twine are called stories\n\n\n\nTwine stories can be created and edited in-browser or in the Twine desktop app. (For the purposes of this workshop we’ll be using the browser version, though they are identical.) The WYSIWYG editor interface shows the entire site as a “web” divided into linked passages. Using some simple markup, you can change the formatting and style and add interactivity such as user input, randomness, and variables. You can export your twine game as a single HTML (Hypertext Markup Language) file and play it on your computer or publish it on any web server. What’s cool about it is that most no-code website builders do not allow you to include elements of functional programming (such creating conditional statements, assigning variables, and prompting user input). This combination of style, content, and functionality usually are handled by at least three separate languages (HTML for content and structure, CSS for style, and Javascript for functionality), but here they can all be customized using simple markup.\n\n\n\nTwine has several options for “story formats” – these not only change the visual style of the game, but they also change syntax and functionality. For this workshop, we’ll be using Harlowe, the default format, which is very beginner-friendly. If you’d like to experiment with other options in the future (Chapbook, SugarCube, and Snowman), I recommend finding documentation that is specific to that format.\n\n\n\n\n\n\nNote\n\n\n\nTwine games are written in a specialized markup language called Twee and can also be edited in a text editor.",
+    "text": "All games, from playgrounds to sports stadiums to video game consoles, are built on a series of underlying systems. The most enduring games combine these systems to create something highly engaging with a satisfying ending.",
     "crumbs": [
       "Home",
-      "Twine",
-      "Twine Basics"
+      "Planning",
+      "Game Design Principles and Practices"
     ]
   },
   {
-    "objectID": "sections/twine-basics.html#about-twine",
-    "href": "sections/twine-basics.html#about-twine",
-    "title": "Twine Basics",
+    "objectID": "sections/design.html#engagement",
+    "href": "sections/design.html#engagement",
+    "title": "Game Design Principles and Practices",
+    "section": "Engagement",
+    "text": "Engagement\nA good game keeps players engaged. Engagement is largely composed of three factors: randomness, intermittent rewards and choices. Choices will be covered in-depth in the next section.\n\nRandomness\nFor inexperienced gamers or those with less gaming skill, adding some degree of randomness (or luck) makes a game more approachable. Making the player less responsible for the outcome (offering them the ability to blame a loss on bad luck) levels the playing field. For those with so much gaming skill that beating a game on skill alone could be done with their eyes closed, randomness can make a game more variable and replayable.\nStill, too much randomness removes player agency. A purely random game like Chutes and Ladders or Candyland is only really appealing to young children who are not yet able to make strategic decisions. Playing purely-random slot machines too much is regarded as an addiction.\nPurely skill-based games, like chess, are popular among all groups, but take a steep learning curve and are often viewed as unapproachable by unfamiliar players. Generally, you want to strike a balance between the two.\nRandomness can take multiple forms. In physical games, it often takes the form of dice rolls or drawing cards. In video games, it can take the form of quick-time events, artificially intelligent enemies or invisible choices.\n\n\nIntermittent rewards/score\nWhen playing a game, being rewarded provides a little bit of dopamine and, subsequently, motivation to keep playing. It’s best to pace these intermittently: making them too common will dull their effect, while spacing them out too hard can have players bored or even questioning whether or not they are playing the game correctly. It is also important to give the player cues when they are doing things correctly—this can be as simple as playing a pleasant sound or small dialogue popup. Many games do this by keeping a running score, often by collecting cards, tokens or coins.\n“Reward” can mean many things: it could be new dialogue from a character, a collectible item or score multiplier. Pacing is key—spamming these rewards makes the positive feeling less effective, but spacing them out too far can cause the player to feel lost or disinterested. Take care to ensure that these rewards are easily visible and understood by the player.",
+    "crumbs": [
+      "Home",
+      "Planning",
+      "Game Design Principles and Practices"
+    ]
+  },
+  {
+    "objectID": "sections/design.html#choices",
+    "href": "sections/design.html#choices",
+    "title": "Game Design Principles and Practices",
+    "section": "Choices",
+    "text": "Choices\nWhen designing any kind of game, including IF, choices are the primary way to engage the player. Choices are measured by whether or not they are meaningful and/or interesting. It is possible for choices to fulfill both or neither criteria.\n\nMeaningful choices have an effect on the game’s state, such as the player’s status or score.\nInteresting choices engage the player and require them to think about their decision.\n\nAll types of choices have relevant use cases depending on what you are trying to portray and want to emphasize or de-emphasize player agency. Most of the examples below are adapted from Clara Fernández-Vara’s Taxonomy of Narrative Choices, itself made with Twine.\n\nMeaningless choices\nThese choices do not affect the narrative outcome.\ngraph LR\nA(Do you wish to&lt;br&gt; see the king?) -- Yes! --&gt; B(Amazing!)\nA -- No... --&gt; C(But you must!)\nB --&gt; D(I'll take you to&lt;br&gt;see him now.)\nC --&gt; D\nNo matter the decision, the player is taken to the king. Meaningless choices are typically poor practice, wasting the player’s time to no effect.\nHowever, meaningless decisions can be advantageous in two cases:\n\nDeliberately emphasizing a lack of agency or creating a sense of frustration.\nCharacter customization. It almost never has an effect on the narrative, but can make users feel more represented by (and thus, invested in) their characters.\n\nBut on the whole, these types of choices are neither interesting nor meaningful.\n\n\nUnfair choices\nUnfair choices are ones where the player has no idea to know which decision is correct or helpful. Unlike meaningless decisions, these are decisions that do affect the way the game progresses; they are not interesting decisions because the player cannot consult their knowledge base.\n\nThere are three doors. Behind one door is a rabid werewolf, another a treasure chest full of gold, and the last one a single paperclip. There are no clues as to which door is which. You can only open one door. Which one do you choose?\n\nUnfair choices can be useful for generating nervousness or apprehension. Almost all types of gambling rely on unfair choices, and it’s safe to say they’re popular. (Unfair choices were formerly referred to as blind choices; you may still see this term in game design textbooks.) These are uninteresting, but typically meaningful.\n\n\nTradeoffs\nThese are choices when players do not have enough resources to achieve all of their goals and must choose to prioritize.\n\nYou have 10 coins. Food, which will give you energy to travel further, costs 6 coins. A more powerful weapon, which will allow you to fight stronger enemies, costs 10 coins. What purchase will you make?\n\nSince the player does not have enough money for both, they must choose whether they want to prioritize energy or firepower—or their wallet, if they decline to buy either. This allows the player to develop their own strategy and decide how they wish to move through the game space. These are often both interesting and meaningful.\n\n\nDilemmas\nA difficult choice that poses a moral question and often requires players to feel bad.\n\nYou are an underpaid FDA official whose family is starving. A shady figure offers you a bribe to approve their dubious hair growth treatment. It looks like it could seriously harm users, but you don’t know how you’ll feed your family without that bribe money. Do you take the money?\n\nThese emphasize nuance and self-reflection in the player. Typically it puts two (or more) values into direct conflict and the player must decide which is more important to them. These are interesting and meaningful.\n\n\nInvisible choices\nThese are choices the player does not know they are making, hidden in the game’s code.\n\nA game may have an internal “boldness” variable. Every time a player is confronted with a dilemma and makes a conservative decision, the value decreases; for every bold decision it increases. This value is never displayed to the player. At the end of the game, the player will receive either the “brave” or “cowardly” ending depending on the variable’s value.\n\nInvisible choices make the players feel that their actions have consequences and provide a richer experience. They also add replay value to the game, as players may want to replay to get different endings or to try to review or understand why they got the outcome they did. In this way, invisible choices also add randomness: while they are not truly random, they are random to the player because they are hidden. These are one of the most sophisticated ways of incorporating meaning.\n\n\nBalanced choices\nA choice can be regarded as balanced when it does not have an obvious right or wrong answer. Generally, these are the kind of decisions that are most rewarding to players (as they provide the most agency) and that a game developer should seek to include.",
+    "crumbs": [
+      "Home",
+      "Planning",
+      "Game Design Principles and Practices"
+    ]
+  },
+  {
+    "objectID": "sections/design.html#cooperation-competition-and-co-opetition",
+    "href": "sections/design.html#cooperation-competition-and-co-opetition",
+    "title": "Game Design Principles and Practices",
+    "section": "Cooperation, competition and co-opetition",
+    "text": "Cooperation, competition and co-opetition\nWhen games are multiplayer, players can work together to achieve a single goal (cooperation) or against each other to be the “best” (competition). Some games feature aspects of both, called co-opetition. Of course, different types of gameplay create different moods and serve different purposes.\nCooperative games can be more approachable for new players who are not confident in their gaming skills or strategic prowess and fearful of losing. Competitive games have the benefit of providing a boost of engagement, provided they are balanced. When competitive games become unbalanced, players check out mentally (for example, Monopoly is notorious for getting miserably slow in its endgame as all properties are purchased and players slowly wait for bankruptcy).",
+    "crumbs": [
+      "Home",
+      "Planning",
+      "Game Design Principles and Practices"
+    ]
+  },
+  {
+    "objectID": "sections/design.html#visuals",
+    "href": "sections/design.html#visuals",
+    "title": "Game Design Principles and Practices",
+    "section": "Visuals",
+    "text": "Visuals\nWhile plot and active gameplay are the meat and potatoes of game design, visuals play an important role in setting the tone. Keep in mind what you are seeking to convey and whether your color, fonts and design elements (including user interface) support that. Most of this is common sense: softer colors keep things calmer, bright colors can encourage playfulness and dark colors often convey a more serious tone; a sans serif font can convey modernity while you may want to try Courier or a blackletter for a historical game.\nIf designing a user interface, you should almost always aim to make it intuitive and easy to navigate, lest your players become confused (or give up completely!) before the game even begins. Making a user interface difficult to navigate can have its uses if you are trying to convey frustration, although this is a very niche case. While basic design principles apply, figuring out how usable your interface actually is can only really be achieved via user testing.",
+    "crumbs": [
+      "Home",
+      "Planning",
+      "Game Design Principles and Practices"
+    ]
+  },
+  {
+    "objectID": "sections/design.html#endings-or-lack-thereof",
+    "href": "sections/design.html#endings-or-lack-thereof",
+    "title": "Game Design Principles and Practices",
+    "section": "Endings (or lack thereof)",
+    "text": "Endings (or lack thereof)\nIt is a common belief that games are played purely to win. While many games have either/or conditions that must be met to receive a winning or losing ending respectively, some have multiple possible win conditions and some are completely open-ended, with no way to win or lose.\n\nReaching the final flag is the win condition for each level in Super Mario Bros. Taking too much damage from an enemy, falling off of the bottom of the screen or running out of time are the loss conditions.\n\n\nIn many multiplayer games, merely another player achieving the win condition is your loss condition—when another Uno! player gets rid of all of their cards, they have won and you have lost.\n\nAlthough win/loss conditions seem very black-and-white, many still allow player agency and creativity.\n\nThe player character has to defeat a powerful boss to win. A player can choose to play riskily by staying close to the enemy, allowing them to land more hits while risking taking more damage themselves. Or they could also choose to stay far away, using ranged battle which depletes more resources but makes taking damage more unlikely.\n\n\nWinless games\nMany games are not about winning or losing, including a large swath of IF. Open-ended games such as Minecraft and Animal Crossing allow players to determine their own goals, such as building certain structures, collecting certain items or journeying to certain locations (and also offer freedom for open-ended assignments; for example recreating specific events or structures in-game to encourage reflective/repetitive learning).\nIn many IF games, the player’s choices throughout the game affect the story’s ending (via invisible choice). Alternate narrative endings encourage replayability, invite players to reflect on the topic and how their unique decisions affected the game-world and free players from the skill-based pressure to “win.” These kinds of games are particularly easy to make in Twine.\nYou will encounter varying schools of thought as to whether or not IF constitutes a true “game,” but we still regard them as digital sandbox spaces that encourage exploration and learning—means to the same end.",
+    "crumbs": [
+      "Home",
+      "Planning",
+      "Game Design Principles and Practices"
+    ]
+  },
+  {
+    "objectID": "sections/design.html#capabilities-and-drawbacks-of-computer-simulation",
+    "href": "sections/design.html#capabilities-and-drawbacks-of-computer-simulation",
+    "title": "Game Design Principles and Practices",
+    "section": "Capabilities and drawbacks of computer simulation",
+    "text": "Capabilities and drawbacks of computer simulation\nAt its core, a game is a system. Under the hood, computers are governed by numbers and simple true/false statements. Although many complex algorithms now exist to provide a more human degree of nuance, a computer system will always be governed by a more black-and-white approach. As with all media analysis, it is important to acknowledge that the media shapes the message.\nBy proposing a problem to be solved (in a traditional game, accomplishing the win condition; in an open-ended game, solving whatever problem the player chooses for themselves), games can be understood as a digital problem-solving space. In very simple, linear games, this can be useful when we are guiding students to a “right” answer. In a more complex, well-designed game, there can be multiple different “correct” approaches or effectively demonstrate the cause-and-effect of their decisions.",
+    "crumbs": [
+      "Home",
+      "Planning",
+      "Game Design Principles and Practices"
+    ]
+  },
+  {
+    "objectID": "sections/design.html#educational-applications",
+    "href": "sections/design.html#educational-applications",
+    "title": "Game Design Principles and Practices",
+    "section": "Educational applications",
+    "text": "Educational applications\nKeep in mind that the video game is not meant as a surrogate for human teaching and is encouraged to be used as a learning tool. A video game is a complex multimedia tool in which the teacher is fundamental as a guide. With about 77% of Gen Z reporting they play video games for at least an hour per week, it is also a novel way of meeting learners where they’re at. By inviting them to view media they engage in in their leisure as a valid jumping-off point for critique, you encourage them to continue questioning perspectives and validity of media interpretations even beyond the classroom.\nFor example, here is academic Jeremiah McCall’s “historical gameplay learning loop” from his book Gaming the Past: Using Video Games to Teach Secondary History:\n\n\nInvestigate the historical subject by studying historical sources.\nLearn to play the game / learn about the historical problem space in the game.\nTransition into purposefully playing—playing combined with observation and, eventually, analysis.\nDebrief: analyze, critique, and reflect upon the game as a history.",
+    "crumbs": [
+      "Home",
+      "Planning",
+      "Game Design Principles and Practices"
+    ]
+  },
+  {
+    "objectID": "sections/vocabulary.html",
+    "href": "sections/vocabulary.html",
+    "title": "Reference guide",
     "section": "",
-    "text": "Twine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives\nTwine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application\nTwine is designed to emphasize interactivity (user-input, randomness, variables) and choices\nProjects/games in Twine are called stories\n\n\n\nTwine stories can be created and edited in-browser or in the Twine desktop app. (For the purposes of this workshop we’ll be using the browser version, though they are identical.) The WYSIWYG editor interface shows the entire site as a “web” divided into linked passages. Using some simple markup, you can change the formatting and style and add interactivity such as user input, randomness, and variables. You can export your twine game as a single HTML (Hypertext Markup Language) file and play it on your computer or publish it on any web server. What’s cool about it is that most no-code website builders do not allow you to include elements of functional programming (such creating conditional statements, assigning variables, and prompting user input). This combination of style, content, and functionality usually are handled by at least three separate languages (HTML for content and structure, CSS for style, and Javascript for functionality), but here they can all be customized using simple markup.\n\n\n\nTwine has several options for “story formats” – these not only change the visual style of the game, but they also change syntax and functionality. For this workshop, we’ll be using Harlowe, the default format, which is very beginner-friendly. If you’d like to experiment with other options in the future (Chapbook, SugarCube, and Snowman), I recommend finding documentation that is specific to that format.\n\n\n\n\n\n\nNote\n\n\n\nTwine games are written in a specialized markup language called Twee and can also be edited in a text editor.",
+    "text": "Markup - How data is structured, displayed, and organized (general term)\nStory - A Twine project (i.e. a website, game, or book)\nPassage - A contained section of a Twine story (a page or “node” in the network)\nMacro and Hook statement: (font: \"Arial\")[This text will be in Arial.]\n\nMacro - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses (font: \"Arial\")\nHook - The passage of text that a macro acts on, indicated with square brackets [This text will be in Arial]\n\nVariable - A container for values and words that can change within the game (set: $myName to \"Alice\") Hello, $myName!",
     "crumbs": [
       "Home",
-      "Twine",
-      "Twine Basics"
+      "Resources",
+      "Reference guide"
     ]
   },
   {
-    "objectID": "sections/twine-basics.html#getting-started",
-    "href": "sections/twine-basics.html#getting-started",
-    "title": "Twine Basics",
-    "section": "Getting started",
-    "text": "Getting started\n\nNavigate to https://twinery.org/\nClick ‘Use in your browser’\nIn the top-left corner, click + New to create a new story. Give yours a name.\nYour new story should open in the Twine editor\n\n\nThe Twine editor\n\nThe main Twine editor has an overall “map” of your story showing all the connections between passages (currently, your story only has a single passage). The green rocket ship icon shows where the story begins.\n\nA Passage in Twine is a discrete section of the story that will appear as a page on its own\n\nYou can double-click a passage to open up the WYSIWYG editor. Go ahead and add some text to your passage, and rename it using the Rename button in the passage editor.\nOn the top menu bar, click Test From Here to preview your game in a new tab.\n\n\nCreating and editing passages\nTo create a new passage from the main story editor, you can use the + New button to create a disconnected passage. From the passage editor, you can simultaneously create and link to a new passage by using double square brackets: [[passage name]].\nAny links you create this way will show up as arrows between passages in your overall game map. If you want to link to a new passage using link-text text other than the passage name, you can do so by separating the link text from the passage name with a pipe | like this: [[continue|passage name]]. Any passage that is not linked to another passage (or displayed by another passage; more on this later) will not appear when the game is played.\n\n\nMarkup and formatting\nTwine uses a modified form of Markdown syntax to add basic structure or markup to your text.\n\nMarkup describes how data (in this case, plain text) is structured, displayed, and organized\n\nYou don’t need to understand all the rules of Markdown to edit in Twine, but here are some tips:\n\nHash marks at the beginning of a line to create: # Header 1 and ## Header 2\nAsterisks before and after text add emphasis\n\nA single asterisk * before and after text to italicize: *italic*\nDouble asterisks ** before and after to bold text: **bold**\n\nCreate an unordered list by adding a single asterisk followed by a space at the beginning of each line: * List item\nCreate an ordered list with the numeral zero followed by a period and a space: 0. First item\n\n* Item in my unordered list\n* Another item in my unordered list\n\n0. First ordered list item\n0. Second list item\nYou can also use the WYSIWYG editor for certain types of formatting.\n\n\nVocabulary\n\nMacro - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses\nHook - The passage of text that a macro acts on, indicated with square brackets (font: \"Arial\")[This text will be in Arial.]\nVariable - A container for values and words that can change within the game (set: $myName to \"Alice\") Hello, $myName!\n\n\n\nTips for using Twine\n\nPreview/test your work often to make sure everything works as intended\nWhen using the browser editor, export your game every time you are finished\nTo check your story format: from the story editor, select ‘Details’ and select ‘Harlowe 3.3.9’\nIf you find a cool Twine game and want to know how they did that, right click on the page and go to ‘view page source’ to view the underlying code: you will see Twee code interspersed with HTML.",
-    "crumbs": [
-      "Home",
-      "Twine",
-      "Twine Basics"
-    ]
-  },
-  {
-    "objectID": "sections/twine-basics.html#your-turn",
-    "href": "sections/twine-basics.html#your-turn",
-    "title": "Twine Basics",
-    "section": "Your turn!",
-    "text": "Your turn!\n\nIf you haven’t already done so, go ahead and create a new “Story” and give it a unique title.\nAdd at least 3 passages to your story. Practice creating links between them.\nTest out your game to see how it looks.\nExplore the buttons and options on the passage editor to see what else you can customize.",
-    "crumbs": [
-      "Home",
-      "Twine",
-      "Twine Basics"
-    ]
-  },
-  {
-    "objectID": "sections/pedagogy.html",
-    "href": "sections/pedagogy.html",
-    "title": "Using Games Pedagogically",
+    "objectID": "sections/vocabulary.html#vocabulary",
+    "href": "sections/vocabulary.html#vocabulary",
+    "title": "Reference guide",
     "section": "",
-    "text": "There are many reasons why games–video games, board games, role-playing games, etc.–can be useful for pedagogy:\n\nPlay can activate emotional and cognitive rewards that enhance retention.\nGames offer an alternative to more traditional modes of learning engagement, providing avenues for creativity, simulation, and deeper interactions with course material.\nThey may provide complex and rich forms of context for new information.\nThey can provide a fun and low-stakes way to test knowledge, practice skills, and get feedback.\nHaving students adapt course material as a game activates creativity and critical thinking skills.\n\nWhile there are many reasons to use games for teaching\n\n\n\nGames do not have universal appeal; some students find them infantalizing or trivial\nSome game platforms pose accessibility challenges\nThere’s a difference between “game-based learning” (using an entire game) and gamification (using game structures such as points, badges, and competition)\nNot everything should be gamified: consider whether certain types of simulation activities could be harmful or stressful for students, or when gamification might trivialize weighty material\nExisting games (those designed for educational purposes) may need adjustment to meet your learning goals",
+    "text": "Markup - How data is structured, displayed, and organized (general term)\nStory - A Twine project (i.e. a website, game, or book)\nPassage - A contained section of a Twine story (a page or “node” in the network)\nMacro and Hook statement: (font: \"Arial\")[This text will be in Arial.]\n\nMacro - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses (font: \"Arial\")\nHook - The passage of text that a macro acts on, indicated with square brackets [This text will be in Arial]\n\nVariable - A container for values and words that can change within the game (set: $myName to \"Alice\") Hello, $myName!",
     "crumbs": [
       "Home",
-      "Introduction",
-      "Using Games Pedagogically"
+      "Resources",
+      "Reference guide"
     ]
   },
   {
-    "objectID": "sections/pedagogy.html#why-use-games-in-the-classroom",
-    "href": "sections/pedagogy.html#why-use-games-in-the-classroom",
-    "title": "Using Games Pedagogically",
+    "objectID": "sections/vocabulary.html#twine-cheat-sheet",
+    "href": "sections/vocabulary.html#twine-cheat-sheet",
+    "title": "Reference guide",
+    "section": "Twine cheat sheet",
+    "text": "Twine cheat sheet\n\nLink to a new passage using double square brackets [[pasage name]]\nIf you want to display text other than the passage name: [[continue your adventure|passage name]]\nUse hash marks to create headers: # Header 1 and ## Header 2\nUse ** for **bold** and * for *italic*\nText style: (text-style:\"fade-in-out\")[This text blinks]\nText/element color: (color:magenta)[This text is magenta]\nBackground color: (bg:green)[This text has a green background]\nFont customization: (font:\"courier\")[This text uses a different font]\nText size: (text-size:0.5)[This text is smaller than other text]\nAlignment of content: (align:\"=&gt;&lt;=\")+(box:\"X\")[This text is centered]\nRotation: (text-rotate-z:90)[This text is rotated 90 degrees]",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "Reference guide"
+    ]
+  },
+  {
+    "objectID": "sections/twine-resources.html",
+    "href": "sections/twine-resources.html",
+    "title": "Twine Resources",
     "section": "",
-    "text": "There are many reasons why games–video games, board games, role-playing games, etc.–can be useful for pedagogy:\n\nPlay can activate emotional and cognitive rewards that enhance retention.\nGames offer an alternative to more traditional modes of learning engagement, providing avenues for creativity, simulation, and deeper interactions with course material.\nThey may provide complex and rich forms of context for new information.\nThey can provide a fun and low-stakes way to test knowledge, practice skills, and get feedback.\nHaving students adapt course material as a game activates creativity and critical thinking skills.\n\nWhile there are many reasons to use games for teaching\n\n\n\nGames do not have universal appeal; some students find them infantalizing or trivial\nSome game platforms pose accessibility challenges\nThere’s a difference between “game-based learning” (using an entire game) and gamification (using game structures such as points, badges, and competition)\nNot everything should be gamified: consider whether certain types of simulation activities could be harmful or stressful for students, or when gamification might trivialize weighty material\nExisting games (those designed for educational purposes) may need adjustment to meet your learning goals",
+    "text": "Colors: W3 schools named colors list\nWeb-safe fonts: W3 schools fonts\n\n\n\n\nNB: If you are using a tutorial, make sure you know which story format it describes because syntax can be quite different. My guides refer to Harlowe.\n\nTwine Cookbook\nHarlowe documentation - this is the standard story format\nTwine and Interactive Fiction Handbook (slides)\nProgramming Historian: Interactive Text Games Using Twine\nA Total Beginner’s Guide to Twine 2.1 (videos)\n\n\n\n\n\n\n\nDigital Scholarship Adventure Game (live) - an educational game to learn about digital scholarship services at Bryn Mawr\nCritters (live) - a short and goofy game for this workshop\nTwee code for both games is available on the GitHub for this workshop\n\nTo view the code, click on either file (e.g. “Critters.twee”)\nTo download, use the download icon\nYou can import the Twee code into Twine to see what it looks like in the editor\n\nLife of Pasha - A day in the life of Pasha, the betta fish (by Cameron Boucher)\n\n\n\n\n\nSeptember 7th, 2020 by Cait S. Kirby\nDepression Quest by Zoe Quinn\nDead Reference and Bot or Not by Sam Illingworth\nFirst Day in the Office by Gabi Kirilloff\nTyping Challenge by Daniel Linssen\nOpen Sorcery and its sequel Open Sorcery Sea++ by Abigail Corfman\n16 Ways to Kill a Vampire at McDonalds by Abigail Corfman\nQueers in Love at the End of the World by Anna Anthropy\nExplore many more on itch.io: Twine games on itch.io",
     "crumbs": [
       "Home",
-      "Introduction",
-      "Using Games Pedagogically"
+      "Resources",
+      "Twine Resources"
     ]
   },
   {
-    "objectID": "sections/pedagogy.html#why-twine",
-    "href": "sections/pedagogy.html#why-twine",
-    "title": "Using Games Pedagogically",
-    "section": "Why Twine?",
-    "text": "Why Twine?\n\n\n\n\n\nWhile there are many types of games that can be used in a research or teaching context and many tools that can be useful for building games, this workshop will focus on creating interactive fiction and text-based games as a case study using an open-source tool called Twine, which can be used to create text-based games and interactive fiction. Twine’s aesthetic and functionality echo 1990s-era “hypertext” fiction and early web experimentation: each site (called a “Story”) is a network with interconnected nodes. While all websites are hypertext, Twine is designed to highlight choices, so instead of an open navigation system, each bit of context in Twine is built intentionally by hyperlinks that can be followed backwards and forwards and read in any order. The Twine editor enables users to customize the style and functionality of their story without coding knowledege. Twine games are easy to export and host as a simple website.\n\n\nOther useful tools\n\nBitsy – a free, open-source, browser-based tool for creating simple 8-bit games.\nUnity – a game engine for 3D video games and VR environments\nRen’Py – an open-source tool for building visual novels",
+    "objectID": "sections/twine-resources.html#general-resources",
+    "href": "sections/twine-resources.html#general-resources",
+    "title": "Twine Resources",
+    "section": "",
+    "text": "Colors: W3 schools named colors list\nWeb-safe fonts: W3 schools fonts\n\n\n\n\nNB: If you are using a tutorial, make sure you know which story format it describes because syntax can be quite different. My guides refer to Harlowe.\n\nTwine Cookbook\nHarlowe documentation - this is the standard story format\nTwine and Interactive Fiction Handbook (slides)\nProgramming Historian: Interactive Text Games Using Twine\nA Total Beginner’s Guide to Twine 2.1 (videos)\n\n\n\n\n\n\n\nDigital Scholarship Adventure Game (live) - an educational game to learn about digital scholarship services at Bryn Mawr\nCritters (live) - a short and goofy game for this workshop\nTwee code for both games is available on the GitHub for this workshop\n\nTo view the code, click on either file (e.g. “Critters.twee”)\nTo download, use the download icon\nYou can import the Twee code into Twine to see what it looks like in the editor\n\nLife of Pasha - A day in the life of Pasha, the betta fish (by Cameron Boucher)\n\n\n\n\n\nSeptember 7th, 2020 by Cait S. Kirby\nDepression Quest by Zoe Quinn\nDead Reference and Bot or Not by Sam Illingworth\nFirst Day in the Office by Gabi Kirilloff\nTyping Challenge by Daniel Linssen\nOpen Sorcery and its sequel Open Sorcery Sea++ by Abigail Corfman\n16 Ways to Kill a Vampire at McDonalds by Abigail Corfman\nQueers in Love at the End of the World by Anna Anthropy\nExplore many more on itch.io: Twine games on itch.io",
     "crumbs": [
       "Home",
-      "Introduction",
-      "Using Games Pedagogically"
-    ]
-  },
-  {
-    "objectID": "sections/pedagogy.html#trico-examples",
-    "href": "sections/pedagogy.html#trico-examples",
-    "title": "Using Games Pedagogically",
-    "section": "TriCo examples",
-    "text": "TriCo examples\n\n\n\n\n\n\nTipAssignment Example: Experimental Scholarship with Twine\n\n\n\n\n\n\nAuthor/Instructor: José Vergara (Russian, Bryn Mawr College), Spring 2026\nCourse: RUSS233 Experimental Literature; or, Weird Stuff\n\n\nAssignment instructions\n(1,700-2,100 words)\nYou’ll use the digital storytelling tool Twine to design a work of experimental scholarship that:\n\nengages with 1-2 works from the syllabus and your SCWT (Special Collections Weird Text),\nsummarizes the texts in no more than 150-200 words max each,\nanalyzes a shared theme, structural component, or other element, thus linking the 2-3 texts,\ncontinues your reflections on your SCWT: How does it link to your experiences, ideas, or worldview? How has your relationship to or understanding of the text changed since you last wrote about it? Why? What stands out about it to you now? Address some, not all, of these questions.\nemploys at least one experimental method that we’ve encountered in our primary readings.\nand may be non-linear.\n\nThe Twine Project will be scaffolded:\n\n4/3 Brainstorming statement (200-350 words)\n\nWhich texts do you plan to include? Feel free to look ahead if the remaining works/themes appeal to you!\nWhat do you plan to analyze? How?\nWhich Twine features do you plan to use (e.g., special formatting, branching/nonlinear forms, user input that changes the text, variables, randomization, game elements, etc.)?\n\n4/24: Polished draft: Submit a complete draft of your digital project. Submit both html and Twee files (Build → Export as Twee). This way we can see the “complete” project, as well as the build so that we can make sure we’re not missing any pages.\n4/29: Peer review.\n5/9 for seniors and 5/15 for non-seniors: complete project\n\n\n\n\n\n\n\n\n\n\n\nTipProject Example: Chop Suey Game\n\n\n\n\n\n\nAuthor: Shiamin Kwa (EALC, Bryn Mawr College)\nProject URL: https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html\nTool: Bitsy\nAn 8-bit game that educates about the experience of Chinese immigrants in early 20th-century US.",
-    "crumbs": [
-      "Home",
-      "Introduction",
-      "Using Games Pedagogically"
+      "Resources",
+      "Twine Resources"
     ]
   },
   {
@@ -252,49 +330,100 @@
     ]
   },
   {
-    "objectID": "sections/twine-resources.html",
-    "href": "sections/twine-resources.html",
-    "title": "Twine Resources",
+    "objectID": "sections/pedagogy.html",
+    "href": "sections/pedagogy.html",
+    "title": "Games and learning goals",
     "section": "",
-    "text": "Colors: W3 schools named colors list\nWeb-safe fonts: W3 schools fonts\n\n\n\n\nNB: If you are using a tutorial, make sure you know which story format it describes because syntax can be quite different. My guides refer to Harlowe.\n\nTwine Cookbook\nHarlowe documentation - this is the standard story format\nTwine and Interactive Fiction Handbook (slides)\nProgramming Historian: Interactive Text Games Using Twine\nA Total Beginner’s Guide to Twine 2.1 (videos)\n\n\n\n\n\n\n\nDigital Scholarship Adventure Game (live) - an educational game to learn about digital scholarship services at Bryn Mawr\nCritters (live) - a short and goofy game for this workshop\nTwee code for both games is available on the GitHub for this workshop\n\nTo view the code, click on either file (e.g. “Critters.twee”)\nTo download, use the download icon\nYou can import the Twee code into Twine to see what it looks like in the editor\n\nLife of Pasha - A day in the life of Pasha, the betta fish (by Cameron Boucher)\n\n\n\n\n\nSeptember 7th, 2020 by Cait S. Kirby\nDepression Quest by Zoe Quinn\nDead Reference and Bot or Not by Sam Illingworth\nFirst Day in the Office by Gabi Kirilloff\nTyping Challenge by Daniel Linssen\nOpen Sorcery and its sequel Open Sorcery Sea++ by Abigail Corfman\n16 Ways to Kill a Vampire at McDonalds by Abigail Corfman\nQueers in Love at the End of the World by Anna Anthropy\nExplore many more on itch.io: Twine games on itch.io",
+    "text": "Think about your learning goals. At the end of the day, a (traditional) video game is a series of computer-based simulations, in which players can explore a virtual environment without real-life consequences. Not every lesson is suited to a video game adaptation, but ones concerning easily modeled/simulated/predictable concepts such as economics, politics, wars, meteorological events, migrations, and scientific experiments are the subject of many games used for education. (Some examples: the widely popular Civilization series, Monopoly.)\nSo think:\n\nWould this topic benefit from playing around in a sandbox environment?\nWould a sense of freedom and open-ended exploration within this environment or topic encourage better criticism?\nWould constructing a branching digital narrative help students explore the nuance of a given topic?\n\nAs we delve into game design features in the next section, keep in mind that the same principles apply to physical and LARPing games, including role-playing scenarios. Although we focus on digital games in this workshop, these other types of games are also useful to encourage exploration and engagement in the classroom.\nLater we will have a practical portion showing you how to develop games, should you want to create one for students or guide students in creating their own. However, we will unpack principles of game design in the following section, which will provide you with a toolkit to evaluate existing video games to see if they are fitting assignments.\n\n\nOne common fallacy regarding games in the classroom is that they must be factually infallible to have pedagogical value. Video games are cultural artifacts just as films, television and visual art are. Like these other mediums, we want to highlight video games’ usefulness for encouraging critique. When used in tandem with other traditional media such as academic papers or textbooks, games can invite questions such as “Why might a game developer choose to use this incorrect information or stereotype?” or “What common misconceptions of this topic does the game highlight?” How the game is made offers valuable insight into popular perception of its subject matter.",
     "crumbs": [
       "Home",
-      "Twine",
-      "Twine Resources"
+      "Planning",
+      "Games and learning goals"
     ]
   },
   {
-    "objectID": "sections/twine-resources.html#general-resources",
-    "href": "sections/twine-resources.html#general-resources",
-    "title": "Twine Resources",
+    "objectID": "sections/pedagogy.html#what-is-a-good-use-case-for-a-game",
+    "href": "sections/pedagogy.html#what-is-a-good-use-case-for-a-game",
+    "title": "Games and learning goals",
     "section": "",
-    "text": "Colors: W3 schools named colors list\nWeb-safe fonts: W3 schools fonts\n\n\n\n\nNB: If you are using a tutorial, make sure you know which story format it describes because syntax can be quite different. My guides refer to Harlowe.\n\nTwine Cookbook\nHarlowe documentation - this is the standard story format\nTwine and Interactive Fiction Handbook (slides)\nProgramming Historian: Interactive Text Games Using Twine\nA Total Beginner’s Guide to Twine 2.1 (videos)\n\n\n\n\n\n\n\nDigital Scholarship Adventure Game (live) - an educational game to learn about digital scholarship services at Bryn Mawr\nCritters (live) - a short and goofy game for this workshop\nTwee code for both games is available on the GitHub for this workshop\n\nTo view the code, click on either file (e.g. “Critters.twee”)\nTo download, use the download icon\nYou can import the Twee code into Twine to see what it looks like in the editor\n\nLife of Pasha - A day in the life of Pasha, the betta fish (by Cameron Boucher)\n\n\n\n\n\nSeptember 7th, 2020 by Cait S. Kirby\nDepression Quest by Zoe Quinn\nDead Reference and Bot or Not by Sam Illingworth\nFirst Day in the Office by Gabi Kirilloff\nTyping Challenge by Daniel Linssen\nOpen Sorcery and its sequel Open Sorcery Sea++ by Abigail Corfman\n16 Ways to Kill a Vampire at McDonalds by Abigail Corfman\nQueers in Love at the End of the World by Anna Anthropy\nExplore many more on itch.io: Twine games on itch.io",
+    "text": "Think about your learning goals. At the end of the day, a (traditional) video game is a series of computer-based simulations, in which players can explore a virtual environment without real-life consequences. Not every lesson is suited to a video game adaptation, but ones concerning easily modeled/simulated/predictable concepts such as economics, politics, wars, meteorological events, migrations, and scientific experiments are the subject of many games used for education. (Some examples: the widely popular Civilization series, Monopoly.)\nSo think:\n\nWould this topic benefit from playing around in a sandbox environment?\nWould a sense of freedom and open-ended exploration within this environment or topic encourage better criticism?\nWould constructing a branching digital narrative help students explore the nuance of a given topic?\n\nAs we delve into game design features in the next section, keep in mind that the same principles apply to physical and LARPing games, including role-playing scenarios. Although we focus on digital games in this workshop, these other types of games are also useful to encourage exploration and engagement in the classroom.\nLater we will have a practical portion showing you how to develop games, should you want to create one for students or guide students in creating their own. However, we will unpack principles of game design in the following section, which will provide you with a toolkit to evaluate existing video games to see if they are fitting assignments.\n\n\nOne common fallacy regarding games in the classroom is that they must be factually infallible to have pedagogical value. Video games are cultural artifacts just as films, television and visual art are. Like these other mediums, we want to highlight video games’ usefulness for encouraging critique. When used in tandem with other traditional media such as academic papers or textbooks, games can invite questions such as “Why might a game developer choose to use this incorrect information or stereotype?” or “What common misconceptions of this topic does the game highlight?” How the game is made offers valuable insight into popular perception of its subject matter.",
     "crumbs": [
       "Home",
-      "Twine",
-      "Twine Resources"
+      "Planning",
+      "Games and learning goals"
     ]
   },
   {
-    "objectID": "sections/vocabulary.html",
-    "href": "sections/vocabulary.html",
-    "title": "Vocabulary",
+    "objectID": "sections/twine-basics.html#about-twine",
+    "href": "sections/twine-basics.html#about-twine",
+    "title": "Twine Basics",
+    "section": "About Twine",
+    "text": "About Twine\n\nTwine is an open-source tool for creating interactive fiction, text-based games, and hypertext narratives\nTwine has a no-code editor that uses simple markup, shows connections between passages as a network, and can be used in browser or as a standalone application\nTwine is designed to emphasize interactivity (user-input, randomness, variables) and choices\nProjects/games in Twine are called stories\n\n\nHow it works\nTwine stories can be created and edited in-browser or in the Twine desktop app. (For the purposes of this workshop we’ll be using the browser version, though they are identical.) The WYSIWYG editor interface shows the entire site as a “web” divided into linked passages. Using some simple markup, you can change the formatting and style and add interactivity such as user input, randomness, and variables. You can export your twine game as a single HTML (Hypertext Markup Language) file and play it on your computer or publish it on any web server. What’s cool about it is that most no-code website builders do not allow you to include elements of functional programming (such creating conditional statements, assigning variables, and prompting user input). This combination of style, content, and functionality usually are handled by at least three separate languages (HTML for content and structure, CSS for style, and Javascript for functionality), but here they can all be customized using simple markup.\n\n\nStory formats\nTwine has several options for “story formats” – these not only change the visual style of the game, but they also change syntax and functionality. For this workshop, we’ll be using Harlowe, the default format, which is very beginner-friendly. If you’d like to experiment with other options in the future (Chapbook, SugarCube, and Snowman), I recommend finding documentation that is specific to that format.\n\n\n\n\n\n\nNote\n\n\n\nTwine games are written in a specialized markup language called Twee and can also be edited in a text editor.",
+    "crumbs": [
+      "Home",
+      "Twine",
+      "Twine Basics"
+    ]
+  },
+  {
+    "objectID": "sections/twine-basics.html#getting-started",
+    "href": "sections/twine-basics.html#getting-started",
+    "title": "Twine Basics",
+    "section": "Getting started",
+    "text": "Getting started\n\nNavigate to https://twinery.org/\nClick ‘Use in your browser’\nIn the top-left corner, click + New to create a new story. Give yours a name.\nYour new story should open in the Twine editor\n\n\nThe Twine editor\n\nThe main Twine editor has an overall “map” of your story showing all the connections between passages (currently, your story only has a single passage). The green rocket ship icon shows where the story begins.\n\nA Passage in Twine is a discrete section of the story that will appear as a page on its own\n\nYou can double-click a passage to open up the WYSIWYG editor. Go ahead and add some text to your passage, and rename it using the Rename button in the passage editor.\nOn the top menu bar, click Test From Here to preview your game in a new tab.\n\n\nCreating and editing passages\nTo create a new passage from the main story editor, you can use the + New button to create a disconnected passage. From the passage editor, you can simultaneously create and link to a new passage by using double square brackets: [[passage name]].\nAny links you create this way will show up as arrows between passages in your overall game map. If you want to link to a new passage using link-text text other than the passage name, you can do so by separating the link text from the passage name with a pipe | like this: [[continue|passage name]]. Any passage that is not linked to another passage (or displayed by another passage; more on this later) will not appear when the game is played.\n\n\nMarkup and formatting\nTwine uses a modified form of Markdown syntax to add basic structure or markup to your text.\n\nMarkup describes how data (in this case, plain text) is structured, displayed, and organized\n\nYou don’t need to understand all the rules of Markdown to edit in Twine, but here are some tips:\n\nHash marks at the beginning of a line to create: # Header 1 and ## Header 2\nAsterisks before and after text add emphasis\n\nA single asterisk * before and after text to italicize: *italic*\nDouble asterisks ** before and after to bold text: **bold**\n\nCreate an unordered list by adding a single asterisk followed by a space at the beginning of each line: * List item\nCreate an ordered list with the numeral zero followed by a period and a space: 0. First item\n\n* Item in my unordered list\n* Another item in my unordered list\n\n0. First ordered list item\n0. Second list item\nYou can also use the WYSIWYG editor for certain types of formatting.\n\n\nVocabulary\n\nMacro - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses\nHook - The passage of text that a macro acts on, indicated with square brackets (font: \"Arial\")[This text will be in Arial.]\nVariable - A container for values and words that can change within the game (set: $myName to \"Alice\") Hello, $myName!\n\n\n\nTips for using Twine\n\nPreview/test your work often to make sure everything works as intended\nWhen using the browser editor, export your game every time you are finished\nTo check your story format: from the story editor, select ‘Details’ and select ‘Harlowe 3.3.9’\nIf you find a cool Twine game and want to know how they did that, right click on the page and go to ‘view page source’ to view the underlying code: you will see Twee code interspersed with HTML.",
+    "crumbs": [
+      "Home",
+      "Twine",
+      "Twine Basics"
+    ]
+  },
+  {
+    "objectID": "sections/twine-basics.html#your-turn",
+    "href": "sections/twine-basics.html#your-turn",
+    "title": "Twine Basics",
+    "section": "Your turn!",
+    "text": "Your turn!\n\nIf you haven’t already done so, go ahead and create a new “Story” and give it a unique title.\nAdd at least 3 passages to your story. Practice creating links between them.\nTest out your game to see how it looks.\nExplore the buttons and options on the passage editor to see what else you can customize.",
+    "crumbs": [
+      "Home",
+      "Twine",
+      "Twine Basics"
+    ]
+  },
+  {
+    "objectID": "sections/examples.html",
+    "href": "sections/examples.html",
+    "title": "Examples",
     "section": "",
-    "text": "Markup - How data is structured, displayed, and organized (general term)\nStory - A Twine project (i.e. a website, game, or book)\nPassage - A contained section of a Twine story (a page or “node” in the network)\nMacro - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses (font: \"Arial\")\nHook - The passage of text that a macro acts on, indicated with square brackets [This text will be in Arial]\n(font: \"Arial\")[This text will be in Arial.] - Variable - A container for values and words that can change within the game (set: $myName to \"Alice\") Hello, $myName!"
+    "text": "Here are a few examples of games from Tri-Co colleagues.",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "Examples"
+    ]
   },
   {
-    "objectID": "sections/vocabulary.html#cheat-sheet",
-    "href": "sections/vocabulary.html#cheat-sheet",
-    "title": "Vocabulary",
-    "section": "Cheat sheet",
-    "text": "Cheat sheet\n\nLink to a new passage using double square brackets [[pasage name]]\nIf you want to display text other than the passage name: [[continue your adventure|passage name]]\nUse hash marks to create headers: # Header 1 and ## Header 2\nUse ** for **bold** and * for *italic*\n\n(text-style:\"fade-in-out\")[This text blinks]\n(color:magenta)[This text is magenta]\n(text-rotate-z:90)[This text is rotated 90 degrees]\n(bg:green)[This text has a green background]\n(font:\"courier\")[This text uses a different font]\n(text-size:0.5)[This text is smaller than other text]\n(align:\"=&gt;&lt;=\")+(box:\"X\")[This text is centered]"
+    "objectID": "sections/examples.html#assignment-example-experimental-scholarship-with-twine",
+    "href": "sections/examples.html#assignment-example-experimental-scholarship-with-twine",
+    "title": "Examples",
+    "section": "Assignment Example: Experimental Scholarship with Twine",
+    "text": "Assignment Example: Experimental Scholarship with Twine\n\nAuthor/Instructor: José Vergara (Russian, Bryn Mawr College), Spring 2026\nCourse: RUSS233 Experimental Literature; or, Weird Stuff\n\n\nAssignment instructions\n(1,700-2,100 words)\nYou’ll use the digital storytelling tool Twine to design a work of experimental scholarship that:\n\nengages with 1-2 works from the syllabus and your SCWT (Special Collections Weird Text),\nsummarizes the texts in no more than 150-200 words max each,\nanalyzes a shared theme, structural component, or other element, thus linking the 2-3 texts,\ncontinues your reflections on your SCWT: How does it link to your experiences, ideas, or worldview? How has your relationship to or understanding of the text changed since you last wrote about it? Why? What stands out about it to you now? Address some, not all, of these questions.\nemploys at least one experimental method that we’ve encountered in our primary readings.\nand may be non-linear.\n\nThe Twine Project will be scaffolded:\n\n4/3 Brainstorming statement (200-350 words)\n\nWhich texts do you plan to include? Feel free to look ahead if the remaining works/themes appeal to you!\nWhat do you plan to analyze? How?\nWhich Twine features do you plan to use (e.g., special formatting, branching/nonlinear forms, user input that changes the text, variables, randomization, game elements, etc.)?\n\n4/24: Polished draft: Submit a complete draft of your digital project. Submit both html and Twee files (Build → Export as Twee). This way we can see the “complete” project, as well as the build so that we can make sure we’re not missing any pages.\n4/29: Peer review.\n5/9 for seniors and 5/15 for non-seniors: complete project",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "Examples"
+    ]
   },
   {
-    "objectID": "sections/vocabulary.html#advanced",
-    "href": "sections/vocabulary.html#advanced",
-    "title": "Vocabulary",
-    "section": "Advanced",
-    "text": "Advanced"
+    "objectID": "sections/examples.html#project-example-chop-suey-game",
+    "href": "sections/examples.html#project-example-chop-suey-game",
+    "title": "Examples",
+    "section": "Project Example: Chop Suey Game",
+    "text": "Project Example: Chop Suey Game\n\nAuthor: Shiamin Kwa (EALC, Bryn Mawr College)\nProject URL: https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html\nTool: Bitsy\nAn 8-bit game that educates about the experience of Chinese immigrants in early 20th-century US.\nNB: this game has music",
+    "crumbs": [
+      "Home",
+      "Resources",
+      "Examples"
+    ]
   },
   {
     "objectID": "sections/storyboarding.html",

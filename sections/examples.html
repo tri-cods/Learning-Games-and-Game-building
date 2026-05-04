@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Game Design Principles and Practices – Learning Games and Game Building</title>
+<title>Examples – Learning Games and Game Building</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../sections/storyboarding.html" rel="next">
-<link href="../sections/pedagogy.html" rel="prev">
+<link href="../sections/vocabulary.html" rel="next">
+<link href="../sections/twine-resources.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/pedagogy.html">Planning</a></li><li class="breadcrumb-item"><a href="../sections/design.html">Game Design Principles and Practices</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/twine-resources.html">Resources</a></li><li class="breadcrumb-item"><a href="../sections/examples.html">Examples</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -156,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../sections/design.html" class="sidebar-item-text sidebar-link active">
+  <a href="../sections/design.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Game Design Principles and Practices</span></a>
   </div>
 </li>
@@ -214,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../sections/examples.html" class="sidebar-item-text sidebar-link">
+  <a href="../sections/examples.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Examples</span></a>
   </div>
 </li>
@@ -236,37 +236,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#engagement" id="toc-engagement" class="nav-link active" data-scroll-target="#engagement">Engagement</a>
+  <li><a href="#assignment-example-experimental-scholarship-with-twine" id="toc-assignment-example-experimental-scholarship-with-twine" class="nav-link active" data-scroll-target="#assignment-example-experimental-scholarship-with-twine">Assignment Example: Experimental Scholarship with Twine</a>
   <ul class="collapse">
-  <li><a href="#randomness" id="toc-randomness" class="nav-link" data-scroll-target="#randomness">Randomness</a></li>
-  <li><a href="#intermittent-rewardsscore" id="toc-intermittent-rewardsscore" class="nav-link" data-scroll-target="#intermittent-rewardsscore">Intermittent rewards/score</a></li>
+  <li><a href="#assignment-instructions" id="toc-assignment-instructions" class="nav-link" data-scroll-target="#assignment-instructions">Assignment instructions</a></li>
   </ul></li>
-  <li><a href="#choices" id="toc-choices" class="nav-link" data-scroll-target="#choices">Choices</a>
-  <ul class="collapse">
-  <li><a href="#meaningless-choices" id="toc-meaningless-choices" class="nav-link" data-scroll-target="#meaningless-choices">Meaningless choices</a></li>
-  <li><a href="#unfair-choices" id="toc-unfair-choices" class="nav-link" data-scroll-target="#unfair-choices">Unfair choices</a></li>
-  <li><a href="#tradeoffs" id="toc-tradeoffs" class="nav-link" data-scroll-target="#tradeoffs">Tradeoffs</a></li>
-  <li><a href="#dilemmas" id="toc-dilemmas" class="nav-link" data-scroll-target="#dilemmas">Dilemmas</a></li>
-  <li><a href="#invisible-choices" id="toc-invisible-choices" class="nav-link" data-scroll-target="#invisible-choices">Invisible choices</a></li>
-  <li><a href="#balanced-choices" id="toc-balanced-choices" class="nav-link" data-scroll-target="#balanced-choices">Balanced choices</a></li>
-  </ul></li>
-  <li><a href="#cooperation-competition-and-co-opetition" id="toc-cooperation-competition-and-co-opetition" class="nav-link" data-scroll-target="#cooperation-competition-and-co-opetition">Cooperation, competition and co-opetition</a></li>
-  <li><a href="#visuals" id="toc-visuals" class="nav-link" data-scroll-target="#visuals">Visuals</a></li>
-  <li><a href="#endings-or-lack-thereof" id="toc-endings-or-lack-thereof" class="nav-link" data-scroll-target="#endings-or-lack-thereof">Endings (or lack thereof)</a>
-  <ul class="collapse">
-  <li><a href="#winless-games" id="toc-winless-games" class="nav-link" data-scroll-target="#winless-games">Winless games</a></li>
-  </ul></li>
-  <li><a href="#capabilities-and-drawbacks-of-computer-simulation" id="toc-capabilities-and-drawbacks-of-computer-simulation" class="nav-link" data-scroll-target="#capabilities-and-drawbacks-of-computer-simulation">Capabilities and drawbacks of computer simulation</a></li>
-  <li><a href="#educational-applications" id="toc-educational-applications" class="nav-link" data-scroll-target="#educational-applications">Educational applications</a></li>
+  <li><a href="#project-example-chop-suey-game" id="toc-project-example-chop-suey-game" class="nav-link" data-scroll-target="#project-example-chop-suey-game">Project Example: Chop Suey Game</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/pedagogy.html">Planning</a></li><li class="breadcrumb-item"><a href="../sections/design.html">Game Design Principles and Practices</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../sections/twine-resources.html">Resources</a></li><li class="breadcrumb-item"><a href="../sections/examples.html">Examples</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Game Design Principles and Practices</h1>
+<h1 class="title">Examples</h1>
 </div>
 
 
@@ -283,131 +266,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>All games, from playgrounds to sports stadiums to video game consoles, are built on a series of underlying systems. The most enduring games combine these systems to create something highly engaging with a satisfying ending.</p>
-<section id="engagement" class="level2">
-<h2 class="anchored" data-anchor-id="engagement">Engagement</h2>
-<p>A good game keeps players engaged. Engagement is largely composed of three factors: randomness, intermittent rewards and choices. Choices will be covered in-depth in the next section.</p>
-<section id="randomness" class="level3">
-<h3 class="anchored" data-anchor-id="randomness">Randomness</h3>
-<p>For inexperienced gamers or those with less gaming skill, adding some degree of randomness (or luck) makes a game more approachable. Making the player less responsible for the outcome (offering them the ability to blame a loss on bad luck) levels the playing field. For those with so much gaming skill that beating a game on skill alone could be done with their eyes closed, randomness can make a game more variable and replayable.</p>
-<p>Still, too much randomness removes player agency. A purely random game like Chutes and Ladders or Candyland is only really appealing to young children who are not yet able to make strategic decisions. Playing purely-random slot machines too much is regarded as an addiction.</p>
-<p>Purely skill-based games, like chess, are popular among all groups, but take a steep learning curve and are often viewed as unapproachable by unfamiliar players. Generally, you want to strike a balance between the two.</p>
-<p>Randomness can take multiple forms. In physical games, it often takes the form of dice rolls or drawing cards. In video games, it can take the form of quick-time events, artificially intelligent enemies or invisible choices.</p>
-</section>
-<section id="intermittent-rewardsscore" class="level3">
-<h3 class="anchored" data-anchor-id="intermittent-rewardsscore">Intermittent rewards/score</h3>
-<p>When playing a game, being rewarded provides a little bit of dopamine and, subsequently, motivation to keep playing. It’s best to pace these intermittently: making them too common will dull their effect, while spacing them out too hard can have players bored or even questioning whether or not they are playing the game correctly. It is also important to give the player cues when they are doing things correctly—this can be as simple as playing a pleasant sound or small dialogue popup. Many games do this by keeping a running score, often by collecting cards, tokens or coins.</p>
-<p>“Reward” can mean many things: it could be new dialogue from a character, a collectible item or score multiplier. Pacing is key—spamming these rewards makes the positive feeling less effective, but spacing them out too far can cause the player to feel lost or disinterested. Take care to ensure that these rewards are easily visible and understood by the player.</p>
-</section>
-</section>
-<section id="choices" class="level2">
-<h2 class="anchored" data-anchor-id="choices">Choices</h2>
-<p>When designing any kind of game, including IF, choices are the primary way to engage the player. Choices are measured by whether or not they are <strong>meaningful and/or interesting</strong>. It is possible for choices to fulfill both or neither criteria.</p>
+<p>Here are a few examples of games from Tri-Co colleagues.</p>
+<section id="assignment-example-experimental-scholarship-with-twine" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-example-experimental-scholarship-with-twine">Assignment Example: Experimental Scholarship with Twine</h2>
 <ul>
-<li><strong>Meaningful choices</strong> have an effect on the game’s state, such as the player’s status or score.</li>
-<li><strong>Interesting choices</strong> engage the player and require them to think about their decision.</li>
+<li><strong>Author/Instructor</strong>: José Vergara (Russian, Bryn Mawr College), Spring 2026</li>
+<li><strong>Course</strong>: RUSS233 Experimental Literature; or, Weird Stuff</li>
 </ul>
-<p>All types of choices have relevant use cases depending on what you are trying to portray and want to emphasize or de-emphasize player agency. Most of the examples below are adapted from Clara Fernández-Vara’s <a href="https://clarafv.itch.io/taxonomy-of-narrative-choices">Taxonomy of Narrative Choices</a>, itself made with Twine.</p>
-<section id="meaningless-choices" class="level3">
-<h3 class="anchored" data-anchor-id="meaningless-choices">Meaningless choices</h3>
-<p>These choices do not affect the narrative outcome.</p>
-<pre class="mermaid"><code>graph LR
-A(Do you wish to&lt;br&gt; see the king?) -- Yes! --&gt; B(Amazing!)
-A -- No... --&gt; C(But you must!)
-B --&gt; D(I'll take you to&lt;br&gt;see him now.)
-C --&gt; D</code></pre>
-<p>No matter the decision, the player is taken to the king. Meaningless choices are typically poor practice, wasting the player’s time to no effect.</p>
-<p>However, meaningless decisions can be advantageous in two cases:</p>
-<ol type="1">
-<li>Deliberately emphasizing a lack of agency or creating a sense of frustration.</li>
-<li>Character customization. It almost never has an effect on the narrative, but can make users feel more represented by (and thus, invested in) their characters.</li>
-</ol>
-<p>But on the whole, these types of choices are neither interesting nor meaningful.</p>
-</section>
-<section id="unfair-choices" class="level3">
-<h3 class="anchored" data-anchor-id="unfair-choices">Unfair choices</h3>
-<p>Unfair choices are ones where the player has no idea to know which decision is correct or helpful. Unlike meaningless decisions, these are decisions that do affect the way the game progresses; they are not interesting decisions because the player cannot consult their knowledge base.</p>
-<blockquote class="blockquote">
-<p>There are three doors. Behind one door is a rabid werewolf, another a treasure chest full of gold, and the last one a single paperclip. There are no clues as to which door is which. You can only open one door. Which one do you choose?</p>
-</blockquote>
-<p>Unfair choices can be useful for generating nervousness or apprehension. Almost all types of gambling rely on unfair choices, and it’s safe to say they’re popular. (Unfair choices were formerly referred to as blind choices; you may still see this term in game design textbooks.) These are uninteresting, but typically meaningful.</p>
-</section>
-<section id="tradeoffs" class="level3">
-<h3 class="anchored" data-anchor-id="tradeoffs">Tradeoffs</h3>
-<p>These are choices when players do not have enough resources to achieve all of their goals and must choose to prioritize.</p>
-<blockquote class="blockquote">
-<p>You have 10 coins. Food, which will give you energy to travel further, costs 6 coins. A more powerful weapon, which will allow you to fight stronger enemies, costs 10 coins. What purchase will you make?</p>
-</blockquote>
-<p>Since the player does not have enough money for both, they must choose whether they want to prioritize energy or firepower—or their wallet, if they decline to buy either. This allows the player to develop their own strategy and decide how they wish to move through the game space. These are often both interesting and meaningful.</p>
-</section>
-<section id="dilemmas" class="level3">
-<h3 class="anchored" data-anchor-id="dilemmas">Dilemmas</h3>
-<p>A difficult choice that poses a moral question and often requires players to feel bad.</p>
-<blockquote class="blockquote">
-<p>You are an underpaid FDA official whose family is starving. A shady figure offers you a bribe to approve their dubious hair growth treatment. It looks like it could seriously harm users, but you don’t know how you’ll feed your family without that bribe money. Do you take the money?</p>
-</blockquote>
-<p>These emphasize nuance and self-reflection in the player. Typically it puts two (or more) values into direct conflict and the player must decide which is more important to them. These are interesting and meaningful.</p>
-</section>
-<section id="invisible-choices" class="level3">
-<h3 class="anchored" data-anchor-id="invisible-choices">Invisible choices</h3>
-<p>These are choices the player does not know they are making, hidden in the game’s code.</p>
-<blockquote class="blockquote">
-<p>A game may have an internal “boldness” variable. Every time a player is confronted with a dilemma and makes a conservative decision, the value decreases; for every bold decision it increases. This value is never displayed to the player. At the end of the game, the player will receive either the “brave” or “cowardly” ending depending on the variable’s value.</p>
-</blockquote>
-<p>Invisible choices make the players feel that their actions have consequences and provide a richer experience. They also add replay value to the game, as players may want to replay to get different endings or to try to review or understand why they got the outcome they did. In this way, invisible choices also add randomness: while they are not truly random, they are random to the player because they are hidden. These are one of the most sophisticated ways of incorporating meaning.</p>
-</section>
-<section id="balanced-choices" class="level3">
-<h3 class="anchored" data-anchor-id="balanced-choices">Balanced choices</h3>
-<p>A choice can be regarded as balanced when it does not have an obvious right or wrong answer. Generally, these are the kind of decisions that are most rewarding to players (as they provide the most agency) and that a game developer should seek to include.</p>
+<section id="assignment-instructions" class="level3">
+<h3 class="anchored" data-anchor-id="assignment-instructions">Assignment instructions</h3>
+<p>(1,700-2,100 words)</p>
+<p>You’ll use the digital storytelling tool Twine to design a work of experimental scholarship that:</p>
+<ul>
+<li>engages with 1-2 works from the syllabus and your SCWT (Special Collections Weird Text),</li>
+<li>summarizes the texts in no more than 150-200 words max each,</li>
+<li>analyzes a shared theme, structural component, or other element, thus linking the 2-3 texts,</li>
+<li>continues your reflections on your SCWT: How does it link to your experiences, ideas, or worldview? How has your relationship to or understanding of the text changed since you last wrote about it? Why? What stands out about it to you now? Address some, not all, of these questions.</li>
+<li>employs at least one experimental method that we’ve encountered in our primary readings.</li>
+<li>and may be non-linear.</li>
+</ul>
+<p>The Twine Project will be scaffolded:</p>
+<ul>
+<li>4/3 Brainstorming statement (200-350 words)
+<ul>
+<li>Which texts do you plan to include? Feel free to look ahead if the remaining works/themes appeal to you!</li>
+<li>What do you plan to analyze? How?</li>
+<li>Which Twine features do you plan to use (e.g., special formatting, branching/nonlinear forms, user input that changes the text, variables, randomization, game elements, etc.)?</li>
+</ul></li>
+<li>4/24: Polished draft: Submit a complete draft of your digital project. Submit both html and Twee files (Build → Export as Twee). This way we can see the “complete” project, as well as the build so that we can make sure we’re not missing any pages.</li>
+<li>4/29: Peer review.</li>
+<li>5/9 for seniors and 5/15 for non-seniors: complete project</li>
+</ul>
 </section>
 </section>
-<section id="cooperation-competition-and-co-opetition" class="level2">
-<h2 class="anchored" data-anchor-id="cooperation-competition-and-co-opetition">Cooperation, competition and co-opetition</h2>
-<p>When games are multiplayer, players can work together to achieve a single goal (cooperation) or against each other to be the “best” (competition). Some games feature aspects of both, called co-opetition. Of course, different types of gameplay create different moods and serve different purposes.</p>
-<p>Cooperative games can be more approachable for new players who are not confident in their gaming skills or strategic prowess and fearful of losing. Competitive games have the benefit of providing a boost of engagement, provided they are balanced. When competitive games become unbalanced, players check out mentally (for example, Monopoly is notorious for getting miserably slow in its endgame as all properties are purchased and players slowly wait for bankruptcy).</p>
-</section>
-<section id="visuals" class="level2">
-<h2 class="anchored" data-anchor-id="visuals">Visuals</h2>
-<p>While plot and active gameplay are the meat and potatoes of game design, visuals play an important role in setting the tone. Keep in mind what you are seeking to convey and whether your color, fonts and design elements (including user interface) support that. Most of this is common sense: softer colors keep things calmer, bright colors can encourage playfulness and dark colors often convey a more serious tone; a sans serif font can convey modernity while you may want to try Courier or a blackletter for a historical game.</p>
-<p>If designing a user interface, you should almost always aim to make it intuitive and easy to navigate, lest your players become confused (or give up completely!) before the game even begins. Making a user interface difficult to navigate can have its uses if you are trying to convey frustration, although this is a very niche case. While basic design principles apply, figuring out how usable your interface actually is can only really be achieved via user testing.</p>
-</section>
-<section id="endings-or-lack-thereof" class="level2">
-<h2 class="anchored" data-anchor-id="endings-or-lack-thereof">Endings (or lack thereof)</h2>
-<p>It is a common belief that games are played purely to win. While many games have either/or conditions that must be met to receive a winning or losing ending respectively, some have multiple possible <strong>win conditions</strong> and some are completely open-ended, with no way to win or lose.</p>
-<blockquote class="blockquote">
-<p>Reaching the final flag is the win condition for each level in Super Mario Bros.&nbsp;Taking too much damage from an enemy, falling off of the bottom of the screen or running out of time are the loss conditions.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>In many <strong>multiplayer games</strong>, merely another player achieving the win condition is your loss condition—when another Uno! player gets rid of all of their cards, they have won and you have lost.</p>
-</blockquote>
-<p>Although win/loss conditions seem very black-and-white, many still allow player agency and creativity.</p>
-<blockquote class="blockquote">
-<p>The player character has to defeat a powerful boss to win. A player can choose to play riskily by staying close to the enemy, allowing them to land more hits while risking taking more damage themselves. Or they could also choose to stay far away, using ranged battle which depletes more resources but makes taking damage more unlikely.</p>
-</blockquote>
-<section id="winless-games" class="level3">
-<h3 class="anchored" data-anchor-id="winless-games">Winless games</h3>
-<p>Many games are not about winning or losing, including a large swath of IF. Open-ended games such as Minecraft and Animal Crossing allow players to determine their own goals, such as building certain structures, collecting certain items or journeying to certain locations (and also offer freedom for open-ended assignments; for example recreating specific events or structures in-game to encourage reflective/repetitive learning).</p>
-<p>In many IF games, <strong>the player’s choices throughout the game affect the story’s ending</strong> (via invisible choice). Alternate narrative endings encourage replayability, invite players to reflect on the topic and how their unique decisions affected the game-world and free players from the skill-based pressure to “win.” These kinds of games are particularly easy to make in Twine.</p>
-<p>You will encounter varying schools of thought as to whether or not IF constitutes a true “game,” but we still regard them as digital sandbox spaces that encourage exploration and learning—means to the same end.</p>
-</section>
-</section>
-<section id="capabilities-and-drawbacks-of-computer-simulation" class="level2">
-<h2 class="anchored" data-anchor-id="capabilities-and-drawbacks-of-computer-simulation">Capabilities and drawbacks of computer simulation</h2>
-<p>At its core, a game is a system. Under the hood, computers are governed by numbers and simple true/false statements. Although many complex algorithms now exist to provide a more human degree of nuance, a computer system will always be governed by a more black-and-white approach. As with all media analysis, it is important to acknowledge that the media shapes the message.</p>
-<p>By proposing a problem to be solved (in a traditional game, accomplishing the win condition; in an open-ended game, solving whatever problem the player chooses for themselves), games can be understood as a digital problem-solving space. In very simple, linear games, this can be useful when we are guiding students to a “right” answer. In a more complex, well-designed game, there can be multiple different “correct” approaches or effectively demonstrate the cause-and-effect of their decisions.</p>
-</section>
-<section id="educational-applications" class="level2">
-<h2 class="anchored" data-anchor-id="educational-applications">Educational applications</h2>
-<p>Keep in mind that the video game is not meant as a surrogate for human teaching and is encouraged to be used as a learning tool. A video game is a complex multimedia tool in which the teacher is fundamental as a guide. With about <a href="https://www.theesa.com/resources/essential-facts-about-the-us-video-game-industry/2025-data/">77% of Gen Z</a> reporting they play video games for at least an hour per week, it is also a novel way of meeting learners where they’re at. By inviting them to view media they engage in in their leisure as a valid jumping-off point for critique, you encourage them to continue questioning perspectives and validity of media interpretations even beyond the classroom.</p>
-<p>For example, here is academic Jeremiah McCall’s “historical gameplay learning loop” from his book <strong>Gaming the Past: Using Video Games to Teach Secondary History</strong>:</p>
-<blockquote class="blockquote">
-<ol type="1">
-<li>Investigate the historical subject by studying historical sources.</li>
-<li>Learn to play the game / learn about the historical problem space in the game.</li>
-<li>Transition into purposefully playing—playing combined with observation and, eventually, analysis.</li>
-<li>Debrief: analyze, critique, and reflect upon the game as a history.</li>
-</ol>
-</blockquote>
+<section id="project-example-chop-suey-game" class="level2">
+<h2 class="anchored" data-anchor-id="project-example-chop-suey-game">Project Example: Chop Suey Game</h2>
+<ul>
+<li><strong>Author</strong>: Shiamin Kwa (EALC, Bryn Mawr College)</li>
+<li>Project URL: <a href="https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html">https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html</a></li>
+<li><strong>Tool</strong>: <a href="https://bitsy.org/">Bitsy</a></li>
+<li>An 8-bit game that educates about the experience of Chinese immigrants in early 20th-century US.</li>
+<li>NB: this game has music</li>
+</ul>
 
 
 </section>
@@ -815,13 +715,13 @@ C --&gt; D</code></pre>
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../sections/pedagogy.html" class="pagination-link" aria-label="Games and learning goals">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Games and learning goals</span>
+      <a href="../sections/twine-resources.html" class="pagination-link" aria-label="Twine Resources">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Twine Resources</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../sections/storyboarding.html" class="pagination-link" aria-label="Planning and Storyboarding">
-        <span class="nav-page-text">Planning and Storyboarding</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../sections/vocabulary.html" class="pagination-link" aria-label="Reference guide">
+        <span class="nav-page-text">Reference guide</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
