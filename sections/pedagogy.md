@@ -1,5 +1,5 @@
 ---
-title: Games and learning goals
+title: Use Cases for Games
 ---
 
 ## What is a good use case for a game?

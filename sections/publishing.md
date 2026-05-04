@@ -11,8 +11,9 @@ There are many options for webhosting services -- here are a few that are free t
 - Reclaim Hosting
   - Bryn Mawr: **Domain of One's Own** - [digital.brynmawr.edu](https://digital.brynmawr.edu/)
   - Haverford: **Haverford Sites** - [sites.haverford.edu](https://sites.haverford.edu/) 
-  - Swarthmore: 
-- GitHub Pages - [github.com](https://github.com/) - see [GitHub Pages documentation](https://docs.github.com/en/pages) (free with GitHub account)
+  - Swarthmore: **Domain of One's Own** - [domains.swarthmore.edu](https://domains.swarthmore.edu/)
+- GitHub Pages - [github.com](https://github.com/) -- see [GitHub Pages documentation](https://docs.github.com/en/pages) (free with GitHub account)
+- Neocities - [neocities.org](https://neocities.org/) -- you can sign up for free static hosting.
 
 ## Export your game from Twine
 

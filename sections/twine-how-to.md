@@ -2,7 +2,7 @@
 title: Customizing Play in Twine
 ---
 
-## Macros and Hooks
+## Macros and hooks
 
 You can customize appearance and functionality in Twine an infinite number of ways using coding languages like HTML, CSS, and Javascript, but the Harlowe story format allows you to do many types of customizations using low-code blocks called **Macros** and **Hooks**. 
 
@@ -165,7 +165,7 @@ Get user input and store it in a variable:
 
 `What is your name? (input-box:2bind $name,"XXXXXXXXX=")`
 
-To use the variable on the same passage, use a prompt (dialog box) for this:
+To use the variable on the same passage, use a prompt (dialog box) to make sure the variable is set before the passage text is rendered:
 
 `(set: $name to (prompt: [What's your name?], "Name"))`
 
@@ -186,11 +186,29 @@ Conditional syntax can use variables to introduce game-like elements,
 (else:)[(go-to:"door")]
 ```
 
+## User interface
+
 ### Navigation
 
 To include some text or code on every page, create a passage and give it the "header" tag. It will automatically appear at the beginning of each passage. You can also use the "footer" tag to put it at the end of each passage.
 
 Because Twine is designed for games, there isn't much built-in navigation. It can be helpful to use a header or footer to link to a page with more navigation links or guides if a player gets lost.
+
+### Media
+
+While Twine is designed to be primarily text-based, you can media by using a little HTML in your game (as long as the media is hosted on the web). For example, if we wanted to add [this picture of a cat (from Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Cat_close-up_2004_b.jpg) to our Twine game:
+
+![Image credit: Cayambe, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>](/media/Cat_close-up_2004.jpg){fig-align="left" fig-alt="Close-up of the face of a domestic cat"}
+
+We would add it as an [image element in HTML](https://www.w3schools.com/tags/tag_img.asp) like this:
+
+```html
+<img href="/media/Cat_close-up_2004.jpg" alt="Close-up of the face of a domestic cat">
+```
+
+The `href=` attribute contains the image's URL, and the `alt=` atttribute contains alternative text. The image URL must end with an image file extension (in this case, .jpg). If you would like to use an image not currently published on the web, skip ahead to the [publishing section](publishing.html) to see options for hosting your game which can also be used for images and other media.
+
+
 
 :::{.callout-note}
 ### Vocabulary
@@ -198,7 +216,11 @@ Because Twine is designed for games, there isn't much built-in navigation. It ca
 - **Hook** - The passage of text that a macro acts on, indicated with square brackets: `[This text will be in Arial]`
 :::
 
-## Your turn
+## Your turn: supported work time
+
+Return to the storyboard you created earlier. It's time to start implementing your game in Twine using the building blocks we've discussed.
 
 - Practice adding hooks and macros to your game to style your text
-- Introduce variety, randomness, and variables
+- Introduce variety, randomness, variables, and user input
+- Save and test your game frequently as you go
+- For complex functionality, it can be helpful to write out what you want to do in "pseudocode" - detailing step-by-step what you will need to do

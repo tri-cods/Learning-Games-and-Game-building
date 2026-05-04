@@ -76,14 +76,6 @@ You don't need to understand all the rules of Markdown to edit in Twine, but her
 ```
 You can also use the WYSIWYG editor for certain types of formatting.
 
-### Vocabulary
-
-- **Macro** - In Twine, a bit of code used to change functionality or style of text, indicated with parentheses
-- **Hook** - The passage of text that a macro acts on, indicated with square brackets
-`(font: "Arial")[This text will be in Arial.]`
-- **Variable** - A container for values and words that can change within the game
-`(set: $myName to "Alice") Hello, $myName!`  
-
 ### Tips for using Twine
 
 - Preview/test your work often to make sure everything works as intended

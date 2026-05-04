@@ -2,7 +2,7 @@
 title: Examples
 ---
 
-Here are a few examples of games from Tri-Co colleagues.
+Here are a few examples of games and game-building assignments from Tri-Co colleagues.
 
 ## Assignment Example: Experimental Scholarship with Twine
 
