@@ -36,13 +36,7 @@ All types of choices have relevant use cases depending on what you are trying to
 
 These choices do not affect the narrative outcome.
 
-```mermaid
-graph LR
-A(Do you wish to<br> see the king?) -- Yes! --> B(Amazing!)
-A -- No... --> C(But you must!)
-B --> D(I'll take you to<br>see him now.)
-C --> D
-```
+![](/media/king.svg){fig-align="left" fig-alt="Do you wish to see the king? Yes! Amazing No But you must I'll take you to see him now"}
 
 No matter the decision, the player is taken to the king. Meaningless choices are typically poor practice, wasting the player’s time to no effect.
 
