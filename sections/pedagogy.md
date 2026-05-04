@@ -32,6 +32,15 @@ While there are many types of games that can be used in a research or teaching c
 <!-- It is a helpful tool for demonstrating several digital competency areas -->
 
 
+### Other useful tools
+
+- [Bitsy](https://bitsy.org/) -- a free, open-source, browser-based tool for creating simple 8-bit games.
+
+- [Unity](https://unity.com/) -- a game engine for 3D video games and VR environments
+
+- [Ren'Py](https://renpy.org/) -- an open-source tool for building visual novels
+
+
 ## TriCo examples
 
 
