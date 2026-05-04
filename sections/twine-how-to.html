@@ -182,7 +182,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../sections/pedagogy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Games and learning goals</span></a>
+ <span class="menu-text">Use Cases for Games</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -267,7 +267,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#macros-and-hooks" id="toc-macros-and-hooks" class="nav-link active" data-scroll-target="#macros-and-hooks">Macros and Hooks</a></li>
+  <li><a href="#macros-and-hooks" id="toc-macros-and-hooks" class="nav-link active" data-scroll-target="#macros-and-hooks">Macros and hooks</a></li>
   <li><a href="#style-your-text" id="toc-style-your-text" class="nav-link" data-scroll-target="#style-your-text">Style your text</a>
   <ul class="collapse">
   <li><a href="#colors" id="toc-colors" class="nav-link" data-scroll-target="#colors">Colors</a></li>
@@ -282,9 +282,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#set-and-change-variables" id="toc-set-and-change-variables" class="nav-link" data-scroll-target="#set-and-change-variables">Set and change variables</a></li>
   <li><a href="#user-input" id="toc-user-input" class="nav-link" data-scroll-target="#user-input">User input</a></li>
   <li><a href="#use-conditionals" id="toc-use-conditionals" class="nav-link" data-scroll-target="#use-conditionals">Use conditionals</a></li>
-  <li><a href="#navigation" id="toc-navigation" class="nav-link" data-scroll-target="#navigation">Navigation</a></li>
   </ul></li>
-  <li><a href="#your-turn" id="toc-your-turn" class="nav-link" data-scroll-target="#your-turn">Your turn</a></li>
+  <li><a href="#user-interface" id="toc-user-interface" class="nav-link" data-scroll-target="#user-interface">User interface</a>
+  <ul class="collapse">
+  <li><a href="#navigation" id="toc-navigation" class="nav-link" data-scroll-target="#navigation">Navigation</a></li>
+  <li><a href="#media" id="toc-media" class="nav-link" data-scroll-target="#media">Media</a></li>
+  </ul></li>
+  <li><a href="#your-turn-supported-work-time" id="toc-your-turn-supported-work-time" class="nav-link" data-scroll-target="#your-turn-supported-work-time">Your turn: supported work time</a></li>
   </ul>
 </nav>
     </div>
@@ -311,7 +315,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <section id="macros-and-hooks" class="level2">
-<h2 class="anchored" data-anchor-id="macros-and-hooks">Macros and Hooks</h2>
+<h2 class="anchored" data-anchor-id="macros-and-hooks">Macros and hooks</h2>
 <p>You can customize appearance and functionality in Twine an infinite number of ways using coding languages like HTML, CSS, and Javascript, but the Harlowe story format allows you to do many types of customizations using low-code blocks called <strong>Macros</strong> and <strong>Hooks</strong>.</p>
 <p>Here’s an example:</p>
 <p><code>(font: "Arial")[This text will be in Arial.]</code></p>
@@ -429,7 +433,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>User input examples</p>
 <p>Get user input and store it in a variable:</p>
 <p><code>What is your name? (input-box:2bind $name,"XXXXXXXXX=")</code></p>
-<p>To use the variable on the same passage, use a prompt (dialog box) for this:</p>
+<p>To use the variable on the same passage, use a prompt (dialog box) to make sure the variable is set before the passage text is rendered:</p>
 <p><code>(set: $name to (prompt: [What's your name?], "Name"))</code></p>
 <p>You can also create a dropdown menu or checkbox with options <code>(dropdown: 2bind $choices,"First","Second","Third")</code></p>
 </section>
@@ -441,10 +445,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>(if: $door is "locked")[Sorry, the door is locked]</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>(else:)[(go-to:"door")]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
+</section>
+<section id="user-interface" class="level2">
+<h2 class="anchored" data-anchor-id="user-interface">User interface</h2>
 <section id="navigation" class="level3">
 <h3 class="anchored" data-anchor-id="navigation">Navigation</h3>
 <p>To include some text or code on every page, create a passage and give it the “header” tag. It will automatically appear at the beginning of each passage. You can also use the “footer” tag to put it at the end of each passage.</p>
 <p>Because Twine is designed for games, there isn’t much built-in navigation. It can be helpful to use a header or footer to link to a page with more navigation links or guides if a player gets lost.</p>
+</section>
+<section id="media" class="level3">
+<h3 class="anchored" data-anchor-id="media">Media</h3>
+<p>While Twine is designed to be primarily text-based, you can media by using a little HTML in your game (as long as the media is hosted on the web). For example, if we wanted to add <a href="https://commons.wikimedia.org/wiki/File:Cat_close-up_2004_b.jpg">this picture of a cat (from Wikimedia Commons)</a> to our Twine game:</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../media/Cat_close-up_2004.jpg" class="img-fluid figure-img" alt="Close-up of the face of a domestic cat"></p>
+<figcaption>Image credit: Cayambe, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a></figcaption>
+</figure>
+</div>
+<p>We would add it as an <a href="https://www.w3schools.com/tags/tag_img.asp">image element in HTML</a> like this:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">img</span><span class="ot"> href</span><span class="op">=</span><span class="st">"/media/Cat_close-up_2004.jpg"</span><span class="ot"> alt</span><span class="op">=</span><span class="st">"Close-up of the face of a domestic cat"</span><span class="dt">&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The <code>href=</code> attribute contains the image’s URL, and the <code>alt=</code> atttribute contains alternative text. The image URL must end with an image file extension (in this case, .jpg). If you would like to use an image not currently published on the web, skip ahead to the <a href="publishing.html">publishing section</a> to see options for hosting your game which can also be used for images and other media.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -463,11 +483,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </section>
 </section>
-<section id="your-turn" class="level2">
-<h2 class="anchored" data-anchor-id="your-turn">Your turn</h2>
+<section id="your-turn-supported-work-time" class="level2">
+<h2 class="anchored" data-anchor-id="your-turn-supported-work-time">Your turn: supported work time</h2>
+<p>Return to the storyboard you created earlier. It’s time to start implementing your game in Twine using the building blocks we’ve discussed.</p>
 <ul>
 <li>Practice adding hooks and macros to your game to style your text</li>
-<li>Introduce variety, randomness, and variables</li>
+<li>Introduce variety, randomness, variables, and user input</li>
+<li>Save and test your game frequently as you go</li>
+<li>For complex functionality, it can be helpful to write out what you want to do in “pseudocode” - detailing step-by-step what you will need to do</li>
 </ul>
 
 
