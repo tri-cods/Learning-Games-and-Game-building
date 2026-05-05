@@ -206,7 +206,7 @@ We would add it as an [image element in HTML](https://www.w3schools.com/tags/tag
 <img src="https://tri-cods.github.io/Learning-Games-and-Game-building/media/Cat_close-up_2004.jpg" alt="Close-up of the face of a domestic cat">
 ```
 
-The `href=` attribute contains the image's URL, and the `alt=` atttribute contains alternative text. The image URL must end with an image file extension (in this case, .jpg). If you would like to use an image not currently published on the web, skip ahead to the [publishing section](publishing.html) to see options for hosting your game which can also be used for images and other media.
+The `src=` attribute contains the image's URL, and the `alt=` atttribute contains alternative text. The image URL must end with an image file extension (in this case, .jpg). If you would like to use an image not currently published on the web, skip ahead to the [publishing section](publishing.html) to see options for hosting your game which can also be used for images and other media.
 
 
 
