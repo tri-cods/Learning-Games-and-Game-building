@@ -108,7 +108,7 @@ You can also replace one bit of text with another bit by using the link macro, w
 Of course, because hooks can be nested in other hooks, you can also pair the link macro with the enchant macro to transform the whole page.
   `(link:"Your face is turning red")[(enchant:?page, (color:red))]` 
 
-Using the 'show' macro, you can display another passage within a passage: `(show:"passage")`
+Using the 'show' macro, you can display another passage within a passage: `(display:"passage")`
 
 So far we have talked about passages as units of content, but they are also units of code or design that can be used to reuse modular pieces of your game -- what in other programming languages would be called a function. The 'show' macro is the best way to include content that you want to repeat without having to write it all again.
 
@@ -203,7 +203,7 @@ While Twine is designed to be primarily text-based, you can media by using a lit
 We would add it as an [image element in HTML](https://www.w3schools.com/tags/tag_img.asp) like this:
 
 ```html
-<img href="/media/Cat_close-up_2004.jpg" alt="Close-up of the face of a domestic cat">
+<img src="[/media/Cat_close-up_2004.jpg](https://tri-cods.github.io/Learning-Games-and-Game-building/media/Cat_close-up_2004.jpg)" alt="Close-up of the face of a domestic cat">
 ```
 
 The `href=` attribute contains the image's URL, and the `alt=` atttribute contains alternative text. The image URL must end with an image file extension (in this case, .jpg). If you would like to use an image not currently published on the web, skip ahead to the [publishing section](publishing.html) to see options for hosting your game which can also be used for images and other media.
