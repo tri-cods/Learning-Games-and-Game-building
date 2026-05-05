@@ -2,14 +2,42 @@
 title: Examples
 ---
 
+## Twine Examples
+
+### From the workshop
+
+- [Digital Scholarship Adventure Game (live)](https://digitalscholarship.brynmawr.edu/game/) - an educational game to learn about digital scholarship services at Bryn Mawr
+- [Critters (live)](https://alicetmcgrath.com/fun/) - a short and goofy game for this workshop
+- Twee code for both games is available [on the GitHub for this workshop](https://github.com/digbmc/twine-workshop/tree/main/examples)
+  - To view the code, click on either file (e.g. "Critters.twee")
+  - To download, use the download icon
+  - You can import the Twee code into Twine to see what it looks like in the editor
+- [Life of Pasha](https://cboucher01.github.io/life-of-pasha/) - A day in the life of Pasha, the betta fish (by Cameron Boucher)
+- [Taxonomy of Narrative Choices](https://clarafv.itch.io/taxonomy-of-narrative-choices), Clara Fernández-Vara - a Twine illustration of different types of choices in game design.
+
+
+### Examples in the wild
+
+- [September 7th, 2020](https://caitkirby.com/downloads/Fall%202020.html) by Cait S. Kirby
+- [Depression Quest](http://www.depressionquest.com/) by Zoe Quinn
+- [Dead Reference](https://samillingworth.itch.io/dead-reference) and [Bot or Not](https://samillingworth.itch.io/bot-or-not) by Sam Illingworth
+- [First Day in the Office](https://gkirilloff.itch.io/first-day-in-the-office) by Gabi Kirilloff
+- [Typing Challenge](https://managore.itch.io/daniel-linssens-typing-challenge) by Daniel Linssen
+- [Open Sorcery](https://abigailcorfman.com/Home/OpenSorcery) and its sequel [Open Sorcery Sea++](https://opensorcerygames.itch.io/open-sorcery-sea) by Abigail Corfman
+- [16 Ways to Kill a Vampire at McDonalds](https://abigailcorfman.com/Home/Vampire) by Abigail Corfman
+- [Queers in Love at the End of the World](https://w.itch.io/end-of-the-world) by Anna Anthropy
+- Explore many more on itch.io: [Twine games on itch.io](https://itch.io/games/tag-twine) 
+
+## TriCo Games and Game Assignments
+
 Here are a few examples of games and game-building assignments from Tri-Co colleagues.
 
-## Assignment Example: Experimental Scholarship with Twine
+### Assignment Example: Experimental Scholarship with Twine
 
 - **Author/Instructor**: José Vergara (Russian, Bryn Mawr College), Spring 2026
 - **Course**: RUSS233 Experimental Literature; or, Weird Stuff
 
-### Assignment instructions
+#### Assignment instructions
 
 (1,700-2,100 words)
 
@@ -33,7 +61,7 @@ The Twine Project will be scaffolded:
 - 5/9 for seniors and 5/15 for non-seniors: complete project
 
 
-## Project Example: Chop Suey Game
+### Project Example: Chop Suey Game
 
 - **Author**: Shiamin Kwa (EALC, Bryn Mawr College)
 - Project URL: [https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html](https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html)
