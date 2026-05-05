@@ -406,7 +406,7 @@
     "href": "sections/examples.html",
     "title": "Examples",
     "section": "",
-    "text": "Here are a few examples of games and game-building assignments from Tri-Co colleagues.",
+    "text": "Digital Scholarship Adventure Game (live) - an educational game to learn about digital scholarship services at Bryn Mawr\nCritters (live) - a short and goofy game for this workshop\nTwee code for both games is available on the GitHub for this workshop\n\nTo view the code, click on either file (e.g. “Critters.twee”)\nTo download, use the download icon\nYou can import the Twee code into Twine to see what it looks like in the editor\n\nLife of Pasha - A day in the life of Pasha, the betta fish (by Cameron Boucher)\nTaxonomy of Narrative Choices, Clara Fernández-Vara - a Twine illustration of different types of choices in game design.\n\n\n\n\n\nSeptember 7th, 2020 by Cait S. Kirby\nDepression Quest by Zoe Quinn\nDead Reference and Bot or Not by Sam Illingworth\nFirst Day in the Office by Gabi Kirilloff\nTyping Challenge by Daniel Linssen\nOpen Sorcery and its sequel Open Sorcery Sea++ by Abigail Corfman\n16 Ways to Kill a Vampire at McDonalds by Abigail Corfman\nQueers in Love at the End of the World by Anna Anthropy\nExplore many more on itch.io: Twine games on itch.io",
     "crumbs": [
       "Home",
       "Resources",
@@ -414,11 +414,11 @@
     ]
   },
   {
-    "objectID": "sections/examples.html#assignment-example-experimental-scholarship-with-twine",
-    "href": "sections/examples.html#assignment-example-experimental-scholarship-with-twine",
+    "objectID": "sections/examples.html#twine-examples",
+    "href": "sections/examples.html#twine-examples",
     "title": "Examples",
-    "section": "Assignment Example: Experimental Scholarship with Twine",
-    "text": "Assignment Example: Experimental Scholarship with Twine\n\nAuthor/Instructor: José Vergara (Russian, Bryn Mawr College), Spring 2026\nCourse: RUSS233 Experimental Literature; or, Weird Stuff\n\n\nAssignment instructions\n(1,700-2,100 words)\nYou’ll use the digital storytelling tool Twine to design a work of experimental scholarship that:\n\nengages with 1-2 works from the syllabus and your SCWT (Special Collections Weird Text),\nsummarizes the texts in no more than 150-200 words max each,\nanalyzes a shared theme, structural component, or other element, thus linking the 2-3 texts,\ncontinues your reflections on your SCWT: How does it link to your experiences, ideas, or worldview? How has your relationship to or understanding of the text changed since you last wrote about it? Why? What stands out about it to you now? Address some, not all, of these questions.\nemploys at least one experimental method that we’ve encountered in our primary readings.\nand may be non-linear.\n\nThe Twine Project will be scaffolded:\n\n4/3 Brainstorming statement (200-350 words)\n\nWhich texts do you plan to include? Feel free to look ahead if the remaining works/themes appeal to you!\nWhat do you plan to analyze? How?\nWhich Twine features do you plan to use (e.g., special formatting, branching/nonlinear forms, user input that changes the text, variables, randomization, game elements, etc.)?\n\n4/24: Polished draft: Submit a complete draft of your digital project. Submit both html and Twee files (Build → Export as Twee). This way we can see the “complete” project, as well as the build so that we can make sure we’re not missing any pages.\n4/29: Peer review.\n5/9 for seniors and 5/15 for non-seniors: complete project",
+    "section": "",
+    "text": "Digital Scholarship Adventure Game (live) - an educational game to learn about digital scholarship services at Bryn Mawr\nCritters (live) - a short and goofy game for this workshop\nTwee code for both games is available on the GitHub for this workshop\n\nTo view the code, click on either file (e.g. “Critters.twee”)\nTo download, use the download icon\nYou can import the Twee code into Twine to see what it looks like in the editor\n\nLife of Pasha - A day in the life of Pasha, the betta fish (by Cameron Boucher)\nTaxonomy of Narrative Choices, Clara Fernández-Vara - a Twine illustration of different types of choices in game design.\n\n\n\n\n\nSeptember 7th, 2020 by Cait S. Kirby\nDepression Quest by Zoe Quinn\nDead Reference and Bot or Not by Sam Illingworth\nFirst Day in the Office by Gabi Kirilloff\nTyping Challenge by Daniel Linssen\nOpen Sorcery and its sequel Open Sorcery Sea++ by Abigail Corfman\n16 Ways to Kill a Vampire at McDonalds by Abigail Corfman\nQueers in Love at the End of the World by Anna Anthropy\nExplore many more on itch.io: Twine games on itch.io",
     "crumbs": [
       "Home",
       "Resources",
@@ -426,11 +426,11 @@
     ]
   },
   {
-    "objectID": "sections/examples.html#project-example-chop-suey-game",
-    "href": "sections/examples.html#project-example-chop-suey-game",
+    "objectID": "sections/examples.html#trico-games-and-game-assignments",
+    "href": "sections/examples.html#trico-games-and-game-assignments",
     "title": "Examples",
-    "section": "Project Example: Chop Suey Game",
-    "text": "Project Example: Chop Suey Game\n\nAuthor: Shiamin Kwa (EALC, Bryn Mawr College)\nProject URL: https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html\nTool: Bitsy\nAn 8-bit game that educates about the experience of Chinese immigrants in early 20th-century US.\nNB: this game has music",
+    "section": "TriCo Games and Game Assignments",
+    "text": "TriCo Games and Game Assignments\nHere are a few examples of games and game-building assignments from Tri-Co colleagues.\n\nAssignment Example: Experimental Scholarship with Twine\n\nAuthor/Instructor: José Vergara (Russian, Bryn Mawr College), Spring 2026\nCourse: RUSS233 Experimental Literature; or, Weird Stuff\n\n\nAssignment instructions\n(1,700-2,100 words)\nYou’ll use the digital storytelling tool Twine to design a work of experimental scholarship that:\n\nengages with 1-2 works from the syllabus and your SCWT (Special Collections Weird Text),\nsummarizes the texts in no more than 150-200 words max each,\nanalyzes a shared theme, structural component, or other element, thus linking the 2-3 texts,\ncontinues your reflections on your SCWT: How does it link to your experiences, ideas, or worldview? How has your relationship to or understanding of the text changed since you last wrote about it? Why? What stands out about it to you now? Address some, not all, of these questions.\nemploys at least one experimental method that we’ve encountered in our primary readings.\nand may be non-linear.\n\nThe Twine Project will be scaffolded:\n\n4/3 Brainstorming statement (200-350 words)\n\nWhich texts do you plan to include? Feel free to look ahead if the remaining works/themes appeal to you!\nWhat do you plan to analyze? How?\nWhich Twine features do you plan to use (e.g., special formatting, branching/nonlinear forms, user input that changes the text, variables, randomization, game elements, etc.)?\n\n4/24: Polished draft: Submit a complete draft of your digital project. Submit both html and Twee files (Build → Export as Twee). This way we can see the “complete” project, as well as the build so that we can make sure we’re not missing any pages.\n4/29: Peer review.\n5/9 for seniors and 5/15 for non-seniors: complete project\n\n\n\n\nProject Example: Chop Suey Game\n\nAuthor: Shiamin Kwa (EALC, Bryn Mawr College)\nProject URL: https://skwabrynmawr.github.io/SUEY/CHOPSUEY.html\nTool: Bitsy\nAn 8-bit game that educates about the experience of Chinese immigrants in early 20th-century US.\nNB: this game has music",
     "crumbs": [
       "Home",
       "Resources",
